@@ -1,0 +1,7396 @@
+   Compiling day07a v0.1.0 (/home/burt/code/aoc/2022/day07a)
+warning: field `size` is never read
+ --> src/main.rs:6:5
+  |
+5 | struct File {
+  |        ---- field in this struct
+6 |     size: u32
+  |     ^^^^
+  |
+  = note: `#[warn(dead_code)]` on by default
+  = note: `File` has a derived impl for the trait `Debug`, but this is intentionally ignored during dead code analysis
+
+warning: associated function `new` is never used
+  --> src/main.rs:10:12
+   |
+10 |     pub fn new(size: u32) -> File {
+   |            ^^^
+
+warning: `day07a` (bin "day07a") generated 2 warnings
+    Finished dev [unoptimized + debuginfo] target(s) in 0.33s
+     Running `target/debug/day07a`
+[src/main.rs:135] &line = [
+    "$",
+    "ls",
+]
+[src/main.rs:135] &line = [
+    "dir",
+    "ccjp",
+]
+[*] Adding ccjp to /
+[src/main.rs:135] &line = [
+    "328708",
+    "hglnvs.bsh",
+]
+[*] Adding hglnvs.bsh to /
+[src/main.rs:135] &line = [
+    "dir",
+    "hpsnpc",
+]
+[*] Adding hpsnpc to /
+[src/main.rs:135] &line = [
+    "dir",
+    "pcb",
+]
+[*] Adding pcb to /
+[src/main.rs:135] &line = [
+    "dir",
+    "pntzm",
+]
+[*] Adding pntzm to /
+[src/main.rs:135] &line = [
+    "dir",
+    "pzg",
+]
+[*] Adding pzg to /
+[src/main.rs:135] &line = [
+    "dir",
+    "thfgwwsp",
+]
+[*] Adding thfgwwsp to /
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "ccjp",
+]
+[*] Changing directory to ccjp
+[src/main.rs:135] &line = [
+    "$",
+    "ls",
+]
+[src/main.rs:135] &line = [
+    "159990",
+    "dlz",
+]
+[*] Adding dlz to ccjp
+[src/main.rs:135] &line = [
+    "dir",
+    "mbtsvblj",
+]
+[*] Adding mbtsvblj to ccjp
+[src/main.rs:135] &line = [
+    "165076",
+    "nppbjl.qhg",
+]
+[*] Adding nppbjl.qhg to ccjp
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "mbtsvblj",
+]
+[*] Changing directory to mbtsvblj
+[src/main.rs:135] &line = [
+    "$",
+    "ls",
+]
+[src/main.rs:135] &line = [
+    "34806",
+    "frqsf.nsv",
+]
+[*] Adding frqsf.nsv to mbtsvblj
+[src/main.rs:135] &line = [
+    "dir",
+    "ppq",
+]
+[*] Adding ppq to mbtsvblj
+[src/main.rs:135] &line = [
+    "dir",
+    "ptht",
+]
+[*] Adding ptht to mbtsvblj
+[src/main.rs:135] &line = [
+    "dir",
+    "rgmvdwt",
+]
+[*] Adding rgmvdwt to mbtsvblj
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "ppq",
+]
+[*] Changing directory to ppq
+[src/main.rs:135] &line = [
+    "$",
+    "ls",
+]
+[src/main.rs:135] &line = [
+    "266252",
+    "dhzp",
+]
+[*] Adding dhzp to ppq
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "..",
+]
+[*] Changing directory to mbtsvblj
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "ptht",
+]
+[*] Changing directory to ptht
+[src/main.rs:135] &line = [
+    "$",
+    "ls",
+]
+[src/main.rs:135] &line = [
+    "dir",
+    "jbnj",
+]
+[*] Adding jbnj to ptht
+[src/main.rs:135] &line = [
+    "dir",
+    "zcbnwhzd",
+]
+[*] Adding zcbnwhzd to ptht
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "jbnj",
+]
+[*] Changing directory to jbnj
+[src/main.rs:135] &line = [
+    "$",
+    "ls",
+]
+[src/main.rs:135] &line = [
+    "dir",
+    "clscr",
+]
+[*] Adding clscr to jbnj
+[src/main.rs:135] &line = [
+    "145780",
+    "zwtwf.zfz",
+]
+[*] Adding zwtwf.zfz to jbnj
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "clscr",
+]
+[*] Changing directory to clscr
+[src/main.rs:135] &line = [
+    "$",
+    "ls",
+]
+[src/main.rs:135] &line = [
+    "249531",
+    "dhzp",
+]
+[*] Adding dhzp to clscr
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "..",
+]
+[*] Changing directory to jbnj
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "..",
+]
+[*] Changing directory to ptht
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "zcbnwhzd",
+]
+[*] Changing directory to zcbnwhzd
+[src/main.rs:135] &line = [
+    "$",
+    "ls",
+]
+[src/main.rs:135] &line = [
+    "dir",
+    "mbtsvblj",
+]
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "mbtsvblj",
+]
+[*] Changing directory to mbtsvblj
+[src/main.rs:135] &line = [
+    "$",
+    "ls",
+]
+[src/main.rs:135] &line = [
+    "258527",
+    "pjhvzjt.brz",
+]
+[*] Adding pjhvzjt.brz to mbtsvblj
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "..",
+]
+[*] Changing directory to zcbnwhzd
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "..",
+]
+[*] Changing directory to ptht
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "..",
+]
+[*] Changing directory to mbtsvblj
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "rgmvdwt",
+]
+[*] Changing directory to rgmvdwt
+[src/main.rs:135] &line = [
+    "$",
+    "ls",
+]
+[src/main.rs:135] &line = [
+    "166021",
+    "hdb",
+]
+[*] Adding hdb to rgmvdwt
+[src/main.rs:135] &line = [
+    "115350",
+    "ljpzpdbf",
+]
+[*] Adding ljpzpdbf to rgmvdwt
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "..",
+]
+[*] Changing directory to mbtsvblj
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "..",
+]
+[*] Changing directory to ccjp
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "..",
+]
+[*] Changing directory to /
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "hpsnpc",
+]
+[*] Changing directory to hpsnpc
+[src/main.rs:135] &line = [
+    "$",
+    "ls",
+]
+[src/main.rs:135] &line = [
+    "6334",
+    "bfdfbrh.vff",
+]
+[*] Adding bfdfbrh.vff to hpsnpc
+[src/main.rs:135] &line = [
+    "311949",
+    "qphlw.whm",
+]
+[*] Adding qphlw.whm to hpsnpc
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "..",
+]
+[*] Changing directory to /
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "pcb",
+]
+[*] Changing directory to pcb
+[src/main.rs:135] &line = [
+    "$",
+    "ls",
+]
+[src/main.rs:135] &line = [
+    "dir",
+    "ccjp",
+]
+[src/main.rs:135] &line = [
+    "201615",
+    "gbpzf.gmg",
+]
+[*] Adding gbpzf.gmg to pcb
+[src/main.rs:135] &line = [
+    "dir",
+    "lhth",
+]
+[*] Adding lhth to pcb
+[src/main.rs:135] &line = [
+    "319302",
+    "lrmj.rmm",
+]
+[*] Adding lrmj.rmm to pcb
+[src/main.rs:135] &line = [
+    "dir",
+    "mwl",
+]
+[*] Adding mwl to pcb
+[src/main.rs:135] &line = [
+    "303062",
+    "pvftq",
+]
+[*] Adding pvftq to pcb
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "ccjp",
+]
+[*] Changing directory to ccjp
+[src/main.rs:135] &line = [
+    "$",
+    "ls",
+]
+[src/main.rs:135] &line = [
+    "10932",
+    "ccjp",
+]
+[*] Adding ccjp to ccjp
+[src/main.rs:135] &line = [
+    "80040",
+    "jjcggmr.ljs",
+]
+[*] Adding jjcggmr.ljs to ccjp
+[src/main.rs:135] &line = [
+    "299982",
+    "jrqwhsn.ptv",
+]
+[*] Adding jrqwhsn.ptv to ccjp
+[src/main.rs:135] &line = [
+    "280655",
+    "ljpzpdbf",
+]
+[*] Adding ljpzpdbf to ccjp
+[src/main.rs:135] &line = [
+    "268430",
+    "mdvvj.dlf",
+]
+[*] Adding mdvvj.dlf to ccjp
+[src/main.rs:135] &line = [
+    "dir",
+    "mvhhlg",
+]
+[*] Adding mvhhlg to ccjp
+[src/main.rs:135] &line = [
+    "dir",
+    "ppfq",
+]
+[*] Adding ppfq to ccjp
+[src/main.rs:135] &line = [
+    "dir",
+    "rdgngdm",
+]
+[*] Adding rdgngdm to ccjp
+[src/main.rs:135] &line = [
+    "dir",
+    "smftmb",
+]
+[*] Adding smftmb to ccjp
+[src/main.rs:135] &line = [
+    "dir",
+    "tqwchhd",
+]
+[*] Adding tqwchhd to ccjp
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "mvhhlg",
+]
+[*] Changing directory to mvhhlg
+[src/main.rs:135] &line = [
+    "$",
+    "ls",
+]
+[src/main.rs:135] &line = [
+    "146902",
+    "fwhcbfr.shd",
+]
+[*] Adding fwhcbfr.shd to mvhhlg
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "..",
+]
+[*] Changing directory to ccjp
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "ppfq",
+]
+[*] Changing directory to ppfq
+[src/main.rs:135] &line = [
+    "$",
+    "ls",
+]
+[src/main.rs:135] &line = [
+    "263452",
+    "hdb",
+]
+[*] Adding hdb to ppfq
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "..",
+]
+[*] Changing directory to ccjp
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "rdgngdm",
+]
+[*] Changing directory to rdgngdm
+[src/main.rs:135] &line = [
+    "$",
+    "ls",
+]
+[src/main.rs:135] &line = [
+    "46355",
+    "wlgshdgl",
+]
+[*] Adding wlgshdgl to rdgngdm
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "..",
+]
+[*] Changing directory to ccjp
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "smftmb",
+]
+[*] Changing directory to smftmb
+[src/main.rs:135] &line = [
+    "$",
+    "ls",
+]
+[src/main.rs:135] &line = [
+    "56834",
+    "mhs",
+]
+[*] Adding mhs to smftmb
+[src/main.rs:135] &line = [
+    "325038",
+    "ppmtvcj",
+]
+[*] Adding ppmtvcj to smftmb
+[src/main.rs:135] &line = [
+    "dir",
+    "rzcmwl",
+]
+[*] Adding rzcmwl to smftmb
+[src/main.rs:135] &line = [
+    "194645",
+    "ztwqq.jfw",
+]
+[*] Adding ztwqq.jfw to smftmb
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "rzcmwl",
+]
+[*] Changing directory to rzcmwl
+[src/main.rs:135] &line = [
+    "$",
+    "ls",
+]
+[src/main.rs:135] &line = [
+    "dir",
+    "btfhswwf",
+]
+[*] Adding btfhswwf to rzcmwl
+[src/main.rs:135] &line = [
+    "dir",
+    "jrd",
+]
+[*] Adding jrd to rzcmwl
+[src/main.rs:135] &line = [
+    "dir",
+    "ndzfvl",
+]
+[*] Adding ndzfvl to rzcmwl
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "btfhswwf",
+]
+[*] Changing directory to btfhswwf
+[src/main.rs:135] &line = [
+    "$",
+    "ls",
+]
+[src/main.rs:135] &line = [
+    "62811",
+    "ccjp.clj",
+]
+[*] Adding ccjp.clj to btfhswwf
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "..",
+]
+[*] Changing directory to rzcmwl
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "jrd",
+]
+[*] Changing directory to jrd
+[src/main.rs:135] &line = [
+    "$",
+    "ls",
+]
+[src/main.rs:135] &line = [
+    "184948",
+    "fqqg.pfc",
+]
+[*] Adding fqqg.pfc to jrd
+[src/main.rs:135] &line = [
+    "dir",
+    "mshf",
+]
+[*] Adding mshf to jrd
+[src/main.rs:135] &line = [
+    "136894",
+    "nbvbr",
+]
+[*] Adding nbvbr to jrd
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "mshf",
+]
+[*] Changing directory to mshf
+[src/main.rs:135] &line = [
+    "$",
+    "ls",
+]
+[src/main.rs:135] &line = [
+    "314602",
+    "ppmtvcj",
+]
+[*] Adding ppmtvcj to mshf
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "..",
+]
+[*] Changing directory to jrd
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "..",
+]
+[*] Changing directory to rzcmwl
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "ndzfvl",
+]
+[*] Changing directory to ndzfvl
+[src/main.rs:135] &line = [
+    "$",
+    "ls",
+]
+[src/main.rs:135] &line = [
+    "43177",
+    "hhcfpnmg.njm",
+]
+[*] Adding hhcfpnmg.njm to ndzfvl
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "..",
+]
+[*] Changing directory to rzcmwl
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "..",
+]
+[*] Changing directory to smftmb
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "..",
+]
+[*] Changing directory to ccjp
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "tqwchhd",
+]
+[*] Changing directory to tqwchhd
+[src/main.rs:135] &line = [
+    "$",
+    "ls",
+]
+[src/main.rs:135] &line = [
+    "294014",
+    "dlz",
+]
+[*] Adding dlz to tqwchhd
+[src/main.rs:135] &line = [
+    "122061",
+    "ljpzpdbf",
+]
+[*] Adding ljpzpdbf to tqwchhd
+[src/main.rs:135] &line = [
+    "54178",
+    "ppmtvcj.wlp",
+]
+[*] Adding ppmtvcj.wlp to tqwchhd
+[src/main.rs:135] &line = [
+    "dir",
+    "trm",
+]
+[*] Adding trm to tqwchhd
+[src/main.rs:135] &line = [
+    "dir",
+    "zcbnwhzd",
+]
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "trm",
+]
+[*] Changing directory to trm
+[src/main.rs:135] &line = [
+    "$",
+    "ls",
+]
+[src/main.rs:135] &line = [
+    "279737",
+    "ccjp.mhz",
+]
+[*] Adding ccjp.mhz to trm
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "..",
+]
+[*] Changing directory to tqwchhd
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "zcbnwhzd",
+]
+[*] Changing directory to zcbnwhzd
+[src/main.rs:135] &line = [
+    "$",
+    "ls",
+]
+[src/main.rs:135] &line = [
+    "88477",
+    "dhnwjlzj",
+]
+[*] Adding dhnwjlzj to zcbnwhzd
+[src/main.rs:135] &line = [
+    "143989",
+    "dhzp",
+]
+[*] Adding dhzp to zcbnwhzd
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "..",
+]
+[*] Changing directory to tqwchhd
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "..",
+]
+[*] Changing directory to ccjp
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "..",
+]
+[*] Changing directory to pcb
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "lhth",
+]
+[*] Changing directory to lhth
+[src/main.rs:135] &line = [
+    "$",
+    "ls",
+]
+[src/main.rs:135] &line = [
+    "79532",
+    "tlls",
+]
+[*] Adding tlls to lhth
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "..",
+]
+[*] Changing directory to pcb
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "mwl",
+]
+[*] Changing directory to mwl
+[src/main.rs:135] &line = [
+    "$",
+    "ls",
+]
+[src/main.rs:135] &line = [
+    "dir",
+    "frc",
+]
+[*] Adding frc to mwl
+[src/main.rs:135] &line = [
+    "dir",
+    "lqqqppm",
+]
+[*] Adding lqqqppm to mwl
+[src/main.rs:135] &line = [
+    "178576",
+    "prpjmrw",
+]
+[*] Adding prpjmrw to mwl
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "frc",
+]
+[*] Changing directory to frc
+[src/main.rs:135] &line = [
+    "$",
+    "ls",
+]
+[src/main.rs:135] &line = [
+    "dir",
+    "cvm",
+]
+[*] Adding cvm to frc
+[src/main.rs:135] &line = [
+    "244013",
+    "dhzp",
+]
+[*] Adding dhzp to frc
+[src/main.rs:135] &line = [
+    "29325",
+    "gnh",
+]
+[*] Adding gnh to frc
+[src/main.rs:135] &line = [
+    "264555",
+    "hdb",
+]
+[*] Adding hdb to frc
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "cvm",
+]
+[*] Changing directory to cvm
+[src/main.rs:135] &line = [
+    "$",
+    "ls",
+]
+[src/main.rs:135] &line = [
+    "196619",
+    "hhcfpnmg.njm",
+]
+[*] Adding hhcfpnmg.njm to cvm
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "..",
+]
+[*] Changing directory to frc
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "..",
+]
+[*] Changing directory to mwl
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "lqqqppm",
+]
+[*] Changing directory to lqqqppm
+[src/main.rs:135] &line = [
+    "$",
+    "ls",
+]
+[src/main.rs:135] &line = [
+    "dir",
+    "jdznl",
+]
+[*] Adding jdznl to lqqqppm
+[src/main.rs:135] &line = [
+    "38505",
+    "nqv",
+]
+[*] Adding nqv to lqqqppm
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "jdznl",
+]
+[*] Changing directory to jdznl
+[src/main.rs:135] &line = [
+    "$",
+    "ls",
+]
+[src/main.rs:135] &line = [
+    "85492",
+    "ctt",
+]
+[*] Adding ctt to jdznl
+[src/main.rs:135] &line = [
+    "228912",
+    "dfbgtqj.vsb",
+]
+[*] Adding dfbgtqj.vsb to jdznl
+[src/main.rs:135] &line = [
+    "136077",
+    "nnwgd.vjn",
+]
+[*] Adding nnwgd.vjn to jdznl
+[src/main.rs:135] &line = [
+    "254459",
+    "zrrzsfss",
+]
+[*] Adding zrrzsfss to jdznl
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "..",
+]
+[*] Changing directory to lqqqppm
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "..",
+]
+[*] Changing directory to mwl
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "..",
+]
+[*] Changing directory to pcb
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "..",
+]
+[*] Changing directory to /
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "pntzm",
+]
+[*] Changing directory to pntzm
+[src/main.rs:135] &line = [
+    "$",
+    "ls",
+]
+[src/main.rs:135] &line = [
+    "dir",
+    "hnnhdd",
+]
+[*] Adding hnnhdd to pntzm
+[src/main.rs:135] &line = [
+    "dir",
+    "mbtsvblj",
+]
+[src/main.rs:135] &line = [
+    "dir",
+    "vmdlwdj",
+]
+[*] Adding vmdlwdj to pntzm
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "hnnhdd",
+]
+[*] Changing directory to hnnhdd
+[src/main.rs:135] &line = [
+    "$",
+    "ls",
+]
+[src/main.rs:135] &line = [
+    "35908",
+    "fjp",
+]
+[*] Adding fjp to hnnhdd
+[src/main.rs:135] &line = [
+    "119221",
+    "ljpzpdbf",
+]
+[*] Adding ljpzpdbf to hnnhdd
+[src/main.rs:135] &line = [
+    "210488",
+    "whhpztz.lgt",
+]
+[*] Adding whhpztz.lgt to hnnhdd
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "..",
+]
+[*] Changing directory to pntzm
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "mbtsvblj",
+]
+[*] Changing directory to mbtsvblj
+[src/main.rs:135] &line = [
+    "$",
+    "ls",
+]
+[src/main.rs:135] &line = [
+    "dir",
+    "clfpc",
+]
+[*] Adding clfpc to mbtsvblj
+[src/main.rs:135] &line = [
+    "dir",
+    "csqcnmtc",
+]
+[*] Adding csqcnmtc to mbtsvblj
+[src/main.rs:135] &line = [
+    "18524",
+    "mbtsvblj",
+]
+[*] Adding mbtsvblj to mbtsvblj
+[src/main.rs:135] &line = [
+    "dir",
+    "zcrrtlh",
+]
+[*] Adding zcrrtlh to mbtsvblj
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "clfpc",
+]
+[*] Changing directory to clfpc
+[src/main.rs:135] &line = [
+    "$",
+    "ls",
+]
+[src/main.rs:135] &line = [
+    "dir",
+    "jffq",
+]
+[*] Adding jffq to clfpc
+[src/main.rs:135] &line = [
+    "dir",
+    "qpsfrhld",
+]
+[*] Adding qpsfrhld to clfpc
+[src/main.rs:135] &line = [
+    "89569",
+    "tdzfqpz.wvs",
+]
+[*] Adding tdzfqpz.wvs to clfpc
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "jffq",
+]
+[*] Changing directory to jffq
+[src/main.rs:135] &line = [
+    "$",
+    "ls",
+]
+[src/main.rs:135] &line = [
+    "dir",
+    "dpngpgr",
+]
+[*] Adding dpngpgr to jffq
+[src/main.rs:135] &line = [
+    "dir",
+    "htbf",
+]
+[*] Adding htbf to jffq
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "dpngpgr",
+]
+[*] Changing directory to dpngpgr
+[src/main.rs:135] &line = [
+    "$",
+    "ls",
+]
+[src/main.rs:135] &line = [
+    "128899",
+    "ccjp.nbs",
+]
+[*] Adding ccjp.nbs to dpngpgr
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "..",
+]
+[*] Changing directory to jffq
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "htbf",
+]
+[*] Changing directory to htbf
+[src/main.rs:135] &line = [
+    "$",
+    "ls",
+]
+[src/main.rs:135] &line = [
+    "90381",
+    "ljpzpdbf",
+]
+[*] Adding ljpzpdbf to htbf
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "..",
+]
+[*] Changing directory to jffq
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "..",
+]
+[*] Changing directory to clfpc
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "qpsfrhld",
+]
+[*] Changing directory to qpsfrhld
+[src/main.rs:135] &line = [
+    "$",
+    "ls",
+]
+[src/main.rs:135] &line = [
+    "dir",
+    "bgrb",
+]
+[*] Adding bgrb to qpsfrhld
+[src/main.rs:135] &line = [
+    "dir",
+    "ddtlcfz",
+]
+[*] Adding ddtlcfz to qpsfrhld
+[src/main.rs:135] &line = [
+    "54115",
+    "dlz",
+]
+[*] Adding dlz to qpsfrhld
+[src/main.rs:135] &line = [
+    "154299",
+    "hhcfpnmg.njm",
+]
+[*] Adding hhcfpnmg.njm to qpsfrhld
+[src/main.rs:135] &line = [
+    "59452",
+    "jwc.pwg",
+]
+[*] Adding jwc.pwg to qpsfrhld
+[src/main.rs:135] &line = [
+    "dir",
+    "mbtsvblj",
+]
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "bgrb",
+]
+[*] Changing directory to bgrb
+[src/main.rs:135] &line = [
+    "$",
+    "ls",
+]
+[src/main.rs:135] &line = [
+    "119046",
+    "ccjp.zmf",
+]
+[*] Adding ccjp.zmf to bgrb
+[src/main.rs:135] &line = [
+    "dir",
+    "qsnng",
+]
+[*] Adding qsnng to bgrb
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "qsnng",
+]
+[*] Changing directory to qsnng
+[src/main.rs:135] &line = [
+    "$",
+    "ls",
+]
+[src/main.rs:135] &line = [
+    "195412",
+    "vjdh.cqv",
+]
+[*] Adding vjdh.cqv to qsnng
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "..",
+]
+[*] Changing directory to bgrb
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "..",
+]
+[*] Changing directory to qpsfrhld
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "ddtlcfz",
+]
+[*] Changing directory to ddtlcfz
+[src/main.rs:135] &line = [
+    "$",
+    "ls",
+]
+[src/main.rs:135] &line = [
+    "dir",
+    "ftfch",
+]
+[*] Adding ftfch to ddtlcfz
+[src/main.rs:135] &line = [
+    "26717",
+    "mbtsvblj",
+]
+[*] Adding mbtsvblj to ddtlcfz
+[src/main.rs:135] &line = [
+    "157679",
+    "mbtsvblj.rfb",
+]
+[*] Adding mbtsvblj.rfb to ddtlcfz
+[src/main.rs:135] &line = [
+    "299928",
+    "qmg",
+]
+[*] Adding qmg to ddtlcfz
+[src/main.rs:135] &line = [
+    "dir",
+    "trq",
+]
+[*] Adding trq to ddtlcfz
+[src/main.rs:135] &line = [
+    "dir",
+    "wjhjlpr",
+]
+[*] Adding wjhjlpr to ddtlcfz
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "ftfch",
+]
+[*] Changing directory to ftfch
+[src/main.rs:135] &line = [
+    "$",
+    "ls",
+]
+[src/main.rs:135] &line = [
+    "50242",
+    "dhzp",
+]
+[*] Adding dhzp to ftfch
+[src/main.rs:135] &line = [
+    "58846",
+    "dlz",
+]
+[*] Adding dlz to ftfch
+[src/main.rs:135] &line = [
+    "dir",
+    "hhwsrzhv",
+]
+[*] Adding hhwsrzhv to ftfch
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "hhwsrzhv",
+]
+[*] Changing directory to hhwsrzhv
+[src/main.rs:135] &line = [
+    "$",
+    "ls",
+]
+[src/main.rs:135] &line = [
+    "dir",
+    "bjnn",
+]
+[*] Adding bjnn to hhwsrzhv
+[src/main.rs:135] &line = [
+    "67610",
+    "dhzp",
+]
+[*] Adding dhzp to hhwsrzhv
+[src/main.rs:135] &line = [
+    "dir",
+    "mbtsvblj",
+]
+[src/main.rs:135] &line = [
+    "205664",
+    "tmcfmshb",
+]
+[*] Adding tmcfmshb to hhwsrzhv
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "bjnn",
+]
+[*] Changing directory to bjnn
+[src/main.rs:135] &line = [
+    "$",
+    "ls",
+]
+[src/main.rs:135] &line = [
+    "199806",
+    "dlz",
+]
+[*] Adding dlz to bjnn
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "..",
+]
+[*] Changing directory to hhwsrzhv
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "mbtsvblj",
+]
+[*] Changing directory to mbtsvblj
+[src/main.rs:135] &line = [
+    "$",
+    "ls",
+]
+[src/main.rs:135] &line = [
+    "dir",
+    "ffzjcshp",
+]
+[*] Adding ffzjcshp to mbtsvblj
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "ffzjcshp",
+]
+[*] Changing directory to ffzjcshp
+[src/main.rs:135] &line = [
+    "$",
+    "ls",
+]
+[src/main.rs:135] &line = [
+    "dir",
+    "ppmtvcj",
+]
+[*] Adding ppmtvcj to ffzjcshp
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "ppmtvcj",
+]
+[*] Changing directory to ppmtvcj
+[src/main.rs:135] &line = [
+    "$",
+    "ls",
+]
+[src/main.rs:135] &line = [
+    "184744",
+    "dlz",
+]
+[*] Adding dlz to ppmtvcj
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "..",
+]
+[*] Changing directory to ffzjcshp
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "..",
+]
+[*] Changing directory to mbtsvblj
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "..",
+]
+[*] Changing directory to hhwsrzhv
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "..",
+]
+[*] Changing directory to ftfch
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "..",
+]
+[*] Changing directory to ddtlcfz
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "trq",
+]
+[*] Changing directory to trq
+[src/main.rs:135] &line = [
+    "$",
+    "ls",
+]
+[src/main.rs:135] &line = [
+    "278471",
+    "ccjp",
+]
+[*] Adding ccjp to trq
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "..",
+]
+[*] Changing directory to ddtlcfz
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "wjhjlpr",
+]
+[*] Changing directory to wjhjlpr
+[src/main.rs:135] &line = [
+    "$",
+    "ls",
+]
+[src/main.rs:135] &line = [
+    "dir",
+    "wzwqrfhv",
+]
+[*] Adding wzwqrfhv to wjhjlpr
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "wzwqrfhv",
+]
+[*] Changing directory to wzwqrfhv
+[src/main.rs:135] &line = [
+    "$",
+    "ls",
+]
+[src/main.rs:135] &line = [
+    "262877",
+    "ccjp",
+]
+[*] Adding ccjp to wzwqrfhv
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "..",
+]
+[*] Changing directory to wjhjlpr
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "..",
+]
+[*] Changing directory to ddtlcfz
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "..",
+]
+[*] Changing directory to qpsfrhld
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "mbtsvblj",
+]
+[*] Changing directory to mbtsvblj
+[src/main.rs:135] &line = [
+    "$",
+    "ls",
+]
+[src/main.rs:135] &line = [
+    "243142",
+    "ccjp.szb",
+]
+[*] Adding ccjp.szb to mbtsvblj
+[src/main.rs:135] &line = [
+    "306673",
+    "lmstdpfc.nww",
+]
+[*] Adding lmstdpfc.nww to mbtsvblj
+[src/main.rs:135] &line = [
+    "dir",
+    "nlsprnh",
+]
+[*] Adding nlsprnh to mbtsvblj
+[src/main.rs:135] &line = [
+    "dir",
+    "nmzwtwwc",
+]
+[*] Adding nmzwtwwc to mbtsvblj
+[src/main.rs:135] &line = [
+    "dir",
+    "rbpbl",
+]
+[*] Adding rbpbl to mbtsvblj
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "nlsprnh",
+]
+[*] Changing directory to nlsprnh
+[src/main.rs:135] &line = [
+    "$",
+    "ls",
+]
+[src/main.rs:135] &line = [
+    "200708",
+    "stbjphg.hcs",
+]
+[*] Adding stbjphg.hcs to nlsprnh
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "..",
+]
+[*] Changing directory to mbtsvblj
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "nmzwtwwc",
+]
+[*] Changing directory to nmzwtwwc
+[src/main.rs:135] &line = [
+    "$",
+    "ls",
+]
+[src/main.rs:135] &line = [
+    "323366",
+    "vzq.pcj",
+]
+[*] Adding vzq.pcj to nmzwtwwc
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "..",
+]
+[*] Changing directory to mbtsvblj
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "rbpbl",
+]
+[*] Changing directory to rbpbl
+[src/main.rs:135] &line = [
+    "$",
+    "ls",
+]
+[src/main.rs:135] &line = [
+    "59872",
+    "fmnmsjr.svf",
+]
+[*] Adding fmnmsjr.svf to rbpbl
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "..",
+]
+[*] Changing directory to mbtsvblj
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "..",
+]
+[*] Changing directory to qpsfrhld
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "..",
+]
+[*] Changing directory to clfpc
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "..",
+]
+[*] Changing directory to mbtsvblj
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "csqcnmtc",
+]
+[*] Changing directory to csqcnmtc
+[src/main.rs:135] &line = [
+    "$",
+    "ls",
+]
+[src/main.rs:135] &line = [
+    "16652",
+    "ccjp",
+]
+[*] Adding ccjp to csqcnmtc
+[src/main.rs:135] &line = [
+    "dir",
+    "fsfd",
+]
+[*] Adding fsfd to csqcnmtc
+[src/main.rs:135] &line = [
+    "37144",
+    "hdb",
+]
+[*] Adding hdb to csqcnmtc
+[src/main.rs:135] &line = [
+    "dir",
+    "mbtsvblj",
+]
+[src/main.rs:135] &line = [
+    "dir",
+    "mwl",
+]
+[src/main.rs:135] &line = [
+    "66387",
+    "nljlpbjq",
+]
+[*] Adding nljlpbjq to csqcnmtc
+[src/main.rs:135] &line = [
+    "dir",
+    "ppmtvcj",
+]
+[src/main.rs:135] &line = [
+    "120839",
+    "rgclgwnq",
+]
+[*] Adding rgclgwnq to csqcnmtc
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "fsfd",
+]
+[*] Changing directory to fsfd
+[src/main.rs:135] &line = [
+    "$",
+    "ls",
+]
+[src/main.rs:135] &line = [
+    "105721",
+    "qqvchq.mwh",
+]
+[*] Adding qqvchq.mwh to fsfd
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "..",
+]
+[*] Changing directory to csqcnmtc
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "mbtsvblj",
+]
+[*] Changing directory to mbtsvblj
+[src/main.rs:135] &line = [
+    "$",
+    "ls",
+]
+[src/main.rs:135] &line = [
+    "dir",
+    "cdzgtll",
+]
+[*] Adding cdzgtll to mbtsvblj
+[src/main.rs:135] &line = [
+    "dir",
+    "dfgd",
+]
+[*] Adding dfgd to mbtsvblj
+[src/main.rs:135] &line = [
+    "dir",
+    "fbfr",
+]
+[*] Adding fbfr to mbtsvblj
+[src/main.rs:135] &line = [
+    "165975",
+    "mbtsvblj",
+]
+[src/main.rs:135] &line = [
+    "174541",
+    "ppmtvcj",
+]
+[*] Adding ppmtvcj to mbtsvblj
+[src/main.rs:135] &line = [
+    "dir",
+    "vwgrpswj",
+]
+[*] Adding vwgrpswj to mbtsvblj
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "cdzgtll",
+]
+[*] Changing directory to cdzgtll
+[src/main.rs:135] &line = [
+    "$",
+    "ls",
+]
+[src/main.rs:135] &line = [
+    "163523",
+    "dhzp",
+]
+[*] Adding dhzp to cdzgtll
+[src/main.rs:135] &line = [
+    "124219",
+    "dlz",
+]
+[*] Adding dlz to cdzgtll
+[src/main.rs:135] &line = [
+    "199796",
+    "hdb",
+]
+[*] Adding hdb to cdzgtll
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "..",
+]
+[*] Changing directory to mbtsvblj
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "dfgd",
+]
+[*] Changing directory to dfgd
+[src/main.rs:135] &line = [
+    "$",
+    "ls",
+]
+[src/main.rs:135] &line = [
+    "173064",
+    "ccjp.cbt",
+]
+[*] Adding ccjp.cbt to dfgd
+[src/main.rs:135] &line = [
+    "dir",
+    "cdqc",
+]
+[*] Adding cdqc to dfgd
+[src/main.rs:135] &line = [
+    "dir",
+    "fzrm",
+]
+[*] Adding fzrm to dfgd
+[src/main.rs:135] &line = [
+    "dir",
+    "grcs",
+]
+[*] Adding grcs to dfgd
+[src/main.rs:135] &line = [
+    "87000",
+    "mbtsvblj.zrl",
+]
+[*] Adding mbtsvblj.zrl to dfgd
+[src/main.rs:135] &line = [
+    "dir",
+    "njvgs",
+]
+[*] Adding njvgs to dfgd
+[src/main.rs:135] &line = [
+    "dir",
+    "ppmtvcj",
+]
+[src/main.rs:135] &line = [
+    "210984",
+    "rhtslcwt.wgt",
+]
+[*] Adding rhtslcwt.wgt to dfgd
+[src/main.rs:135] &line = [
+    "dir",
+    "vws",
+]
+[*] Adding vws to dfgd
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "cdqc",
+]
+[*] Changing directory to cdqc
+[src/main.rs:135] &line = [
+    "$",
+    "ls",
+]
+[src/main.rs:135] &line = [
+    "178924",
+    "hdb",
+]
+[*] Adding hdb to cdqc
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "..",
+]
+[*] Changing directory to dfgd
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "fzrm",
+]
+[*] Changing directory to fzrm
+[src/main.rs:135] &line = [
+    "$",
+    "ls",
+]
+[src/main.rs:135] &line = [
+    "dir",
+    "bjwtbc",
+]
+[*] Adding bjwtbc to fzrm
+[src/main.rs:135] &line = [
+    "211229",
+    "dhzp",
+]
+[*] Adding dhzp to fzrm
+[src/main.rs:135] &line = [
+    "dir",
+    "dtslj",
+]
+[*] Adding dtslj to fzrm
+[src/main.rs:135] &line = [
+    "76461",
+    "mbtsvblj.mtw",
+]
+[*] Adding mbtsvblj.mtw to fzrm
+[src/main.rs:135] &line = [
+    "317618",
+    "mmz.mqq",
+]
+[*] Adding mmz.mqq to fzrm
+[src/main.rs:135] &line = [
+    "dir",
+    "mwl",
+]
+[src/main.rs:135] &line = [
+    "163587",
+    "vwgq",
+]
+[*] Adding vwgq to fzrm
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "bjwtbc",
+]
+[*] Changing directory to bjwtbc
+[src/main.rs:135] &line = [
+    "$",
+    "ls",
+]
+[src/main.rs:135] &line = [
+    "9891",
+    "hhcfpnmg.njm",
+]
+[*] Adding hhcfpnmg.njm to bjwtbc
+[src/main.rs:135] &line = [
+    "dir",
+    "mwl",
+]
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "mwl",
+]
+[*] Changing directory to mwl
+[src/main.rs:135] &line = [
+    "$",
+    "ls",
+]
+[src/main.rs:135] &line = [
+    "203337",
+    "glwp.dls",
+]
+[*] Adding glwp.dls to mwl
+[src/main.rs:135] &line = [
+    "112753",
+    "mwl.qph",
+]
+[*] Adding mwl.qph to mwl
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "..",
+]
+[*] Changing directory to bjwtbc
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "..",
+]
+[*] Changing directory to fzrm
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "dtslj",
+]
+[*] Changing directory to dtslj
+[src/main.rs:135] &line = [
+    "$",
+    "ls",
+]
+[src/main.rs:135] &line = [
+    "277817",
+    "hhcfpnmg.njm",
+]
+[*] Adding hhcfpnmg.njm to dtslj
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "..",
+]
+[*] Changing directory to fzrm
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "mwl",
+]
+[*] Changing directory to mwl
+[src/main.rs:135] &line = [
+    "$",
+    "ls",
+]
+[src/main.rs:135] &line = [
+    "90781",
+    "mhnrwpmg.svv",
+]
+[*] Adding mhnrwpmg.svv to mwl
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "..",
+]
+[*] Changing directory to fzrm
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "..",
+]
+[*] Changing directory to dfgd
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "grcs",
+]
+[*] Changing directory to grcs
+[src/main.rs:135] &line = [
+    "$",
+    "ls",
+]
+[src/main.rs:135] &line = [
+    "286144",
+    "rnfqhs",
+]
+[*] Adding rnfqhs to grcs
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "..",
+]
+[*] Changing directory to dfgd
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "njvgs",
+]
+[*] Changing directory to njvgs
+[src/main.rs:135] &line = [
+    "$",
+    "ls",
+]
+[src/main.rs:135] &line = [
+    "dir",
+    "bmhdth",
+]
+[*] Adding bmhdth to njvgs
+[src/main.rs:135] &line = [
+    "dir",
+    "ccjp",
+]
+[src/main.rs:135] &line = [
+    "dir",
+    "mwl",
+]
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "bmhdth",
+]
+[*] Changing directory to bmhdth
+[src/main.rs:135] &line = [
+    "$",
+    "ls",
+]
+[src/main.rs:135] &line = [
+    "154455",
+    "ppmtvcj.hwq",
+]
+[*] Adding ppmtvcj.hwq to bmhdth
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "..",
+]
+[*] Changing directory to njvgs
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "ccjp",
+]
+[*] Changing directory to ccjp
+[src/main.rs:135] &line = [
+    "$",
+    "ls",
+]
+[src/main.rs:135] &line = [
+    "215864",
+    "fcwjtzhs.vqn",
+]
+[*] Adding fcwjtzhs.vqn to ccjp
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "..",
+]
+[*] Changing directory to njvgs
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "mwl",
+]
+[*] Changing directory to mwl
+[src/main.rs:135] &line = [
+    "$",
+    "ls",
+]
+[src/main.rs:135] &line = [
+    "139000",
+    "fnjztz",
+]
+[*] Adding fnjztz to mwl
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "..",
+]
+[*] Changing directory to njvgs
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "..",
+]
+[*] Changing directory to dfgd
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "ppmtvcj",
+]
+[*] Changing directory to ppmtvcj
+[src/main.rs:135] &line = [
+    "$",
+    "ls",
+]
+[src/main.rs:135] &line = [
+    "45041",
+    "jzfnmdw.jms",
+]
+[*] Adding jzfnmdw.jms to ppmtvcj
+[src/main.rs:135] &line = [
+    "dir",
+    "zstzfs",
+]
+[*] Adding zstzfs to ppmtvcj
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "zstzfs",
+]
+[*] Changing directory to zstzfs
+[src/main.rs:135] &line = [
+    "$",
+    "ls",
+]
+[src/main.rs:135] &line = [
+    "dir",
+    "qsfsj",
+]
+[*] Adding qsfsj to zstzfs
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "qsfsj",
+]
+[*] Changing directory to qsfsj
+[src/main.rs:135] &line = [
+    "$",
+    "ls",
+]
+[src/main.rs:135] &line = [
+    "34771",
+    "rsv",
+]
+[*] Adding rsv to qsfsj
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "..",
+]
+[*] Changing directory to zstzfs
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "..",
+]
+[*] Changing directory to ppmtvcj
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "..",
+]
+[*] Changing directory to dfgd
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "vws",
+]
+[*] Changing directory to vws
+[src/main.rs:135] &line = [
+    "$",
+    "ls",
+]
+[src/main.rs:135] &line = [
+    "98036",
+    "pjs",
+]
+[*] Adding pjs to vws
+[src/main.rs:135] &line = [
+    "103603",
+    "szszjfv",
+]
+[*] Adding szszjfv to vws
+[src/main.rs:135] &line = [
+    "211083",
+    "ztd",
+]
+[*] Adding ztd to vws
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "..",
+]
+[*] Changing directory to dfgd
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "..",
+]
+[*] Changing directory to mbtsvblj
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "fbfr",
+]
+[*] Changing directory to fbfr
+[src/main.rs:135] &line = [
+    "$",
+    "ls",
+]
+[src/main.rs:135] &line = [
+    "dir",
+    "dshrpf",
+]
+[*] Adding dshrpf to fbfr
+[src/main.rs:135] &line = [
+    "216109",
+    "hbw.jhj",
+]
+[*] Adding hbw.jhj to fbfr
+[src/main.rs:135] &line = [
+    "319355",
+    "hdhl",
+]
+[*] Adding hdhl to fbfr
+[src/main.rs:135] &line = [
+    "dir",
+    "ltf",
+]
+[*] Adding ltf to fbfr
+[src/main.rs:135] &line = [
+    "210950",
+    "qstlgvb",
+]
+[*] Adding qstlgvb to fbfr
+[src/main.rs:135] &line = [
+    "dir",
+    "thhncv",
+]
+[*] Adding thhncv to fbfr
+[src/main.rs:135] &line = [
+    "316300",
+    "zfgh",
+]
+[*] Adding zfgh to fbfr
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "dshrpf",
+]
+[*] Changing directory to dshrpf
+[src/main.rs:135] &line = [
+    "$",
+    "ls",
+]
+[src/main.rs:135] &line = [
+    "dir",
+    "nll",
+]
+[*] Adding nll to dshrpf
+[src/main.rs:135] &line = [
+    "dir",
+    "qrsg",
+]
+[*] Adding qrsg to dshrpf
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "nll",
+]
+[*] Changing directory to nll
+[src/main.rs:135] &line = [
+    "$",
+    "ls",
+]
+[src/main.rs:135] &line = [
+    "45935",
+    "flmvswv.rll",
+]
+[*] Adding flmvswv.rll to nll
+[src/main.rs:135] &line = [
+    "4161",
+    "hhcfpnmg.njm",
+]
+[*] Adding hhcfpnmg.njm to nll
+[src/main.rs:135] &line = [
+    "82301",
+    "sww.dwj",
+]
+[*] Adding sww.dwj to nll
+[src/main.rs:135] &line = [
+    "dir",
+    "tqdmtp",
+]
+[*] Adding tqdmtp to nll
+[src/main.rs:135] &line = [
+    "46608",
+    "tzrn.qrt",
+]
+[*] Adding tzrn.qrt to nll
+[src/main.rs:135] &line = [
+    "101463",
+    "zcbnwhzd.mpm",
+]
+[*] Adding zcbnwhzd.mpm to nll
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "tqdmtp",
+]
+[*] Changing directory to tqdmtp
+[src/main.rs:135] &line = [
+    "$",
+    "ls",
+]
+[src/main.rs:135] &line = [
+    "280430",
+    "dhzp",
+]
+[*] Adding dhzp to tqdmtp
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "..",
+]
+[*] Changing directory to nll
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "..",
+]
+[*] Changing directory to dshrpf
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "qrsg",
+]
+[*] Changing directory to qrsg
+[src/main.rs:135] &line = [
+    "$",
+    "ls",
+]
+[src/main.rs:135] &line = [
+    "dir",
+    "htrvnvz",
+]
+[*] Adding htrvnvz to qrsg
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "htrvnvz",
+]
+[*] Changing directory to htrvnvz
+[src/main.rs:135] &line = [
+    "$",
+    "ls",
+]
+[src/main.rs:135] &line = [
+    "dir",
+    "mbtsvblj",
+]
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "mbtsvblj",
+]
+[*] Changing directory to mbtsvblj
+[src/main.rs:135] &line = [
+    "$",
+    "ls",
+]
+[src/main.rs:135] &line = [
+    "235270",
+    "dlz",
+]
+[*] Adding dlz to mbtsvblj
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "..",
+]
+[*] Changing directory to htrvnvz
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "..",
+]
+[*] Changing directory to qrsg
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "..",
+]
+[*] Changing directory to dshrpf
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "..",
+]
+[*] Changing directory to fbfr
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "ltf",
+]
+[*] Changing directory to ltf
+[src/main.rs:135] &line = [
+    "$",
+    "ls",
+]
+[src/main.rs:135] &line = [
+    "dir",
+    "pcbc",
+]
+[*] Adding pcbc to ltf
+[src/main.rs:135] &line = [
+    "dir",
+    "wwjnwbjj",
+]
+[*] Adding wwjnwbjj to ltf
+[src/main.rs:135] &line = [
+    "dir",
+    "zcbnwhzd",
+]
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "pcbc",
+]
+[*] Changing directory to pcbc
+[src/main.rs:135] &line = [
+    "$",
+    "ls",
+]
+[src/main.rs:135] &line = [
+    "140010",
+    "mbtsvblj.hqd",
+]
+[*] Adding mbtsvblj.hqd to pcbc
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "..",
+]
+[*] Changing directory to ltf
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "wwjnwbjj",
+]
+[*] Changing directory to wwjnwbjj
+[src/main.rs:135] &line = [
+    "$",
+    "ls",
+]
+[src/main.rs:135] &line = [
+    "dir",
+    "mwl",
+]
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "mwl",
+]
+[*] Changing directory to mwl
+[src/main.rs:135] &line = [
+    "$",
+    "ls",
+]
+[src/main.rs:135] &line = [
+    "dir",
+    "pddbdp",
+]
+[*] Adding pddbdp to mwl
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "pddbdp",
+]
+[*] Changing directory to pddbdp
+[src/main.rs:135] &line = [
+    "$",
+    "ls",
+]
+[src/main.rs:135] &line = [
+    "27497",
+    "dlz",
+]
+[*] Adding dlz to pddbdp
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "..",
+]
+[*] Changing directory to mwl
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "..",
+]
+[*] Changing directory to wwjnwbjj
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "..",
+]
+[*] Changing directory to ltf
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "zcbnwhzd",
+]
+[*] Changing directory to zcbnwhzd
+[src/main.rs:135] &line = [
+    "$",
+    "ls",
+]
+[src/main.rs:135] &line = [
+    "302364",
+    "nrgpwm.cbb",
+]
+[*] Adding nrgpwm.cbb to zcbnwhzd
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "..",
+]
+[*] Changing directory to ltf
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "..",
+]
+[*] Changing directory to fbfr
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "thhncv",
+]
+[*] Changing directory to thhncv
+[src/main.rs:135] &line = [
+    "$",
+    "ls",
+]
+[src/main.rs:135] &line = [
+    "299769",
+    "hdb",
+]
+[*] Adding hdb to thhncv
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "..",
+]
+[*] Changing directory to fbfr
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "..",
+]
+[*] Changing directory to mbtsvblj
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "vwgrpswj",
+]
+[*] Changing directory to vwgrpswj
+[src/main.rs:135] &line = [
+    "$",
+    "ls",
+]
+[src/main.rs:135] &line = [
+    "dir",
+    "jgt",
+]
+[*] Adding jgt to vwgrpswj
+[src/main.rs:135] &line = [
+    "dir",
+    "mwl",
+]
+[src/main.rs:135] &line = [
+    "293673",
+    "mwl.pwl",
+]
+[*] Adding mwl.pwl to vwgrpswj
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "jgt",
+]
+[*] Changing directory to jgt
+[src/main.rs:135] &line = [
+    "$",
+    "ls",
+]
+[src/main.rs:135] &line = [
+    "282773",
+    "hhcfpnmg.njm",
+]
+[*] Adding hhcfpnmg.njm to jgt
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "..",
+]
+[*] Changing directory to vwgrpswj
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "mwl",
+]
+[*] Changing directory to mwl
+[src/main.rs:135] &line = [
+    "$",
+    "ls",
+]
+[src/main.rs:135] &line = [
+    "288944",
+    "jfnjdtr.ssj",
+]
+[*] Adding jfnjdtr.ssj to mwl
+[src/main.rs:135] &line = [
+    "186368",
+    "wfr",
+]
+[*] Adding wfr to mwl
+[src/main.rs:135] &line = [
+    "dir",
+    "zrtvvf",
+]
+[*] Adding zrtvvf to mwl
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "zrtvvf",
+]
+[*] Changing directory to zrtvvf
+[src/main.rs:135] &line = [
+    "$",
+    "ls",
+]
+[src/main.rs:135] &line = [
+    "82162",
+    "gtz.gsc",
+]
+[*] Adding gtz.gsc to zrtvvf
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "..",
+]
+[*] Changing directory to mwl
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "..",
+]
+[*] Changing directory to vwgrpswj
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "..",
+]
+[*] Changing directory to mbtsvblj
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "..",
+]
+[*] Changing directory to csqcnmtc
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "mwl",
+]
+[*] Changing directory to mwl
+[src/main.rs:135] &line = [
+    "$",
+    "ls",
+]
+[src/main.rs:135] &line = [
+    "98218",
+    "htc.qjr",
+]
+[*] Adding htc.qjr to mwl
+[src/main.rs:135] &line = [
+    "dir",
+    "mghhqrtn",
+]
+[*] Adding mghhqrtn to mwl
+[src/main.rs:135] &line = [
+    "dir",
+    "qct",
+]
+[*] Adding qct to mwl
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "mghhqrtn",
+]
+[*] Changing directory to mghhqrtn
+[src/main.rs:135] &line = [
+    "$",
+    "ls",
+]
+[src/main.rs:135] &line = [
+    "220446",
+    "dlz",
+]
+[*] Adding dlz to mghhqrtn
+[src/main.rs:135] &line = [
+    "36230",
+    "pwwlwv.crn",
+]
+[*] Adding pwwlwv.crn to mghhqrtn
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "..",
+]
+[*] Changing directory to mwl
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "qct",
+]
+[*] Changing directory to qct
+[src/main.rs:135] &line = [
+    "$",
+    "ls",
+]
+[src/main.rs:135] &line = [
+    "33534",
+    "hdb",
+]
+[*] Adding hdb to qct
+[src/main.rs:135] &line = [
+    "27140",
+    "jpwqvbs.mvr",
+]
+[*] Adding jpwqvbs.mvr to qct
+[src/main.rs:135] &line = [
+    "60637",
+    "mlqtp",
+]
+[*] Adding mlqtp to qct
+[src/main.rs:135] &line = [
+    "12143",
+    "nlvtp.qjn",
+]
+[*] Adding nlvtp.qjn to qct
+[src/main.rs:135] &line = [
+    "152733",
+    "nqjqzt",
+]
+[*] Adding nqjqzt to qct
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "..",
+]
+[*] Changing directory to mwl
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "..",
+]
+[*] Changing directory to csqcnmtc
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "ppmtvcj",
+]
+[*] Changing directory to ppmtvcj
+[src/main.rs:135] &line = [
+    "$",
+    "ls",
+]
+[src/main.rs:135] &line = [
+    "dir",
+    "ccjp",
+]
+[src/main.rs:135] &line = [
+    "297245",
+    "zcbnwhzd",
+]
+[*] Adding zcbnwhzd to ppmtvcj
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "ccjp",
+]
+[*] Changing directory to ccjp
+[src/main.rs:135] &line = [
+    "$",
+    "ls",
+]
+[src/main.rs:135] &line = [
+    "128473",
+    "wcw.dng",
+]
+[*] Adding wcw.dng to ccjp
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "..",
+]
+[*] Changing directory to ppmtvcj
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "..",
+]
+[*] Changing directory to csqcnmtc
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "..",
+]
+[*] Changing directory to mbtsvblj
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "zcrrtlh",
+]
+[*] Changing directory to zcrrtlh
+[src/main.rs:135] &line = [
+    "$",
+    "ls",
+]
+[src/main.rs:135] &line = [
+    "27488",
+    "bcbnmhq",
+]
+[*] Adding bcbnmhq to zcrrtlh
+[src/main.rs:135] &line = [
+    "dir",
+    "dhsmmlt",
+]
+[*] Adding dhsmmlt to zcrrtlh
+[src/main.rs:135] &line = [
+    "dir",
+    "fgqbpcn",
+]
+[*] Adding fgqbpcn to zcrrtlh
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "dhsmmlt",
+]
+[*] Changing directory to dhsmmlt
+[src/main.rs:135] &line = [
+    "$",
+    "ls",
+]
+[src/main.rs:135] &line = [
+    "42514",
+    "cvfwqnfl",
+]
+[*] Adding cvfwqnfl to dhsmmlt
+[src/main.rs:135] &line = [
+    "252570",
+    "dlz",
+]
+[*] Adding dlz to dhsmmlt
+[src/main.rs:135] &line = [
+    "145814",
+    "ppmtvcj.snb",
+]
+[*] Adding ppmtvcj.snb to dhsmmlt
+[src/main.rs:135] &line = [
+    "294613",
+    "rslsh.slv",
+]
+[*] Adding rslsh.slv to dhsmmlt
+[src/main.rs:135] &line = [
+    "186477",
+    "vwd.spz",
+]
+[*] Adding vwd.spz to dhsmmlt
+[src/main.rs:135] &line = [
+    "dir",
+    "wffbp",
+]
+[*] Adding wffbp to dhsmmlt
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "wffbp",
+]
+[*] Changing directory to wffbp
+[src/main.rs:135] &line = [
+    "$",
+    "ls",
+]
+[src/main.rs:135] &line = [
+    "dir",
+    "mbtsvblj",
+]
+[src/main.rs:135] &line = [
+    "dir",
+    "nvq",
+]
+[*] Adding nvq to wffbp
+[src/main.rs:135] &line = [
+    "150447",
+    "ppmtvcj.hzc",
+]
+[*] Adding ppmtvcj.hzc to wffbp
+[src/main.rs:135] &line = [
+    "34904",
+    "whzpsbqp.clq",
+]
+[*] Adding whzpsbqp.clq to wffbp
+[src/main.rs:135] &line = [
+    "dir",
+    "zcbnwhzd",
+]
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "mbtsvblj",
+]
+[*] Changing directory to mbtsvblj
+[src/main.rs:135] &line = [
+    "$",
+    "ls",
+]
+[src/main.rs:135] &line = [
+    "65132",
+    "cmmlw.bmq",
+]
+[*] Adding cmmlw.bmq to mbtsvblj
+[src/main.rs:135] &line = [
+    "310866",
+    "cqrtmpdp.pjq",
+]
+[*] Adding cqrtmpdp.pjq to mbtsvblj
+[src/main.rs:135] &line = [
+    "dir",
+    "mbtsvblj",
+]
+[src/main.rs:135] &line = [
+    "212527",
+    "mbtsvblj.spw",
+]
+[*] Adding mbtsvblj.spw to mbtsvblj
+[src/main.rs:135] &line = [
+    "232198",
+    "ngmltt.qwl",
+]
+[*] Adding ngmltt.qwl to mbtsvblj
+[src/main.rs:135] &line = [
+    "dir",
+    "pbqh",
+]
+[*] Adding pbqh to mbtsvblj
+[src/main.rs:135] &line = [
+    "dir",
+    "ppwgsp",
+]
+[*] Adding ppwgsp to mbtsvblj
+[src/main.rs:135] &line = [
+    "dir",
+    "qqfsb",
+]
+[*] Adding qqfsb to mbtsvblj
+[src/main.rs:135] &line = [
+    "223322",
+    "tzsmvh",
+]
+[*] Adding tzsmvh to mbtsvblj
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "mbtsvblj",
+]
+[*] Changing directory to mbtsvblj
+[src/main.rs:135] &line = [
+    "$",
+    "ls",
+]
+[src/main.rs:135] &line = [
+    "dir",
+    "bzpdz",
+]
+[*] Adding bzpdz to mbtsvblj
+[src/main.rs:135] &line = [
+    "dir",
+    "mbtsvblj",
+]
+[src/main.rs:135] &line = [
+    "dir",
+    "pwnn",
+]
+[*] Adding pwnn to mbtsvblj
+[src/main.rs:135] &line = [
+    "dir",
+    "zcbnwhzd",
+]
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "bzpdz",
+]
+[*] Changing directory to bzpdz
+[src/main.rs:135] &line = [
+    "$",
+    "ls",
+]
+[src/main.rs:135] &line = [
+    "272769",
+    "gtmftv",
+]
+[*] Adding gtmftv to bzpdz
+[src/main.rs:135] &line = [
+    "280597",
+    "hhcfpnmg.njm",
+]
+[*] Adding hhcfpnmg.njm to bzpdz
+[src/main.rs:135] &line = [
+    "151008",
+    "nmgvrhr.mvp",
+]
+[*] Adding nmgvrhr.mvp to bzpdz
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "..",
+]
+[*] Changing directory to mbtsvblj
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "mbtsvblj",
+]
+[*] Changing directory to mbtsvblj
+[src/main.rs:135] &line = [
+    "$",
+    "ls",
+]
+[src/main.rs:135] &line = [
+    "64862",
+    "czn",
+]
+[*] Adding czn to mbtsvblj
+[src/main.rs:135] &line = [
+    "309781",
+    "dhzp",
+]
+[*] Adding dhzp to mbtsvblj
+[src/main.rs:135] &line = [
+    "253325",
+    "dlz",
+]
+[src/main.rs:135] &line = [
+    "dir",
+    "dqnr",
+]
+[*] Adding dqnr to mbtsvblj
+[src/main.rs:135] &line = [
+    "dir",
+    "fgd",
+]
+[*] Adding fgd to mbtsvblj
+[src/main.rs:135] &line = [
+    "139779",
+    "ghtzv",
+]
+[*] Adding ghtzv to mbtsvblj
+[src/main.rs:135] &line = [
+    "255567",
+    "rml.rhm",
+]
+[*] Adding rml.rhm to mbtsvblj
+[src/main.rs:135] &line = [
+    "dir",
+    "srfzjfw",
+]
+[*] Adding srfzjfw to mbtsvblj
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "dqnr",
+]
+[*] Changing directory to dqnr
+[src/main.rs:135] &line = [
+    "$",
+    "ls",
+]
+[src/main.rs:135] &line = [
+    "302986",
+    "cjnwm.lrb",
+]
+[*] Adding cjnwm.lrb to dqnr
+[src/main.rs:135] &line = [
+    "158871",
+    "frhjlp.rnn",
+]
+[*] Adding frhjlp.rnn to dqnr
+[src/main.rs:135] &line = [
+    "180385",
+    "nrlmq",
+]
+[*] Adding nrlmq to dqnr
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "..",
+]
+[*] Changing directory to mbtsvblj
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "fgd",
+]
+[*] Changing directory to fgd
+[src/main.rs:135] &line = [
+    "$",
+    "ls",
+]
+[src/main.rs:135] &line = [
+    "158213",
+    "msjrcl.dsh",
+]
+[*] Adding msjrcl.dsh to fgd
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "..",
+]
+[*] Changing directory to mbtsvblj
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "srfzjfw",
+]
+[*] Changing directory to srfzjfw
+[src/main.rs:135] &line = [
+    "$",
+    "ls",
+]
+[src/main.rs:135] &line = [
+    "dir",
+    "jfnd",
+]
+[*] Adding jfnd to srfzjfw
+[src/main.rs:135] &line = [
+    "210830",
+    "ljpzpdbf",
+]
+[*] Adding ljpzpdbf to srfzjfw
+[src/main.rs:135] &line = [
+    "dir",
+    "mbtsvblj",
+]
+[src/main.rs:135] &line = [
+    "dir",
+    "zcrrvpg",
+]
+[*] Adding zcrrvpg to srfzjfw
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "jfnd",
+]
+[*] Changing directory to jfnd
+[src/main.rs:135] &line = [
+    "$",
+    "ls",
+]
+[src/main.rs:135] &line = [
+    "300883",
+    "zvtdj.srv",
+]
+[*] Adding zvtdj.srv to jfnd
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "..",
+]
+[*] Changing directory to srfzjfw
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "mbtsvblj",
+]
+[*] Changing directory to mbtsvblj
+[src/main.rs:135] &line = [
+    "$",
+    "ls",
+]
+[src/main.rs:135] &line = [
+    "287467",
+    "cjdm.whc",
+]
+[*] Adding cjdm.whc to mbtsvblj
+[src/main.rs:135] &line = [
+    "233084",
+    "hpfgtnts",
+]
+[*] Adding hpfgtnts to mbtsvblj
+[src/main.rs:135] &line = [
+    "dir",
+    "zcbnwhzd",
+]
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "zcbnwhzd",
+]
+[*] Changing directory to zcbnwhzd
+[src/main.rs:135] &line = [
+    "$",
+    "ls",
+]
+[src/main.rs:135] &line = [
+    "79744",
+    "dlz",
+]
+[*] Adding dlz to zcbnwhzd
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "..",
+]
+[*] Changing directory to mbtsvblj
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "..",
+]
+[*] Changing directory to srfzjfw
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "zcrrvpg",
+]
+[*] Changing directory to zcrrvpg
+[src/main.rs:135] &line = [
+    "$",
+    "ls",
+]
+[src/main.rs:135] &line = [
+    "dir",
+    "jrbcqlct",
+]
+[*] Adding jrbcqlct to zcrrvpg
+[src/main.rs:135] &line = [
+    "dir",
+    "srpm",
+]
+[*] Adding srpm to zcrrvpg
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "jrbcqlct",
+]
+[*] Changing directory to jrbcqlct
+[src/main.rs:135] &line = [
+    "$",
+    "ls",
+]
+[src/main.rs:135] &line = [
+    "325945",
+    "dlz",
+]
+[*] Adding dlz to jrbcqlct
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "..",
+]
+[*] Changing directory to zcrrvpg
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "srpm",
+]
+[*] Changing directory to srpm
+[src/main.rs:135] &line = [
+    "$",
+    "ls",
+]
+[src/main.rs:135] &line = [
+    "90698",
+    "ngw.fhm",
+]
+[*] Adding ngw.fhm to srpm
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "..",
+]
+[*] Changing directory to zcrrvpg
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "..",
+]
+[*] Changing directory to srfzjfw
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "..",
+]
+[*] Changing directory to mbtsvblj
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "..",
+]
+[*] Changing directory to mbtsvblj
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "pwnn",
+]
+[*] Changing directory to pwnn
+[src/main.rs:135] &line = [
+    "$",
+    "ls",
+]
+[src/main.rs:135] &line = [
+    "104826",
+    "ppmtvcj.jtm",
+]
+[*] Adding ppmtvcj.jtm to pwnn
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "..",
+]
+[*] Changing directory to mbtsvblj
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "zcbnwhzd",
+]
+[*] Changing directory to zcbnwhzd
+[src/main.rs:135] &line = [
+    "$",
+    "ls",
+]
+[src/main.rs:135] &line = [
+    "145508",
+    "fnr.dgt",
+]
+[*] Adding fnr.dgt to zcbnwhzd
+[src/main.rs:135] &line = [
+    "256683",
+    "gwdl.vfl",
+]
+[*] Adding gwdl.vfl to zcbnwhzd
+[src/main.rs:135] &line = [
+    "dir",
+    "mdv",
+]
+[*] Adding mdv to zcbnwhzd
+[src/main.rs:135] &line = [
+    "44255",
+    "mqdv.cdb",
+]
+[*] Adding mqdv.cdb to zcbnwhzd
+[src/main.rs:135] &line = [
+    "79723",
+    "rgvcf",
+]
+[*] Adding rgvcf to zcbnwhzd
+[src/main.rs:135] &line = [
+    "dir",
+    "sjdh",
+]
+[*] Adding sjdh to zcbnwhzd
+[src/main.rs:135] &line = [
+    "88945",
+    "wdgq.hfm",
+]
+[*] Adding wdgq.hfm to zcbnwhzd
+[src/main.rs:135] &line = [
+    "dir",
+    "zpm",
+]
+[*] Adding zpm to zcbnwhzd
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "mdv",
+]
+[*] Changing directory to mdv
+[src/main.rs:135] &line = [
+    "$",
+    "ls",
+]
+[src/main.rs:135] &line = [
+    "231290",
+    "dlz",
+]
+[*] Adding dlz to mdv
+[src/main.rs:135] &line = [
+    "3468",
+    "hdb",
+]
+[*] Adding hdb to mdv
+[src/main.rs:135] &line = [
+    "95091",
+    "mcm",
+]
+[*] Adding mcm to mdv
+[src/main.rs:135] &line = [
+    "67779",
+    "mwl.ncb",
+]
+[*] Adding mwl.ncb to mdv
+[src/main.rs:135] &line = [
+    "dir",
+    "ppf",
+]
+[*] Adding ppf to mdv
+[src/main.rs:135] &line = [
+    "dir",
+    "rfwwtjdn",
+]
+[*] Adding rfwwtjdn to mdv
+[src/main.rs:135] &line = [
+    "143730",
+    "slrv.qdl",
+]
+[*] Adding slrv.qdl to mdv
+[src/main.rs:135] &line = [
+    "dir",
+    "sqbdvppf",
+]
+[*] Adding sqbdvppf to mdv
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "ppf",
+]
+[*] Changing directory to ppf
+[src/main.rs:135] &line = [
+    "$",
+    "ls",
+]
+[src/main.rs:135] &line = [
+    "73809",
+    "rgdtlp",
+]
+[*] Adding rgdtlp to ppf
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "..",
+]
+[*] Changing directory to mdv
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "rfwwtjdn",
+]
+[*] Changing directory to rfwwtjdn
+[src/main.rs:135] &line = [
+    "$",
+    "ls",
+]
+[src/main.rs:135] &line = [
+    "255306",
+    "dhzp",
+]
+[*] Adding dhzp to rfwwtjdn
+[src/main.rs:135] &line = [
+    "306865",
+    "zbnmtcgr.ddf",
+]
+[*] Adding zbnmtcgr.ddf to rfwwtjdn
+[src/main.rs:135] &line = [
+    "237019",
+    "zcbnwhzd.szn",
+]
+[*] Adding zcbnwhzd.szn to rfwwtjdn
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "..",
+]
+[*] Changing directory to mdv
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "sqbdvppf",
+]
+[*] Changing directory to sqbdvppf
+[src/main.rs:135] &line = [
+    "$",
+    "ls",
+]
+[src/main.rs:135] &line = [
+    "dir",
+    "ccjp",
+]
+[src/main.rs:135] &line = [
+    "dir",
+    "mbtsvblj",
+]
+[src/main.rs:135] &line = [
+    "142955",
+    "str",
+]
+[*] Adding str to sqbdvppf
+[src/main.rs:135] &line = [
+    "dir",
+    "whtrbcqn",
+]
+[*] Adding whtrbcqn to sqbdvppf
+[src/main.rs:135] &line = [
+    "93407",
+    "zcbnwhzd.ctr",
+]
+[*] Adding zcbnwhzd.ctr to sqbdvppf
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "ccjp",
+]
+[*] Changing directory to ccjp
+[src/main.rs:135] &line = [
+    "$",
+    "ls",
+]
+[src/main.rs:135] &line = [
+    "29914",
+    "cwtvtcnp.tft",
+]
+[*] Adding cwtvtcnp.tft to ccjp
+[src/main.rs:135] &line = [
+    "295537",
+    "rvlb",
+]
+[*] Adding rvlb to ccjp
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "..",
+]
+[*] Changing directory to sqbdvppf
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "mbtsvblj",
+]
+[*] Changing directory to mbtsvblj
+[src/main.rs:135] &line = [
+    "$",
+    "ls",
+]
+[src/main.rs:135] &line = [
+    "262652",
+    "ccjp.wbn",
+]
+[*] Adding ccjp.wbn to mbtsvblj
+[src/main.rs:135] &line = [
+    "297839",
+    "mbtsvblj.gnz",
+]
+[*] Adding mbtsvblj.gnz to mbtsvblj
+[src/main.rs:135] &line = [
+    "249019",
+    "pqsqjg.vwr",
+]
+[*] Adding pqsqjg.vwr to mbtsvblj
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "..",
+]
+[*] Changing directory to sqbdvppf
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "whtrbcqn",
+]
+[*] Changing directory to whtrbcqn
+[src/main.rs:135] &line = [
+    "$",
+    "ls",
+]
+[src/main.rs:135] &line = [
+    "dir",
+    "ccjp",
+]
+[src/main.rs:135] &line = [
+    "dir",
+    "hslmvvb",
+]
+[*] Adding hslmvvb to whtrbcqn
+[src/main.rs:135] &line = [
+    "51040",
+    "vzcsfcwf",
+]
+[*] Adding vzcsfcwf to whtrbcqn
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "ccjp",
+]
+[*] Changing directory to ccjp
+[src/main.rs:135] &line = [
+    "$",
+    "ls",
+]
+[src/main.rs:135] &line = [
+    "39489",
+    "slps",
+]
+[*] Adding slps to ccjp
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "..",
+]
+[*] Changing directory to whtrbcqn
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "hslmvvb",
+]
+[*] Changing directory to hslmvvb
+[src/main.rs:135] &line = [
+    "$",
+    "ls",
+]
+[src/main.rs:135] &line = [
+    "148628",
+    "gpwnf.qtd",
+]
+[*] Adding gpwnf.qtd to hslmvvb
+[src/main.rs:135] &line = [
+    "dir",
+    "jrl",
+]
+[*] Adding jrl to hslmvvb
+[src/main.rs:135] &line = [
+    "11814",
+    "qtjtsvgg.ltz",
+]
+[*] Adding qtjtsvgg.ltz to hslmvvb
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "jrl",
+]
+[*] Changing directory to jrl
+[src/main.rs:135] &line = [
+    "$",
+    "ls",
+]
+[src/main.rs:135] &line = [
+    "dir",
+    "scwlmjzm",
+]
+[*] Adding scwlmjzm to jrl
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "scwlmjzm",
+]
+[*] Changing directory to scwlmjzm
+[src/main.rs:135] &line = [
+    "$",
+    "ls",
+]
+[src/main.rs:135] &line = [
+    "119717",
+    "vhpsrbzw.jnh",
+]
+[*] Adding vhpsrbzw.jnh to scwlmjzm
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "..",
+]
+[*] Changing directory to jrl
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "..",
+]
+[*] Changing directory to hslmvvb
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "..",
+]
+[*] Changing directory to whtrbcqn
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "..",
+]
+[*] Changing directory to sqbdvppf
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "..",
+]
+[*] Changing directory to mdv
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "..",
+]
+[*] Changing directory to zcbnwhzd
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "sjdh",
+]
+[*] Changing directory to sjdh
+[src/main.rs:135] &line = [
+    "$",
+    "ls",
+]
+[src/main.rs:135] &line = [
+    "43495",
+    "srwzspsl",
+]
+[*] Adding srwzspsl to sjdh
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "..",
+]
+[*] Changing directory to zcbnwhzd
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "zpm",
+]
+[*] Changing directory to zpm
+[src/main.rs:135] &line = [
+    "$",
+    "ls",
+]
+[src/main.rs:135] &line = [
+    "137218",
+    "mwl.pzt",
+]
+[*] Adding mwl.pzt to zpm
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "..",
+]
+[*] Changing directory to zcbnwhzd
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "..",
+]
+[*] Changing directory to mbtsvblj
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "..",
+]
+[*] Changing directory to mbtsvblj
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "pbqh",
+]
+[*] Changing directory to pbqh
+[src/main.rs:135] &line = [
+    "$",
+    "ls",
+]
+[src/main.rs:135] &line = [
+    "202610",
+    "dlz",
+]
+[*] Adding dlz to pbqh
+[src/main.rs:135] &line = [
+    "dir",
+    "vdrqc",
+]
+[*] Adding vdrqc to pbqh
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "vdrqc",
+]
+[*] Changing directory to vdrqc
+[src/main.rs:135] &line = [
+    "$",
+    "ls",
+]
+[src/main.rs:135] &line = [
+    "202958",
+    "mzzmjrt",
+]
+[*] Adding mzzmjrt to vdrqc
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "..",
+]
+[*] Changing directory to pbqh
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "..",
+]
+[*] Changing directory to mbtsvblj
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "ppwgsp",
+]
+[*] Changing directory to ppwgsp
+[src/main.rs:135] &line = [
+    "$",
+    "ls",
+]
+[src/main.rs:135] &line = [
+    "248541",
+    "pzvtdl.lcc",
+]
+[*] Adding pzvtdl.lcc to ppwgsp
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "..",
+]
+[*] Changing directory to mbtsvblj
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "qqfsb",
+]
+[*] Changing directory to qqfsb
+[src/main.rs:135] &line = [
+    "$",
+    "ls",
+]
+[src/main.rs:135] &line = [
+    "211390",
+    "mbtsvblj.fvh",
+]
+[*] Adding mbtsvblj.fvh to qqfsb
+[src/main.rs:135] &line = [
+    "241455",
+    "mwl.bzl",
+]
+[*] Adding mwl.bzl to qqfsb
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "..",
+]
+[*] Changing directory to mbtsvblj
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "..",
+]
+[*] Changing directory to wffbp
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "nvq",
+]
+[*] Changing directory to nvq
+[src/main.rs:135] &line = [
+    "$",
+    "ls",
+]
+[src/main.rs:135] &line = [
+    "74730",
+    "hhcfpnmg.njm",
+]
+[*] Adding hhcfpnmg.njm to nvq
+[src/main.rs:135] &line = [
+    "257109",
+    "ljpzpdbf",
+]
+[*] Adding ljpzpdbf to nvq
+[src/main.rs:135] &line = [
+    "8864",
+    "zcbnwhzd.ctj",
+]
+[*] Adding zcbnwhzd.ctj to nvq
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "..",
+]
+[*] Changing directory to wffbp
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "zcbnwhzd",
+]
+[*] Changing directory to zcbnwhzd
+[src/main.rs:135] &line = [
+    "$",
+    "ls",
+]
+[src/main.rs:135] &line = [
+    "307501",
+    "ccjp",
+]
+[*] Adding ccjp to zcbnwhzd
+[src/main.rs:135] &line = [
+    "dir",
+    "dfgbztqr",
+]
+[*] Adding dfgbztqr to zcbnwhzd
+[src/main.rs:135] &line = [
+    "dir",
+    "mwl",
+]
+[src/main.rs:135] &line = [
+    "248526",
+    "pmhtz",
+]
+[*] Adding pmhtz to zcbnwhzd
+[src/main.rs:135] &line = [
+    "dir",
+    "rwmzdt",
+]
+[*] Adding rwmzdt to zcbnwhzd
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "dfgbztqr",
+]
+[*] Changing directory to dfgbztqr
+[src/main.rs:135] &line = [
+    "$",
+    "ls",
+]
+[src/main.rs:135] &line = [
+    "18261",
+    "hdb",
+]
+[*] Adding hdb to dfgbztqr
+[src/main.rs:135] &line = [
+    "dir",
+    "mwl",
+]
+[src/main.rs:135] &line = [
+    "dir",
+    "ppmtvcj",
+]
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "mwl",
+]
+[*] Changing directory to mwl
+[src/main.rs:135] &line = [
+    "$",
+    "ls",
+]
+[src/main.rs:135] &line = [
+    "36787",
+    "hdv.vfs",
+]
+[*] Adding hdv.vfs to mwl
+[src/main.rs:135] &line = [
+    "283104",
+    "zrvbsht.fmm",
+]
+[*] Adding zrvbsht.fmm to mwl
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "..",
+]
+[*] Changing directory to dfgbztqr
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "ppmtvcj",
+]
+[*] Changing directory to ppmtvcj
+[src/main.rs:135] &line = [
+    "$",
+    "ls",
+]
+[src/main.rs:135] &line = [
+    "208809",
+    "ljpzpdbf",
+]
+[*] Adding ljpzpdbf to ppmtvcj
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "..",
+]
+[*] Changing directory to dfgbztqr
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "..",
+]
+[*] Changing directory to zcbnwhzd
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "mwl",
+]
+[*] Changing directory to mwl
+[src/main.rs:135] &line = [
+    "$",
+    "ls",
+]
+[src/main.rs:135] &line = [
+    "195369",
+    "mgfvgw",
+]
+[*] Adding mgfvgw to mwl
+[src/main.rs:135] &line = [
+    "146522",
+    "mwl",
+]
+[*] Adding mwl to mwl
+[src/main.rs:135] &line = [
+    "78589",
+    "sfthn",
+]
+[*] Adding sfthn to mwl
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "..",
+]
+[*] Changing directory to zcbnwhzd
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "rwmzdt",
+]
+[*] Changing directory to rwmzdt
+[src/main.rs:135] &line = [
+    "$",
+    "ls",
+]
+[src/main.rs:135] &line = [
+    "10176",
+    "hdb",
+]
+[*] Adding hdb to rwmzdt
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "..",
+]
+[*] Changing directory to zcbnwhzd
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "..",
+]
+[*] Changing directory to wffbp
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "..",
+]
+[*] Changing directory to dhsmmlt
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "..",
+]
+[*] Changing directory to zcrrtlh
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "fgqbpcn",
+]
+[*] Changing directory to fgqbpcn
+[src/main.rs:135] &line = [
+    "$",
+    "ls",
+]
+[src/main.rs:135] &line = [
+    "169227",
+    "dhzp",
+]
+[*] Adding dhzp to fgqbpcn
+[src/main.rs:135] &line = [
+    "dir",
+    "dwsgcrz",
+]
+[*] Adding dwsgcrz to fgqbpcn
+[src/main.rs:135] &line = [
+    "140391",
+    "pjjln.ngc",
+]
+[*] Adding pjjln.ngc to fgqbpcn
+[src/main.rs:135] &line = [
+    "162589",
+    "ppmtvcj.ngb",
+]
+[*] Adding ppmtvcj.ngb to fgqbpcn
+[src/main.rs:135] &line = [
+    "199626",
+    "rcgbjn.wfv",
+]
+[*] Adding rcgbjn.wfv to fgqbpcn
+[src/main.rs:135] &line = [
+    "dir",
+    "snrl",
+]
+[*] Adding snrl to fgqbpcn
+[src/main.rs:135] &line = [
+    "dir",
+    "vfnrs",
+]
+[*] Adding vfnrs to fgqbpcn
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "dwsgcrz",
+]
+[*] Changing directory to dwsgcrz
+[src/main.rs:135] &line = [
+    "$",
+    "ls",
+]
+[src/main.rs:135] &line = [
+    "300751",
+    "fjlw.wtp",
+]
+[*] Adding fjlw.wtp to dwsgcrz
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "..",
+]
+[*] Changing directory to fgqbpcn
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "snrl",
+]
+[*] Changing directory to snrl
+[src/main.rs:135] &line = [
+    "$",
+    "ls",
+]
+[src/main.rs:135] &line = [
+    "16142",
+    "ccjp.jpw",
+]
+[*] Adding ccjp.jpw to snrl
+[src/main.rs:135] &line = [
+    "150389",
+    "cmbnljt.ljq",
+]
+[*] Adding cmbnljt.ljq to snrl
+[src/main.rs:135] &line = [
+    "52600",
+    "gqggd.dwm",
+]
+[*] Adding gqggd.dwm to snrl
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "..",
+]
+[*] Changing directory to fgqbpcn
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "vfnrs",
+]
+[*] Changing directory to vfnrs
+[src/main.rs:135] &line = [
+    "$",
+    "ls",
+]
+[src/main.rs:135] &line = [
+    "217267",
+    "bwlpdfv.hzh",
+]
+[*] Adding bwlpdfv.hzh to vfnrs
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "..",
+]
+[*] Changing directory to fgqbpcn
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "..",
+]
+[*] Changing directory to zcrrtlh
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "..",
+]
+[*] Changing directory to mbtsvblj
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "..",
+]
+[*] Changing directory to pntzm
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "vmdlwdj",
+]
+[*] Changing directory to vmdlwdj
+[src/main.rs:135] &line = [
+    "$",
+    "ls",
+]
+[src/main.rs:135] &line = [
+    "29199",
+    "bcgjdpj.qcj",
+]
+[*] Adding bcgjdpj.qcj to vmdlwdj
+[src/main.rs:135] &line = [
+    "172894",
+    "jjgrcd.cvf",
+]
+[*] Adding jjgrcd.cvf to vmdlwdj
+[src/main.rs:135] &line = [
+    "dir",
+    "ngpnmbqz",
+]
+[*] Adding ngpnmbqz to vmdlwdj
+[src/main.rs:135] &line = [
+    "296193",
+    "ppmtvcj.bfr",
+]
+[*] Adding ppmtvcj.bfr to vmdlwdj
+[src/main.rs:135] &line = [
+    "dir",
+    "tfvhhpn",
+]
+[*] Adding tfvhhpn to vmdlwdj
+[src/main.rs:135] &line = [
+    "36476",
+    "wqzst.wcj",
+]
+[*] Adding wqzst.wcj to vmdlwdj
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "ngpnmbqz",
+]
+[*] Changing directory to ngpnmbqz
+[src/main.rs:135] &line = [
+    "$",
+    "ls",
+]
+[src/main.rs:135] &line = [
+    "dir",
+    "gnsm",
+]
+[*] Adding gnsm to ngpnmbqz
+[src/main.rs:135] &line = [
+    "dir",
+    "ntsgrm",
+]
+[*] Adding ntsgrm to ngpnmbqz
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "gnsm",
+]
+[*] Changing directory to gnsm
+[src/main.rs:135] &line = [
+    "$",
+    "ls",
+]
+[src/main.rs:135] &line = [
+    "dir",
+    "rjzngs",
+]
+[*] Adding rjzngs to gnsm
+[src/main.rs:135] &line = [
+    "dir",
+    "tvv",
+]
+[*] Adding tvv to gnsm
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "rjzngs",
+]
+[*] Changing directory to rjzngs
+[src/main.rs:135] &line = [
+    "$",
+    "ls",
+]
+[src/main.rs:135] &line = [
+    "dir",
+    "dpfcw",
+]
+[*] Adding dpfcw to rjzngs
+[src/main.rs:135] &line = [
+    "dir",
+    "spmhrb",
+]
+[*] Adding spmhrb to rjzngs
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "dpfcw",
+]
+[*] Changing directory to dpfcw
+[src/main.rs:135] &line = [
+    "$",
+    "ls",
+]
+[src/main.rs:135] &line = [
+    "181566",
+    "mgdjjd.pqg",
+]
+[*] Adding mgdjjd.pqg to dpfcw
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "..",
+]
+[*] Changing directory to rjzngs
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "spmhrb",
+]
+[*] Changing directory to spmhrb
+[src/main.rs:135] &line = [
+    "$",
+    "ls",
+]
+[src/main.rs:135] &line = [
+    "163198",
+    "hhcfpnmg.njm",
+]
+[*] Adding hhcfpnmg.njm to spmhrb
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "..",
+]
+[*] Changing directory to rjzngs
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "..",
+]
+[*] Changing directory to gnsm
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "tvv",
+]
+[*] Changing directory to tvv
+[src/main.rs:135] &line = [
+    "$",
+    "ls",
+]
+[src/main.rs:135] &line = [
+    "131443",
+    "hhcfpnmg.njm",
+]
+[*] Adding hhcfpnmg.njm to tvv
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "..",
+]
+[*] Changing directory to gnsm
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "..",
+]
+[*] Changing directory to ngpnmbqz
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "ntsgrm",
+]
+[*] Changing directory to ntsgrm
+[src/main.rs:135] &line = [
+    "$",
+    "ls",
+]
+[src/main.rs:135] &line = [
+    "246786",
+    "dlz",
+]
+[*] Adding dlz to ntsgrm
+[src/main.rs:135] &line = [
+    "12841",
+    "pzbgrn",
+]
+[*] Adding pzbgrn to ntsgrm
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "..",
+]
+[*] Changing directory to ngpnmbqz
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "..",
+]
+[*] Changing directory to vmdlwdj
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "tfvhhpn",
+]
+[*] Changing directory to tfvhhpn
+[src/main.rs:135] &line = [
+    "$",
+    "ls",
+]
+[src/main.rs:135] &line = [
+    "196923",
+    "dhzp",
+]
+[*] Adding dhzp to tfvhhpn
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "..",
+]
+[*] Changing directory to vmdlwdj
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "..",
+]
+[*] Changing directory to pntzm
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "..",
+]
+[*] Changing directory to /
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "pzg",
+]
+[*] Changing directory to pzg
+[src/main.rs:135] &line = [
+    "$",
+    "ls",
+]
+[src/main.rs:135] &line = [
+    "262706",
+    "ppbqssj.hjj",
+]
+[*] Adding ppbqssj.hjj to pzg
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "..",
+]
+[*] Changing directory to /
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "thfgwwsp",
+]
+[*] Changing directory to thfgwwsp
+[src/main.rs:135] &line = [
+    "$",
+    "ls",
+]
+[src/main.rs:135] &line = [
+    "dir",
+    "dsvc",
+]
+[*] Adding dsvc to thfgwwsp
+[src/main.rs:135] &line = [
+    "dir",
+    "fbg",
+]
+[*] Adding fbg to thfgwwsp
+[src/main.rs:135] &line = [
+    "dir",
+    "flgmdj",
+]
+[*] Adding flgmdj to thfgwwsp
+[src/main.rs:135] &line = [
+    "516",
+    "gwppndsl",
+]
+[*] Adding gwppndsl to thfgwwsp
+[src/main.rs:135] &line = [
+    "dir",
+    "mwl",
+]
+[src/main.rs:135] &line = [
+    "dir",
+    "qfhsr",
+]
+[*] Adding qfhsr to thfgwwsp
+[src/main.rs:135] &line = [
+    "dir",
+    "tgj",
+]
+[*] Adding tgj to thfgwwsp
+[src/main.rs:135] &line = [
+    "dir",
+    "wdmzc",
+]
+[*] Adding wdmzc to thfgwwsp
+[src/main.rs:135] &line = [
+    "272804",
+    "zcbnwhzd",
+]
+[*] Adding zcbnwhzd to thfgwwsp
+[src/main.rs:135] &line = [
+    "dir",
+    "zrfmzrl",
+]
+[*] Adding zrfmzrl to thfgwwsp
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "dsvc",
+]
+[*] Changing directory to dsvc
+[src/main.rs:135] &line = [
+    "$",
+    "ls",
+]
+[src/main.rs:135] &line = [
+    "22089",
+    "dlz",
+]
+[*] Adding dlz to dsvc
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "..",
+]
+[*] Changing directory to thfgwwsp
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "fbg",
+]
+[*] Changing directory to fbg
+[src/main.rs:135] &line = [
+    "$",
+    "ls",
+]
+[src/main.rs:135] &line = [
+    "289639",
+    "hhcfpnmg.njm",
+]
+[*] Adding hhcfpnmg.njm to fbg
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "..",
+]
+[*] Changing directory to thfgwwsp
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "flgmdj",
+]
+[*] Changing directory to flgmdj
+[src/main.rs:135] &line = [
+    "$",
+    "ls",
+]
+[src/main.rs:135] &line = [
+    "293793",
+    "fqrpf",
+]
+[*] Adding fqrpf to flgmdj
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "..",
+]
+[*] Changing directory to thfgwwsp
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "mwl",
+]
+[*] Changing directory to mwl
+[src/main.rs:135] &line = [
+    "$",
+    "ls",
+]
+[src/main.rs:135] &line = [
+    "159673",
+    "dhzp",
+]
+[*] Adding dhzp to mwl
+[src/main.rs:135] &line = [
+    "dir",
+    "ftthgr",
+]
+[*] Adding ftthgr to mwl
+[src/main.rs:135] &line = [
+    "270973",
+    "hhcfpnmg.njm",
+]
+[*] Adding hhcfpnmg.njm to mwl
+[src/main.rs:135] &line = [
+    "dir",
+    "jjrq",
+]
+[*] Adding jjrq to mwl
+[src/main.rs:135] &line = [
+    "279365",
+    "ljpzpdbf",
+]
+[*] Adding ljpzpdbf to mwl
+[src/main.rs:135] &line = [
+    "dir",
+    "mglzfcq",
+]
+[*] Adding mglzfcq to mwl
+[src/main.rs:135] &line = [
+    "101769",
+    "pnz",
+]
+[*] Adding pnz to mwl
+[src/main.rs:135] &line = [
+    "18964",
+    "rdl.wqf",
+]
+[*] Adding rdl.wqf to mwl
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "ftthgr",
+]
+[*] Changing directory to ftthgr
+[src/main.rs:135] &line = [
+    "$",
+    "ls",
+]
+[src/main.rs:135] &line = [
+    "dir",
+    "ccrvnht",
+]
+[*] Adding ccrvnht to ftthgr
+[src/main.rs:135] &line = [
+    "170369",
+    "ljltl.slv",
+]
+[*] Adding ljltl.slv to ftthgr
+[src/main.rs:135] &line = [
+    "dir",
+    "mwl",
+]
+[src/main.rs:135] &line = [
+    "dir",
+    "zqts",
+]
+[*] Adding zqts to ftthgr
+[src/main.rs:135] &line = [
+    "65217",
+    "zvnhmqpz.cqb",
+]
+[*] Adding zvnhmqpz.cqb to ftthgr
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "ccrvnht",
+]
+[*] Changing directory to ccrvnht
+[src/main.rs:135] &line = [
+    "$",
+    "ls",
+]
+[src/main.rs:135] &line = [
+    "164437",
+    "hdb",
+]
+[*] Adding hdb to ccrvnht
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "..",
+]
+[*] Changing directory to ftthgr
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "mwl",
+]
+[*] Changing directory to mwl
+[src/main.rs:135] &line = [
+    "$",
+    "ls",
+]
+[src/main.rs:135] &line = [
+    "dir",
+    "cjsc",
+]
+[*] Adding cjsc to mwl
+[src/main.rs:135] &line = [
+    "dir",
+    "zcbnwhzd",
+]
+[src/main.rs:135] &line = [
+    "dir",
+    "zwzb",
+]
+[*] Adding zwzb to mwl
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "cjsc",
+]
+[*] Changing directory to cjsc
+[src/main.rs:135] &line = [
+    "$",
+    "ls",
+]
+[src/main.rs:135] &line = [
+    "91883",
+    "hhcfpnmg.njm",
+]
+[*] Adding hhcfpnmg.njm to cjsc
+[src/main.rs:135] &line = [
+    "203008",
+    "nfmvr",
+]
+[*] Adding nfmvr to cjsc
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "..",
+]
+[*] Changing directory to mwl
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "zcbnwhzd",
+]
+[*] Changing directory to zcbnwhzd
+[src/main.rs:135] &line = [
+    "$",
+    "ls",
+]
+[src/main.rs:135] &line = [
+    "dir",
+    "mbtsvblj",
+]
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "mbtsvblj",
+]
+[*] Changing directory to mbtsvblj
+[src/main.rs:135] &line = [
+    "$",
+    "ls",
+]
+[src/main.rs:135] &line = [
+    "187513",
+    "ljpzpdbf",
+]
+[*] Adding ljpzpdbf to mbtsvblj
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "..",
+]
+[*] Changing directory to zcbnwhzd
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "..",
+]
+[*] Changing directory to mwl
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "zwzb",
+]
+[*] Changing directory to zwzb
+[src/main.rs:135] &line = [
+    "$",
+    "ls",
+]
+[src/main.rs:135] &line = [
+    "138631",
+    "ljpzpdbf",
+]
+[*] Adding ljpzpdbf to zwzb
+[src/main.rs:135] &line = [
+    "dir",
+    "sjngjp",
+]
+[*] Adding sjngjp to zwzb
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "sjngjp",
+]
+[*] Changing directory to sjngjp
+[src/main.rs:135] &line = [
+    "$",
+    "ls",
+]
+[src/main.rs:135] &line = [
+    "52116",
+    "ccjp.ttc",
+]
+[*] Adding ccjp.ttc to sjngjp
+[src/main.rs:135] &line = [
+    "157900",
+    "fptzbpp.sdm",
+]
+[*] Adding fptzbpp.sdm to sjngjp
+[src/main.rs:135] &line = [
+    "89462",
+    "hhcfpnmg.njm",
+]
+[*] Adding hhcfpnmg.njm to sjngjp
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "..",
+]
+[*] Changing directory to zwzb
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "..",
+]
+[*] Changing directory to mwl
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "..",
+]
+[*] Changing directory to ftthgr
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "zqts",
+]
+[*] Changing directory to zqts
+[src/main.rs:135] &line = [
+    "$",
+    "ls",
+]
+[src/main.rs:135] &line = [
+    "162402",
+    "hdb",
+]
+[*] Adding hdb to zqts
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "..",
+]
+[*] Changing directory to ftthgr
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "..",
+]
+[*] Changing directory to mwl
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "jjrq",
+]
+[*] Changing directory to jjrq
+[src/main.rs:135] &line = [
+    "$",
+    "ls",
+]
+[src/main.rs:135] &line = [
+    "dir",
+    "bffvw",
+]
+[*] Adding bffvw to jjrq
+[src/main.rs:135] &line = [
+    "dir",
+    "czbwf",
+]
+[*] Adding czbwf to jjrq
+[src/main.rs:135] &line = [
+    "13447",
+    "dlz",
+]
+[*] Adding dlz to jjrq
+[src/main.rs:135] &line = [
+    "dir",
+    "gjh",
+]
+[*] Adding gjh to jjrq
+[src/main.rs:135] &line = [
+    "dir",
+    "hjs",
+]
+[*] Adding hjs to jjrq
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "bffvw",
+]
+[*] Changing directory to bffvw
+[src/main.rs:135] &line = [
+    "$",
+    "ls",
+]
+[src/main.rs:135] &line = [
+    "139679",
+    "dqqtq.lnb",
+]
+[*] Adding dqqtq.lnb to bffvw
+[src/main.rs:135] &line = [
+    "dir",
+    "mwl",
+]
+[src/main.rs:135] &line = [
+    "13310",
+    "sjln.zgv",
+]
+[*] Adding sjln.zgv to bffvw
+[src/main.rs:135] &line = [
+    "243329",
+    "srmghrt.ffl",
+]
+[*] Adding srmghrt.ffl to bffvw
+[src/main.rs:135] &line = [
+    "72108",
+    "ssm.tph",
+]
+[*] Adding ssm.tph to bffvw
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "mwl",
+]
+[*] Changing directory to mwl
+[src/main.rs:135] &line = [
+    "$",
+    "ls",
+]
+[src/main.rs:135] &line = [
+    "dir",
+    "fdlmfjt",
+]
+[*] Adding fdlmfjt to mwl
+[src/main.rs:135] &line = [
+    "dir",
+    "jms",
+]
+[*] Adding jms to mwl
+[src/main.rs:135] &line = [
+    "122108",
+    "nqwrj",
+]
+[*] Adding nqwrj to mwl
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "fdlmfjt",
+]
+[*] Changing directory to fdlmfjt
+[src/main.rs:135] &line = [
+    "$",
+    "ls",
+]
+[src/main.rs:135] &line = [
+    "75969",
+    "hdtbcsfc.vmz",
+]
+[*] Adding hdtbcsfc.vmz to fdlmfjt
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "..",
+]
+[*] Changing directory to mwl
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "jms",
+]
+[*] Changing directory to jms
+[src/main.rs:135] &line = [
+    "$",
+    "ls",
+]
+[src/main.rs:135] &line = [
+    "297556",
+    "hhcfpnmg.njm",
+]
+[*] Adding hhcfpnmg.njm to jms
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "..",
+]
+[*] Changing directory to mwl
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "..",
+]
+[*] Changing directory to bffvw
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "..",
+]
+[*] Changing directory to jjrq
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "czbwf",
+]
+[*] Changing directory to czbwf
+[src/main.rs:135] &line = [
+    "$",
+    "ls",
+]
+[src/main.rs:135] &line = [
+    "320541",
+    "ccjp",
+]
+[*] Adding ccjp to czbwf
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "..",
+]
+[*] Changing directory to jjrq
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "gjh",
+]
+[*] Changing directory to gjh
+[src/main.rs:135] &line = [
+    "$",
+    "ls",
+]
+[src/main.rs:135] &line = [
+    "164281",
+    "dhzp",
+]
+[*] Adding dhzp to gjh
+[src/main.rs:135] &line = [
+    "286094",
+    "vjs",
+]
+[*] Adding vjs to gjh
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "..",
+]
+[*] Changing directory to jjrq
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "hjs",
+]
+[*] Changing directory to hjs
+[src/main.rs:135] &line = [
+    "$",
+    "ls",
+]
+[src/main.rs:135] &line = [
+    "dir",
+    "cbdzvd",
+]
+[*] Adding cbdzvd to hjs
+[src/main.rs:135] &line = [
+    "41353",
+    "ccjp",
+]
+[*] Adding ccjp to hjs
+[src/main.rs:135] &line = [
+    "dir",
+    "gbs",
+]
+[*] Adding gbs to hjs
+[src/main.rs:135] &line = [
+    "114686",
+    "hdb",
+]
+[*] Adding hdb to hjs
+[src/main.rs:135] &line = [
+    "dir",
+    "hmtpm",
+]
+[*] Adding hmtpm to hjs
+[src/main.rs:135] &line = [
+    "278709",
+    "ljpzpdbf",
+]
+[*] Adding ljpzpdbf to hjs
+[src/main.rs:135] &line = [
+    "dir",
+    "ppmtvcj",
+]
+[src/main.rs:135] &line = [
+    "292308",
+    "zcmlbbbc.mpp",
+]
+[*] Adding zcmlbbbc.mpp to hjs
+[src/main.rs:135] &line = [
+    "86096",
+    "zttwct",
+]
+[*] Adding zttwct to hjs
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "cbdzvd",
+]
+[*] Changing directory to cbdzvd
+[src/main.rs:135] &line = [
+    "$",
+    "ls",
+]
+[src/main.rs:135] &line = [
+    "153733",
+    "dhzp",
+]
+[*] Adding dhzp to cbdzvd
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "..",
+]
+[*] Changing directory to hjs
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "gbs",
+]
+[*] Changing directory to gbs
+[src/main.rs:135] &line = [
+    "$",
+    "ls",
+]
+[src/main.rs:135] &line = [
+    "dir",
+    "nfnb",
+]
+[*] Adding nfnb to gbs
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "nfnb",
+]
+[*] Changing directory to nfnb
+[src/main.rs:135] &line = [
+    "$",
+    "ls",
+]
+[src/main.rs:135] &line = [
+    "dir",
+    "hgm",
+]
+[*] Adding hgm to nfnb
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "hgm",
+]
+[*] Changing directory to hgm
+[src/main.rs:135] &line = [
+    "$",
+    "ls",
+]
+[src/main.rs:135] &line = [
+    "233469",
+    "ljpzpdbf",
+]
+[*] Adding ljpzpdbf to hgm
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "..",
+]
+[*] Changing directory to nfnb
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "..",
+]
+[*] Changing directory to gbs
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "..",
+]
+[*] Changing directory to hjs
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "hmtpm",
+]
+[*] Changing directory to hmtpm
+[src/main.rs:135] &line = [
+    "$",
+    "ls",
+]
+[src/main.rs:135] &line = [
+    "14247",
+    "mwl",
+]
+[*] Adding mwl to hmtpm
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "..",
+]
+[*] Changing directory to hjs
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "ppmtvcj",
+]
+[*] Changing directory to ppmtvcj
+[src/main.rs:135] &line = [
+    "$",
+    "ls",
+]
+[src/main.rs:135] &line = [
+    "dir",
+    "jcwhvcf",
+]
+[*] Adding jcwhvcf to ppmtvcj
+[src/main.rs:135] &line = [
+    "241390",
+    "mwl",
+]
+[*] Adding mwl to ppmtvcj
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "jcwhvcf",
+]
+[*] Changing directory to jcwhvcf
+[src/main.rs:135] &line = [
+    "$",
+    "ls",
+]
+[src/main.rs:135] &line = [
+    "198254",
+    "wddq.rgp",
+]
+[*] Adding wddq.rgp to jcwhvcf
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "..",
+]
+[*] Changing directory to ppmtvcj
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "..",
+]
+[*] Changing directory to hjs
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "..",
+]
+[*] Changing directory to jjrq
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "..",
+]
+[*] Changing directory to mwl
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "mglzfcq",
+]
+[*] Changing directory to mglzfcq
+[src/main.rs:135] &line = [
+    "$",
+    "ls",
+]
+[src/main.rs:135] &line = [
+    "dir",
+    "bsplglmj",
+]
+[*] Adding bsplglmj to mglzfcq
+[src/main.rs:135] &line = [
+    "21700",
+    "fhflt.vgq",
+]
+[*] Adding fhflt.vgq to mglzfcq
+[src/main.rs:135] &line = [
+    "56724",
+    "lpmcbzrj",
+]
+[*] Adding lpmcbzrj to mglzfcq
+[src/main.rs:135] &line = [
+    "222733",
+    "qnbr",
+]
+[*] Adding qnbr to mglzfcq
+[src/main.rs:135] &line = [
+    "256952",
+    "thvbqb.gtv",
+]
+[*] Adding thvbqb.gtv to mglzfcq
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "bsplglmj",
+]
+[*] Changing directory to bsplglmj
+[src/main.rs:135] &line = [
+    "$",
+    "ls",
+]
+[src/main.rs:135] &line = [
+    "dir",
+    "zcbnwhzd",
+]
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "zcbnwhzd",
+]
+[*] Changing directory to zcbnwhzd
+[src/main.rs:135] &line = [
+    "$",
+    "ls",
+]
+[src/main.rs:135] &line = [
+    "dir",
+    "mqzqz",
+]
+[*] Adding mqzqz to zcbnwhzd
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "mqzqz",
+]
+[*] Changing directory to mqzqz
+[src/main.rs:135] &line = [
+    "$",
+    "ls",
+]
+[src/main.rs:135] &line = [
+    "75000",
+    "ppmtvcj",
+]
+[*] Adding ppmtvcj to mqzqz
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "..",
+]
+[*] Changing directory to zcbnwhzd
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "..",
+]
+[*] Changing directory to bsplglmj
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "..",
+]
+[*] Changing directory to mglzfcq
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "..",
+]
+[*] Changing directory to mwl
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "..",
+]
+[*] Changing directory to thfgwwsp
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "qfhsr",
+]
+[*] Changing directory to qfhsr
+[src/main.rs:135] &line = [
+    "$",
+    "ls",
+]
+[src/main.rs:135] &line = [
+    "249770",
+    "gfv.cnw",
+]
+[*] Adding gfv.cnw to qfhsr
+[src/main.rs:135] &line = [
+    "70204",
+    "qlvwhff.jhm",
+]
+[*] Adding qlvwhff.jhm to qfhsr
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "..",
+]
+[*] Changing directory to thfgwwsp
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "tgj",
+]
+[*] Changing directory to tgj
+[src/main.rs:135] &line = [
+    "$",
+    "ls",
+]
+[src/main.rs:135] &line = [
+    "243926",
+    "mwl.bfv",
+]
+[*] Adding mwl.bfv to tgj
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "..",
+]
+[*] Changing directory to thfgwwsp
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "wdmzc",
+]
+[*] Changing directory to wdmzc
+[src/main.rs:135] &line = [
+    "$",
+    "ls",
+]
+[src/main.rs:135] &line = [
+    "19843",
+    "hdb",
+]
+[*] Adding hdb to wdmzc
+[src/main.rs:135] &line = [
+    "264263",
+    "jbqf.str",
+]
+[*] Adding jbqf.str to wdmzc
+[src/main.rs:135] &line = [
+    "261303",
+    "qrvt.lbr",
+]
+[*] Adding qrvt.lbr to wdmzc
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "..",
+]
+[*] Changing directory to thfgwwsp
+[src/main.rs:135] &line = [
+    "$",
+    "cd",
+    "zrfmzrl",
+]
+[*] Changing directory to zrfmzrl
+[src/main.rs:135] &line = [
+    "$",
+    "ls",
+]
+[src/main.rs:135] &line = [
+    "52067",
+    "lnfgp.nhl",
+]
+[*] Adding lnfgp.nhl to zrfmzrl
+[src/main.rs:172] &fs = FileSystem {
+    path: [
+        "/",
+        "thfgwwsp",
+        "zrfmzrl",
+    ],
+    directories: {
+        "tfvhhpn": Directory {
+            files: {
+                "dhzp": File {
+                    size: 196923,
+                },
+            },
+            subdirectories: {},
+            size: 196923,
+        },
+        "cbdzvd": Directory {
+            files: {
+                "dhzp": File {
+                    size: 153733,
+                },
+            },
+            subdirectories: {},
+            size: 153733,
+        },
+        "mwl": Directory {
+            files: {
+                "dhzp": File {
+                    size: 159673,
+                },
+                "mhnrwpmg.svv": File {
+                    size: 90781,
+                },
+                "zrvbsht.fmm": File {
+                    size: 283104,
+                },
+                "htc.qjr": File {
+                    size: 98218,
+                },
+                "glwp.dls": File {
+                    size: 203337,
+                },
+                "mwl": File {
+                    size: 146522,
+                },
+                "hhcfpnmg.njm": File {
+                    size: 270973,
+                },
+                "wfr": File {
+                    size: 186368,
+                },
+                "mwl.qph": File {
+                    size: 112753,
+                },
+                "sfthn": File {
+                    size: 78589,
+                },
+                "nqwrj": File {
+                    size: 122108,
+                },
+                "fnjztz": File {
+                    size: 139000,
+                },
+                "hdv.vfs": File {
+                    size: 36787,
+                },
+                "pnz": File {
+                    size: 101769,
+                },
+                "jfnjdtr.ssj": File {
+                    size: 288944,
+                },
+                "prpjmrw": File {
+                    size: 178576,
+                },
+                "rdl.wqf": File {
+                    size: 18964,
+                },
+                "ljpzpdbf": File {
+                    size: 279365,
+                },
+                "mgfvgw": File {
+                    size: 195369,
+                },
+            },
+            subdirectories: {
+                "frc",
+                "mglzfcq",
+                "mghhqrtn",
+                "pddbdp",
+                "qct",
+                "cjsc",
+                "lqqqppm",
+                "zrtvvf",
+                "zwzb",
+                "fdlmfjt",
+                "jms",
+                "jjrq",
+                "ftthgr",
+            },
+            size: 11934431,
+        },
+        "ffzjcshp": Directory {
+            files: {},
+            subdirectories: {
+                "ppmtvcj",
+            },
+            size: 184744,
+        },
+        "pbqh": Directory {
+            files: {
+                "dlz": File {
+                    size: 202610,
+                },
+            },
+            subdirectories: {
+                "vdrqc",
+            },
+            size: 405568,
+        },
+        "sjngjp": Directory {
+            files: {
+                "fptzbpp.sdm": File {
+                    size: 157900,
+                },
+                "ccjp.ttc": File {
+                    size: 52116,
+                },
+                "hhcfpnmg.njm": File {
+                    size: 89462,
+                },
+            },
+            subdirectories: {},
+            size: 299478,
+        },
+        "zqts": Directory {
+            files: {
+                "hdb": File {
+                    size: 162402,
+                },
+            },
+            subdirectories: {},
+            size: 162402,
+        },
+        "fzrm": Directory {
+            files: {
+                "vwgq": File {
+                    size: 163587,
+                },
+                "mmz.mqq": File {
+                    size: 317618,
+                },
+                "dhzp": File {
+                    size: 211229,
+                },
+                "mbtsvblj.mtw": File {
+                    size: 76461,
+                },
+            },
+            subdirectories: {
+                "bjwtbc",
+                "dtslj",
+            },
+            size: 1463474,
+        },
+        "pcbc": Directory {
+            files: {
+                "mbtsvblj.hqd": File {
+                    size: 140010,
+                },
+            },
+            subdirectories: {},
+            size: 140010,
+        },
+        "lqqqppm": Directory {
+            files: {
+                "nqv": File {
+                    size: 38505,
+                },
+            },
+            subdirectories: {
+                "jdznl",
+            },
+            size: 743445,
+        },
+        "dsvc": Directory {
+            files: {
+                "dlz": File {
+                    size: 22089,
+                },
+            },
+            subdirectories: {},
+            size: 22089,
+        },
+        "gbs": Directory {
+            files: {},
+            subdirectories: {
+                "nfnb",
+            },
+            size: 233469,
+        },
+        "mbtsvblj": Directory {
+            files: {
+                "ccjp.wbn": File {
+                    size: 262652,
+                },
+                "mbtsvblj.gnz": File {
+                    size: 297839,
+                },
+                "lmstdpfc.nww": File {
+                    size: 306673,
+                },
+                "mbtsvblj.spw": File {
+                    size: 212527,
+                },
+                "ngmltt.qwl": File {
+                    size: 232198,
+                },
+                "czn": File {
+                    size: 64862,
+                },
+                "dhzp": File {
+                    size: 309781,
+                },
+                "pjhvzjt.brz": File {
+                    size: 258527,
+                },
+                "tzsmvh": File {
+                    size: 223322,
+                },
+                "mbtsvblj": File {
+                    size: 18524,
+                },
+                "frqsf.nsv": File {
+                    size: 34806,
+                },
+                "ccjp.szb": File {
+                    size: 243142,
+                },
+                "ljpzpdbf": File {
+                    size: 187513,
+                },
+                "cqrtmpdp.pjq": File {
+                    size: 310866,
+                },
+                "cmmlw.bmq": File {
+                    size: 65132,
+                },
+                "dlz": File {
+                    size: 235270,
+                },
+                "ghtzv": File {
+                    size: 139779,
+                },
+                "rml.rhm": File {
+                    size: 255567,
+                },
+                "cjdm.whc": File {
+                    size: 287467,
+                },
+                "ppmtvcj": File {
+                    size: 174541,
+                },
+                "hpfgtnts": File {
+                    size: 233084,
+                },
+                "pqsqjg.vwr": File {
+                    size: 249019,
+                },
+            },
+            subdirectories: {
+                "csqcnmtc",
+                "vwgrpswj",
+                "nmzwtwwc",
+                "fgd",
+                "rgmvdwt",
+                "pbqh",
+                "nlsprnh",
+                "ptht",
+                "ppq",
+                "qqfsb",
+                "dqnr",
+                "pwnn",
+                "srfzjfw",
+                "ffzjcshp",
+                "clfpc",
+                "rbpbl",
+                "cdzgtll",
+                "fbfr",
+                "bzpdz",
+                "ppwgsp",
+                "dfgd",
+                "zcrrtlh",
+            },
+            size: 60948118,
+        },
+        "hnnhdd": Directory {
+            files: {
+                "ljpzpdbf": File {
+                    size: 119221,
+                },
+                "whhpztz.lgt": File {
+                    size: 210488,
+                },
+                "fjp": File {
+                    size: 35908,
+                },
+            },
+            subdirectories: {},
+            size: 365617,
+        },
+        "jrbcqlct": Directory {
+            files: {
+                "dlz": File {
+                    size: 325945,
+                },
+            },
+            subdirectories: {},
+            size: 325945,
+        },
+        "cvm": Directory {
+            files: {
+                "hhcfpnmg.njm": File {
+                    size: 196619,
+                },
+            },
+            subdirectories: {},
+            size: 196619,
+        },
+        "zrfmzrl": Directory {
+            files: {
+                "lnfgp.nhl": File {
+                    size: 52067,
+                },
+            },
+            subdirectories: {},
+            size: 52067,
+        },
+        "njvgs": Directory {
+            files: {},
+            subdirectories: {
+                "bmhdth",
+            },
+            size: 509319,
+        },
+        "hslmvvb": Directory {
+            files: {
+                "qtjtsvgg.ltz": File {
+                    size: 11814,
+                },
+                "gpwnf.qtd": File {
+                    size: 148628,
+                },
+            },
+            subdirectories: {
+                "jrl",
+            },
+            size: 280159,
+        },
+        "wdmzc": Directory {
+            files: {
+                "jbqf.str": File {
+                    size: 264263,
+                },
+                "hdb": File {
+                    size: 19843,
+                },
+                "qrvt.lbr": File {
+                    size: 261303,
+                },
+            },
+            subdirectories: {},
+            size: 545409,
+        },
+        "mdv": Directory {
+            files: {
+                "mcm": File {
+                    size: 95091,
+                },
+                "mwl.ncb": File {
+                    size: 67779,
+                },
+                "dlz": File {
+                    size: 231290,
+                },
+                "hdb": File {
+                    size: 3468,
+                },
+                "slrv.qdl": File {
+                    size: 143730,
+                },
+            },
+            subdirectories: {
+                "ppf",
+                "sqbdvppf",
+                "rfwwtjdn",
+            },
+            size: 3156368,
+        },
+        "thfgwwsp": Directory {
+            files: {
+                "gwppndsl": File {
+                    size: 516,
+                },
+                "zcbnwhzd": File {
+                    size: 272804,
+                },
+            },
+            subdirectories: {
+                "dsvc",
+                "zrfmzrl",
+                "fbg",
+                "flgmdj",
+                "qfhsr",
+                "tgj",
+                "wdmzc",
+            },
+            size: 8389675,
+        },
+        "ndzfvl": Directory {
+            files: {
+                "hhcfpnmg.njm": File {
+                    size: 43177,
+                },
+            },
+            subdirectories: {},
+            size: 43177,
+        },
+        "ftfch": Directory {
+            files: {
+                "dlz": File {
+                    size: 58846,
+                },
+                "dhzp": File {
+                    size: 50242,
+                },
+            },
+            subdirectories: {
+                "hhwsrzhv",
+            },
+            size: 766912,
+        },
+        "zcbnwhzd": Directory {
+            files: {
+                "mqdv.cdb": File {
+                    size: 44255,
+                },
+                "dlz": File {
+                    size: 79744,
+                },
+                "ccjp": File {
+                    size: 307501,
+                },
+                "dhnwjlzj": File {
+                    size: 88477,
+                },
+                "dhzp": File {
+                    size: 143989,
+                },
+                "nrgpwm.cbb": File {
+                    size: 302364,
+                },
+                "gwdl.vfl": File {
+                    size: 256683,
+                },
+                "fnr.dgt": File {
+                    size: 145508,
+                },
+                "rgvcf": File {
+                    size: 79723,
+                },
+                "wdgq.hfm": File {
+                    size: 88945,
+                },
+                "pmhtz": File {
+                    size: 248526,
+                },
+            },
+            subdirectories: {
+                "mqzqz",
+                "zpm",
+                "mdv",
+                "rwmzdt",
+                "dfgbztqr",
+                "sjdh",
+            },
+            size: 6621453,
+        },
+        "dtslj": Directory {
+            files: {
+                "hhcfpnmg.njm": File {
+                    size: 277817,
+                },
+            },
+            subdirectories: {},
+            size: 277817,
+        },
+        "hmtpm": Directory {
+            files: {
+                "mwl": File {
+                    size: 14247,
+                },
+            },
+            subdirectories: {},
+            size: 14247,
+        },
+        "sjdh": Directory {
+            files: {
+                "srwzspsl": File {
+                    size: 43495,
+                },
+            },
+            subdirectories: {},
+            size: 43495,
+        },
+        "qrsg": Directory {
+            files: {},
+            subdirectories: {
+                "htrvnvz",
+            },
+            size: 235270,
+        },
+        "ppfq": Directory {
+            files: {
+                "hdb": File {
+                    size: 263452,
+                },
+            },
+            subdirectories: {},
+            size: 263452,
+        },
+        "vfnrs": Directory {
+            files: {
+                "bwlpdfv.hzh": File {
+                    size: 217267,
+                },
+            },
+            subdirectories: {},
+            size: 217267,
+        },
+        "dshrpf": Directory {
+            files: {},
+            subdirectories: {
+                "qrsg",
+                "nll",
+            },
+            size: 796168,
+        },
+        "ccrvnht": Directory {
+            files: {
+                "hdb": File {
+                    size: 164437,
+                },
+            },
+            subdirectories: {},
+            size: 164437,
+        },
+        "mqzqz": Directory {
+            files: {
+                "ppmtvcj": File {
+                    size: 75000,
+                },
+            },
+            subdirectories: {},
+            size: 75000,
+        },
+        "pddbdp": Directory {
+            files: {
+                "dlz": File {
+                    size: 27497,
+                },
+            },
+            subdirectories: {},
+            size: 27497,
+        },
+        "trq": Directory {
+            files: {
+                "ccjp": File {
+                    size: 278471,
+                },
+            },
+            subdirectories: {},
+            size: 278471,
+        },
+        "dpngpgr": Directory {
+            files: {
+                "ccjp.nbs": File {
+                    size: 128899,
+                },
+            },
+            subdirectories: {},
+            size: 128899,
+        },
+        "wjhjlpr": Directory {
+            files: {},
+            subdirectories: {
+                "wzwqrfhv",
+            },
+            size: 262877,
+        },
+        "hhwsrzhv": Directory {
+            files: {
+                "tmcfmshb": File {
+                    size: 205664,
+                },
+                "dhzp": File {
+                    size: 67610,
+                },
+            },
+            subdirectories: {
+                "bjnn",
+            },
+            size: 657824,
+        },
+        "cdzgtll": Directory {
+            files: {
+                "dlz": File {
+                    size: 124219,
+                },
+                "hdb": File {
+                    size: 199796,
+                },
+                "dhzp": File {
+                    size: 163523,
+                },
+            },
+            subdirectories: {},
+            size: 487538,
+        },
+        "qqfsb": Directory {
+            files: {
+                "mwl.bzl": File {
+                    size: 241455,
+                },
+                "mbtsvblj.fvh": File {
+                    size: 211390,
+                },
+            },
+            subdirectories: {},
+            size: 452845,
+        },
+        "pwnn": Directory {
+            files: {
+                "ppmtvcj.jtm": File {
+                    size: 104826,
+                },
+            },
+            subdirectories: {},
+            size: 104826,
+        },
+        "cjsc": Directory {
+            files: {
+                "nfmvr": File {
+                    size: 203008,
+                },
+                "hhcfpnmg.njm": File {
+                    size: 91883,
+                },
+            },
+            subdirectories: {},
+            size: 294891,
+        },
+        "czbwf": Directory {
+            files: {
+                "ccjp": File {
+                    size: 320541,
+                },
+            },
+            subdirectories: {},
+            size: 320541,
+        },
+        "bjnn": Directory {
+            files: {
+                "dlz": File {
+                    size: 199806,
+                },
+            },
+            subdirectories: {},
+            size: 199806,
+        },
+        "whtrbcqn": Directory {
+            files: {
+                "vzcsfcwf": File {
+                    size: 51040,
+                },
+            },
+            subdirectories: {
+                "hslmvvb",
+            },
+            size: 370688,
+        },
+        "jms": Directory {
+            files: {
+                "hhcfpnmg.njm": File {
+                    size: 297556,
+                },
+            },
+            subdirectories: {},
+            size: 297556,
+        },
+        "nmzwtwwc": Directory {
+            files: {
+                "vzq.pcj": File {
+                    size: 323366,
+                },
+            },
+            subdirectories: {},
+            size: 323366,
+        },
+        "snrl": Directory {
+            files: {
+                "ccjp.jpw": File {
+                    size: 16142,
+                },
+                "gqggd.dwm": File {
+                    size: 52600,
+                },
+                "cmbnljt.ljq": File {
+                    size: 150389,
+                },
+            },
+            subdirectories: {},
+            size: 219131,
+        },
+        "qct": Directory {
+            files: {
+                "nlvtp.qjn": File {
+                    size: 12143,
+                },
+                "nqjqzt": File {
+                    size: 152733,
+                },
+                "mlqtp": File {
+                    size: 60637,
+                },
+                "hdb": File {
+                    size: 33534,
+                },
+                "jpwqvbs.mvr": File {
+                    size: 27140,
+                },
+            },
+            subdirectories: {},
+            size: 286187,
+        },
+        "tvv": Directory {
+            files: {
+                "hhcfpnmg.njm": File {
+                    size: 131443,
+                },
+            },
+            subdirectories: {},
+            size: 131443,
+        },
+        "pcb": Directory {
+            files: {
+                "lrmj.rmm": File {
+                    size: 319302,
+                },
+                "pvftq": File {
+                    size: 303062,
+                },
+                "gbpzf.gmg": File {
+                    size: 201615,
+                },
+            },
+            subdirectories: {
+                "lhth",
+                "mwl",
+            },
+            size: 6258197,
+        },
+        "hpsnpc": Directory {
+            files: {
+                "qphlw.whm": File {
+                    size: 311949,
+                },
+                "bfdfbrh.vff": File {
+                    size: 6334,
+                },
+            },
+            subdirectories: {},
+            size: 318283,
+        },
+        "bjwtbc": Directory {
+            files: {
+                "hhcfpnmg.njm": File {
+                    size: 9891,
+                },
+            },
+            subdirectories: {},
+            size: 325981,
+        },
+        "jdznl": Directory {
+            files: {
+                "zrrzsfss": File {
+                    size: 254459,
+                },
+                "nnwgd.vjn": File {
+                    size: 136077,
+                },
+                "ctt": File {
+                    size: 85492,
+                },
+                "dfbgtqj.vsb": File {
+                    size: 228912,
+                },
+            },
+            subdirectories: {},
+            size: 704940,
+        },
+        "vws": Directory {
+            files: {
+                "szszjfv": File {
+                    size: 103603,
+                },
+                "pjs": File {
+                    size: 98036,
+                },
+                "ztd": File {
+                    size: 211083,
+                },
+            },
+            subdirectories: {},
+            size: 412722,
+        },
+        "zcrrtlh": Directory {
+            files: {
+                "bcbnmhq": File {
+                    size: 27488,
+                },
+            },
+            subdirectories: {
+                "fgqbpcn",
+                "dhsmmlt",
+            },
+            size: 14429645,
+        },
+        "zrtvvf": Directory {
+            files: {
+                "gtz.gsc": File {
+                    size: 82162,
+                },
+            },
+            subdirectories: {},
+            size: 82162,
+        },
+        "fgqbpcn": Directory {
+            files: {
+                "ppmtvcj.ngb": File {
+                    size: 162589,
+                },
+                "dhzp": File {
+                    size: 169227,
+                },
+                "rcgbjn.wfv": File {
+                    size: 199626,
+                },
+                "pjjln.ngc": File {
+                    size: 140391,
+                },
+            },
+            subdirectories: {
+                "snrl",
+                "vfnrs",
+                "dwsgcrz",
+            },
+            size: 1408982,
+        },
+        "pzg": Directory {
+            files: {
+                "ppbqssj.hjj": File {
+                    size: 262706,
+                },
+            },
+            subdirectories: {},
+            size: 262706,
+        },
+        "ppq": Directory {
+            files: {
+                "dhzp": File {
+                    size: 266252,
+                },
+            },
+            subdirectories: {},
+            size: 266252,
+        },
+        "bgrb": Directory {
+            files: {
+                "ccjp.zmf": File {
+                    size: 119046,
+                },
+            },
+            subdirectories: {
+                "qsnng",
+            },
+            size: 314458,
+        },
+        "wzwqrfhv": Directory {
+            files: {
+                "ccjp": File {
+                    size: 262877,
+                },
+            },
+            subdirectories: {},
+            size: 262877,
+        },
+        "ngpnmbqz": Directory {
+            files: {},
+            subdirectories: {
+                "gnsm",
+                "ntsgrm",
+            },
+            size: 735834,
+        },
+        "mghhqrtn": Directory {
+            files: {
+                "dlz": File {
+                    size: 220446,
+                },
+                "pwwlwv.crn": File {
+                    size: 36230,
+                },
+            },
+            subdirectories: {},
+            size: 256676,
+        },
+        "ppwgsp": Directory {
+            files: {
+                "pzvtdl.lcc": File {
+                    size: 248541,
+                },
+            },
+            subdirectories: {},
+            size: 248541,
+        },
+        "ppf": Directory {
+            files: {
+                "rgdtlp": File {
+                    size: 73809,
+                },
+            },
+            subdirectories: {},
+            size: 73809,
+        },
+        "dfgbztqr": Directory {
+            files: {
+                "hdb": File {
+                    size: 18261,
+                },
+            },
+            subdirectories: {},
+            size: 546961,
+        },
+        "tgj": Directory {
+            files: {
+                "mwl.bfv": File {
+                    size: 243926,
+                },
+            },
+            subdirectories: {},
+            size: 243926,
+        },
+        "fsfd": Directory {
+            files: {
+                "qqvchq.mwh": File {
+                    size: 105721,
+                },
+            },
+            subdirectories: {},
+            size: 105721,
+        },
+        "ftthgr": Directory {
+            files: {
+                "zvnhmqpz.cqb": File {
+                    size: 65217,
+                },
+                "ljltl.slv": File {
+                    size: 170369,
+                },
+            },
+            subdirectories: {
+                "ccrvnht",
+                "zqts",
+            },
+            size: 1482938,
+        },
+        "vmdlwdj": Directory {
+            files: {
+                "bcgjdpj.qcj": File {
+                    size: 29199,
+                },
+                "wqzst.wcj": File {
+                    size: 36476,
+                },
+                "jjgrcd.cvf": File {
+                    size: 172894,
+                },
+                "ppmtvcj.bfr": File {
+                    size: 296193,
+                },
+            },
+            subdirectories: {
+                "tfvhhpn",
+                "ngpnmbqz",
+            },
+            size: 1467519,
+        },
+        "ptht": Directory {
+            files: {},
+            subdirectories: {
+                "jbnj",
+                "zcbnwhzd",
+            },
+            size: 653838,
+        },
+        "wffbp": Directory {
+            files: {
+                "whzpsbqp.clq": File {
+                    size: 34904,
+                },
+                "ppmtvcj.hzc": File {
+                    size: 150447,
+                },
+            },
+            subdirectories: {
+                "nvq",
+            },
+            size: 12071187,
+        },
+        "jffq": Directory {
+            files: {},
+            subdirectories: {
+                "dpngpgr",
+                "htbf",
+            },
+            size: 219280,
+        },
+        "fbfr": Directory {
+            files: {
+                "hbw.jhj": File {
+                    size: 216109,
+                },
+                "zfgh": File {
+                    size: 316300,
+                },
+                "qstlgvb": File {
+                    size: 210950,
+                },
+                "hdhl": File {
+                    size: 319355,
+                },
+            },
+            subdirectories: {
+                "dshrpf",
+                "ltf",
+                "thhncv",
+            },
+            size: 2628522,
+        },
+        "ccjp": Directory {
+            files: {
+                "mdvvj.dlf": File {
+                    size: 268430,
+                },
+                "cwtvtcnp.tft": File {
+                    size: 29914,
+                },
+                "wcw.dng": File {
+                    size: 128473,
+                },
+                "jrqwhsn.ptv": File {
+                    size: 299982,
+                },
+                "slps": File {
+                    size: 39489,
+                },
+                "nppbjl.qhg": File {
+                    size: 165076,
+                },
+                "fcwjtzhs.vqn": File {
+                    size: 215864,
+                },
+                "jjcggmr.ljs": File {
+                    size: 80040,
+                },
+                "dlz": File {
+                    size: 159990,
+                },
+                "rvlb": File {
+                    size: 295537,
+                },
+                "ccjp": File {
+                    size: 10932,
+                },
+                "ljpzpdbf": File {
+                    size: 280655,
+                },
+            },
+            subdirectories: {
+                "tqwchhd",
+                "rdgngdm",
+                "mvhhlg",
+                "smftmb",
+                "mbtsvblj",
+                "ppfq",
+            },
+            size: 5968763,
+        },
+        "htbf": Directory {
+            files: {
+                "ljpzpdbf": File {
+                    size: 90381,
+                },
+            },
+            subdirectories: {},
+            size: 90381,
+        },
+        "fgd": Directory {
+            files: {
+                "msjrcl.dsh": File {
+                    size: 158213,
+                },
+            },
+            subdirectories: {},
+            size: 158213,
+        },
+        "hgm": Directory {
+            files: {
+                "ljpzpdbf": File {
+                    size: 233469,
+                },
+            },
+            subdirectories: {},
+            size: 233469,
+        },
+        "bmhdth": Directory {
+            files: {
+                "ppmtvcj.hwq": File {
+                    size: 154455,
+                },
+            },
+            subdirectories: {},
+            size: 154455,
+        },
+        "tqwchhd": Directory {
+            files: {
+                "dlz": File {
+                    size: 294014,
+                },
+                "ljpzpdbf": File {
+                    size: 122061,
+                },
+                "ppmtvcj.wlp": File {
+                    size: 54178,
+                },
+            },
+            subdirectories: {
+                "trm",
+            },
+            size: 982456,
+        },
+        "lhth": Directory {
+            files: {
+                "tlls": File {
+                    size: 79532,
+                },
+            },
+            subdirectories: {},
+            size: 79532,
+        },
+        "srfzjfw": Directory {
+            files: {
+                "ljpzpdbf": File {
+                    size: 210830,
+                },
+            },
+            subdirectories: {
+                "zcrrvpg",
+                "jfnd",
+            },
+            size: 1528651,
+        },
+        "htrvnvz": Directory {
+            files: {},
+            subdirectories: {},
+            size: 235270,
+        },
+        "ppmtvcj": Directory {
+            files: {
+                "ljpzpdbf": File {
+                    size: 208809,
+                },
+                "mwl": File {
+                    size: 241390,
+                },
+                "zcbnwhzd": File {
+                    size: 297245,
+                },
+                "dlz": File {
+                    size: 184744,
+                },
+                "jzfnmdw.jms": File {
+                    size: 45041,
+                },
+            },
+            subdirectories: {
+                "zstzfs",
+                "jcwhvcf",
+            },
+            size: 1338727,
+        },
+        "mvhhlg": Directory {
+            files: {
+                "fwhcbfr.shd": File {
+                    size: 146902,
+                },
+            },
+            subdirectories: {},
+            size: 146902,
+        },
+        "scwlmjzm": Directory {
+            files: {
+                "vhpsrbzw.jnh": File {
+                    size: 119717,
+                },
+            },
+            subdirectories: {},
+            size: 119717,
+        },
+        "/": Directory {
+            files: {
+                "hglnvs.bsh": File {
+                    size: 328708,
+                },
+            },
+            subdirectories: {
+                "pzg",
+                "pntzm",
+                "ccjp",
+                "thfgwwsp",
+                "hpsnpc",
+                "pcb",
+            },
+            size: 46457231,
+        },
+        "jbnj": Directory {
+            files: {
+                "zwtwf.zfz": File {
+                    size: 145780,
+                },
+            },
+            subdirectories: {
+                "clscr",
+            },
+            size: 395311,
+        },
+        "ntsgrm": Directory {
+            files: {
+                "pzbgrn": File {
+                    size: 12841,
+                },
+                "dlz": File {
+                    size: 246786,
+                },
+            },
+            subdirectories: {},
+            size: 259627,
+        },
+        "mglzfcq": Directory {
+            files: {
+                "fhflt.vgq": File {
+                    size: 21700,
+                },
+                "lpmcbzrj": File {
+                    size: 56724,
+                },
+                "qnbr": File {
+                    size: 222733,
+                },
+                "thvbqb.gtv": File {
+                    size: 256952,
+                },
+            },
+            subdirectories: {
+                "bsplglmj",
+            },
+            size: 633109,
+        },
+        "qsnng": Directory {
+            files: {
+                "vjdh.cqv": File {
+                    size: 195412,
+                },
+            },
+            subdirectories: {},
+            size: 195412,
+        },
+        "btfhswwf": Directory {
+            files: {
+                "ccjp.clj": File {
+                    size: 62811,
+                },
+            },
+            subdirectories: {},
+            size: 62811,
+        },
+        "mshf": Directory {
+            files: {
+                "ppmtvcj": File {
+                    size: 314602,
+                },
+            },
+            subdirectories: {},
+            size: 314602,
+        },
+        "nfnb": Directory {
+            files: {},
+            subdirectories: {
+                "hgm",
+            },
+            size: 233469,
+        },
+        "dfgd": Directory {
+            files: {
+                "ccjp.cbt": File {
+                    size: 173064,
+                },
+                "mbtsvblj.zrl": File {
+                    size: 87000,
+                },
+                "rhtslcwt.wgt": File {
+                    size: 210984,
+                },
+            },
+            subdirectories: {
+                "vws",
+                "njvgs",
+                "grcs",
+                "cdqc",
+                "fzrm",
+            },
+            size: 3401443,
+        },
+        "vwgrpswj": Directory {
+            files: {
+                "mwl.pwl": File {
+                    size: 293673,
+                },
+            },
+            subdirectories: {
+                "jgt",
+            },
+            size: 1133920,
+        },
+        "bzpdz": Directory {
+            files: {
+                "hhcfpnmg.njm": File {
+                    size: 280597,
+                },
+                "nmgvrhr.mvp": File {
+                    size: 151008,
+                },
+                "gtmftv": File {
+                    size: 272769,
+                },
+            },
+            subdirectories: {},
+            size: 704374,
+        },
+        "rfwwtjdn": Directory {
+            files: {
+                "zcbnwhzd.szn": File {
+                    size: 237019,
+                },
+                "dhzp": File {
+                    size: 255306,
+                },
+                "zbnmtcgr.ddf": File {
+                    size: 306865,
+                },
+            },
+            subdirectories: {},
+            size: 799190,
+        },
+        "gnsm": Directory {
+            files: {},
+            subdirectories: {
+                "tvv",
+                "rjzngs",
+            },
+            size: 476207,
+        },
+        "wwjnwbjj": Directory {
+            files: {},
+            subdirectories: {},
+            size: 27497,
+        },
+        "clscr": Directory {
+            files: {
+                "dhzp": File {
+                    size: 249531,
+                },
+            },
+            subdirectories: {},
+            size: 249531,
+        },
+        "jjrq": Directory {
+            files: {
+                "dlz": File {
+                    size: 13447,
+                },
+            },
+            subdirectories: {
+                "bffvw",
+                "czbwf",
+                "gjh",
+                "hjs",
+            },
+            size: 3402667,
+        },
+        "srpm": Directory {
+            files: {
+                "ngw.fhm": File {
+                    size: 90698,
+                },
+            },
+            subdirectories: {},
+            size: 90698,
+        },
+        "tqdmtp": Directory {
+            files: {
+                "dhzp": File {
+                    size: 280430,
+                },
+            },
+            subdirectories: {},
+            size: 280430,
+        },
+        "dpfcw": Directory {
+            files: {
+                "mgdjjd.pqg": File {
+                    size: 181566,
+                },
+            },
+            subdirectories: {},
+            size: 181566,
+        },
+        "jrl": Directory {
+            files: {},
+            subdirectories: {
+                "scwlmjzm",
+            },
+            size: 119717,
+        },
+        "fdlmfjt": Directory {
+            files: {
+                "hdtbcsfc.vmz": File {
+                    size: 75969,
+                },
+            },
+            subdirectories: {},
+            size: 75969,
+        },
+        "csqcnmtc": Directory {
+            files: {
+                "hdb": File {
+                    size: 37144,
+                },
+                "nljlpbjq": File {
+                    size: 66387,
+                },
+                "rgclgwnq": File {
+                    size: 120839,
+                },
+                "ccjp": File {
+                    size: 16652,
+                },
+            },
+            subdirectories: {
+                "fsfd",
+            },
+            size: 9239506,
+        },
+        "pntzm": Directory {
+            files: {},
+            subdirectories: {
+                "hnnhdd",
+                "vmdlwdj",
+            },
+            size: 29338329,
+        },
+        "rbpbl": Directory {
+            files: {
+                "fmnmsjr.svf": File {
+                    size: 59872,
+                },
+            },
+            subdirectories: {},
+            size: 59872,
+        },
+        "dqnr": Directory {
+            files: {
+                "frhjlp.rnn": File {
+                    size: 158871,
+                },
+                "cjnwm.lrb": File {
+                    size: 302986,
+                },
+                "nrlmq": File {
+                    size: 180385,
+                },
+            },
+            subdirectories: {},
+            size: 642242,
+        },
+        "dwsgcrz": Directory {
+            files: {
+                "fjlw.wtp": File {
+                    size: 300751,
+                },
+            },
+            subdirectories: {},
+            size: 300751,
+        },
+        "jfnd": Directory {
+            files: {
+                "zvtdj.srv": File {
+                    size: 300883,
+                },
+            },
+            subdirectories: {},
+            size: 300883,
+        },
+        "qfhsr": Directory {
+            files: {
+                "qlvwhff.jhm": File {
+                    size: 70204,
+                },
+                "gfv.cnw": File {
+                    size: 249770,
+                },
+            },
+            subdirectories: {},
+            size: 319974,
+        },
+        "jrd": Directory {
+            files: {
+                "fqqg.pfc": File {
+                    size: 184948,
+                },
+                "nbvbr": File {
+                    size: 136894,
+                },
+            },
+            subdirectories: {
+                "mshf",
+            },
+            size: 636444,
+        },
+        "gjh": Directory {
+            files: {
+                "vjs": File {
+                    size: 286094,
+                },
+                "dhzp": File {
+                    size: 164281,
+                },
+            },
+            subdirectories: {},
+            size: 450375,
+        },
+        "fbg": Directory {
+            files: {
+                "hhcfpnmg.njm": File {
+                    size: 289639,
+                },
+            },
+            subdirectories: {},
+            size: 289639,
+        },
+        "nlsprnh": Directory {
+            files: {
+                "stbjphg.hcs": File {
+                    size: 200708,
+                },
+            },
+            subdirectories: {},
+            size: 200708,
+        },
+        "vdrqc": Directory {
+            files: {
+                "mzzmjrt": File {
+                    size: 202958,
+                },
+            },
+            subdirectories: {},
+            size: 202958,
+        },
+        "hjs": Directory {
+            files: {
+                "ccjp": File {
+                    size: 41353,
+                },
+                "zttwct": File {
+                    size: 86096,
+                },
+                "zcmlbbbc.mpp": File {
+                    size: 292308,
+                },
+                "hdb": File {
+                    size: 114686,
+                },
+                "ljpzpdbf": File {
+                    size: 278709,
+                },
+            },
+            subdirectories: {
+                "hmtpm",
+                "gbs",
+                "cbdzvd",
+            },
+            size: 1654245,
+        },
+        "dhsmmlt": Directory {
+            files: {
+                "cvfwqnfl": File {
+                    size: 42514,
+                },
+                "dlz": File {
+                    size: 252570,
+                },
+                "ppmtvcj.snb": File {
+                    size: 145814,
+                },
+                "vwd.spz": File {
+                    size: 186477,
+                },
+                "rslsh.slv": File {
+                    size: 294613,
+                },
+            },
+            subdirectories: {
+                "wffbp",
+            },
+            size: 12993175,
+        },
+        "rgmvdwt": Directory {
+            files: {
+                "ljpzpdbf": File {
+                    size: 115350,
+                },
+                "hdb": File {
+                    size: 166021,
+                },
+            },
+            subdirectories: {},
+            size: 281371,
+        },
+        "jgt": Directory {
+            files: {
+                "hhcfpnmg.njm": File {
+                    size: 282773,
+                },
+            },
+            subdirectories: {},
+            size: 282773,
+        },
+        "zcrrvpg": Directory {
+            files: {},
+            subdirectories: {
+                "jrbcqlct",
+                "srpm",
+            },
+            size: 416643,
+        },
+        "zstzfs": Directory {
+            files: {},
+            subdirectories: {
+                "qsfsj",
+            },
+            size: 34771,
+        },
+        "rdgngdm": Directory {
+            files: {
+                "wlgshdgl": File {
+                    size: 46355,
+                },
+            },
+            subdirectories: {},
+            size: 46355,
+        },
+        "sqbdvppf": Directory {
+            files: {
+                "str": File {
+                    size: 142955,
+                },
+                "zcbnwhzd.ctr": File {
+                    size: 93407,
+                },
+            },
+            subdirectories: {
+                "whtrbcqn",
+            },
+            size: 1742011,
+        },
+        "rzcmwl": Directory {
+            files: {},
+            subdirectories: {
+                "btfhswwf",
+                "jrd",
+                "ndzfvl",
+            },
+            size: 742432,
+        },
+        "thhncv": Directory {
+            files: {
+                "hdb": File {
+                    size: 299769,
+                },
+            },
+            subdirectories: {},
+            size: 299769,
+        },
+        "qpsfrhld": Directory {
+            files: {
+                "jwc.pwg": File {
+                    size: 59452,
+                },
+                "hhcfpnmg.njm": File {
+                    size: 154299,
+                },
+                "dlz": File {
+                    size: 54115,
+                },
+            },
+            subdirectories: {
+                "bgrb",
+                "ddtlcfz",
+            },
+            size: 3508669,
+        },
+        "zwzb": Directory {
+            files: {
+                "ljpzpdbf": File {
+                    size: 138631,
+                },
+            },
+            subdirectories: {
+                "sjngjp",
+            },
+            size: 438109,
+        },
+        "ddtlcfz": Directory {
+            files: {
+                "mbtsvblj.rfb": File {
+                    size: 157679,
+                },
+                "mbtsvblj": File {
+                    size: 26717,
+                },
+                "qmg": File {
+                    size: 299928,
+                },
+            },
+            subdirectories: {
+                "trq",
+                "wjhjlpr",
+                "ftfch",
+            },
+            size: 1792584,
+        },
+        "frc": Directory {
+            files: {
+                "dhzp": File {
+                    size: 244013,
+                },
+                "gnh": File {
+                    size: 29325,
+                },
+                "hdb": File {
+                    size: 264555,
+                },
+            },
+            subdirectories: {
+                "cvm",
+            },
+            size: 734512,
+        },
+        "spmhrb": Directory {
+            files: {
+                "hhcfpnmg.njm": File {
+                    size: 163198,
+                },
+            },
+            subdirectories: {},
+            size: 163198,
+        },
+        "flgmdj": Directory {
+            files: {
+                "fqrpf": File {
+                    size: 293793,
+                },
+            },
+            subdirectories: {},
+            size: 293793,
+        },
+        "trm": Directory {
+            files: {
+                "ccjp.mhz": File {
+                    size: 279737,
+                },
+            },
+            subdirectories: {},
+            size: 279737,
+        },
+        "zpm": Directory {
+            files: {
+                "mwl.pzt": File {
+                    size: 137218,
+                },
+            },
+            subdirectories: {},
+            size: 137218,
+        },
+        "rwmzdt": Directory {
+            files: {
+                "hdb": File {
+                    size: 10176,
+                },
+            },
+            subdirectories: {},
+            size: 10176,
+        },
+        "nvq": Directory {
+            files: {
+                "zcbnwhzd.ctj": File {
+                    size: 8864,
+                },
+                "hhcfpnmg.njm": File {
+                    size: 74730,
+                },
+                "ljpzpdbf": File {
+                    size: 257109,
+                },
+            },
+            subdirectories: {},
+            size: 340703,
+        },
+        "nll": Directory {
+            files: {
+                "tzrn.qrt": File {
+                    size: 46608,
+                },
+                "hhcfpnmg.njm": File {
+                    size: 4161,
+                },
+                "sww.dwj": File {
+                    size: 82301,
+                },
+                "flmvswv.rll": File {
+                    size: 45935,
+                },
+                "zcbnwhzd.mpm": File {
+                    size: 101463,
+                },
+            },
+            subdirectories: {
+                "tqdmtp",
+            },
+            size: 560898,
+        },
+        "rjzngs": Directory {
+            files: {},
+            subdirectories: {
+                "dpfcw",
+                "spmhrb",
+            },
+            size: 344764,
+        },
+        "clfpc": Directory {
+            files: {
+                "tdzfqpz.wvs": File {
+                    size: 89569,
+                },
+            },
+            subdirectories: {
+                "qpsfrhld",
+                "jffq",
+            },
+            size: 3817518,
+        },
+        "qsfsj": Directory {
+            files: {
+                "rsv": File {
+                    size: 34771,
+                },
+            },
+            subdirectories: {},
+            size: 34771,
+        },
+        "bffvw": Directory {
+            files: {
+                "ssm.tph": File {
+                    size: 72108,
+                },
+                "dqqtq.lnb": File {
+                    size: 139679,
+                },
+                "srmghrt.ffl": File {
+                    size: 243329,
+                },
+                "sjln.zgv": File {
+                    size: 13310,
+                },
+            },
+            subdirectories: {},
+            size: 964059,
+        },
+        "smftmb": Directory {
+            files: {
+                "ztwqq.jfw": File {
+                    size: 194645,
+                },
+                "ppmtvcj": File {
+                    size: 325038,
+                },
+                "mhs": File {
+                    size: 56834,
+                },
+            },
+            subdirectories: {
+                "rzcmwl",
+            },
+            size: 1318949,
+        },
+        "ltf": Directory {
+            files: {},
+            subdirectories: {
+                "pcbc",
+                "wwjnwbjj",
+            },
+            size: 469871,
+        },
+        "grcs": Directory {
+            files: {
+                "rnfqhs": File {
+                    size: 286144,
+                },
+            },
+            subdirectories: {},
+            size: 286144,
+        },
+        "jcwhvcf": Directory {
+            files: {
+                "wddq.rgp": File {
+                    size: 198254,
+                },
+            },
+            subdirectories: {},
+            size: 198254,
+        },
+        "bsplglmj": Directory {
+            files: {},
+            subdirectories: {},
+            size: 75000,
+        },
+        "cdqc": Directory {
+            files: {
+                "hdb": File {
+                    size: 178924,
+                },
+            },
+            subdirectories: {},
+            size: 178924,
+        },
+    },
+}
+The sum of directory sizes <= 10000 is 1121376
