@@ -1,0 +1,6721 @@
+    Finished dev [unoptimized + debuginfo] target(s) in 0.00s
+     Running `target/debug/day09b`
+[src/main.rs:219] &direction = Right(
+    5,
+)
+[src/main.rs:221] &rope = Rope {
+    head: Head {
+        pos: Coord {
+            x: 5,
+            y: 0,
+        },
+    },
+    tails: [
+        Tail {
+            pos: Coord {
+                x: 4,
+                y: 0,
+            },
+            prev: {
+                Coord {
+                    x: 3,
+                    y: 0,
+                },
+                Coord {
+                    x: 1,
+                    y: 0,
+                },
+                Coord {
+                    x: 0,
+                    y: 0,
+                },
+                Coord {
+                    x: 2,
+                    y: 0,
+                },
+            },
+        },
+        Tail {
+            pos: Coord {
+                x: 3,
+                y: 0,
+            },
+            prev: {
+                Coord {
+                    x: 0,
+                    y: 0,
+                },
+                Coord {
+                    x: 1,
+                    y: 0,
+                },
+                Coord {
+                    x: 2,
+                    y: 0,
+                },
+            },
+        },
+        Tail {
+            pos: Coord {
+                x: 2,
+                y: 0,
+            },
+            prev: {
+                Coord {
+                    x: 1,
+                    y: 0,
+                },
+                Coord {
+                    x: 0,
+                    y: 0,
+                },
+            },
+        },
+        Tail {
+            pos: Coord {
+                x: 1,
+                y: 0,
+            },
+            prev: {
+                Coord {
+                    x: 0,
+                    y: 0,
+                },
+            },
+        },
+        Tail {
+            pos: Coord {
+                x: 0,
+                y: 0,
+            },
+            prev: {},
+        },
+        Tail {
+            pos: Coord {
+                x: 0,
+                y: 0,
+            },
+            prev: {},
+        },
+        Tail {
+            pos: Coord {
+                x: 0,
+                y: 0,
+            },
+            prev: {},
+        },
+        Tail {
+            pos: Coord {
+                x: 0,
+                y: 0,
+            },
+            prev: {},
+        },
+        Tail {
+            pos: Coord {
+                x: 0,
+                y: 0,
+            },
+            prev: {},
+        },
+    ],
+}
+[src/main.rs:219] &direction = Up(
+    8,
+)
+[src/main.rs:221] &rope = Rope {
+    head: Head {
+        pos: Coord {
+            x: 5,
+            y: 8,
+        },
+    },
+    tails: [
+        Tail {
+            pos: Coord {
+                x: 5,
+                y: 7,
+            },
+            prev: {
+                Coord {
+                    x: 5,
+                    y: 5,
+                },
+                Coord {
+                    x: 5,
+                    y: 6,
+                },
+                Coord {
+                    x: 0,
+                    y: 0,
+                },
+                Coord {
+                    x: 5,
+                    y: 1,
+                },
+                Coord {
+                    x: 5,
+                    y: 3,
+                },
+                Coord {
+                    x: 3,
+                    y: 0,
+                },
+                Coord {
+                    x: 4,
+                    y: 0,
+                },
+                Coord {
+                    x: 1,
+                    y: 0,
+                },
+                Coord {
+                    x: 5,
+                    y: 2,
+                },
+                Coord {
+                    x: 5,
+                    y: 4,
+                },
+                Coord {
+                    x: 2,
+                    y: 0,
+                },
+            },
+        },
+        Tail {
+            pos: Coord {
+                x: 5,
+                y: 6,
+            },
+            prev: {
+                Coord {
+                    x: 1,
+                    y: 0,
+                },
+                Coord {
+                    x: 3,
+                    y: 0,
+                },
+                Coord {
+                    x: 4,
+                    y: 1,
+                },
+                Coord {
+                    x: 5,
+                    y: 4,
+                },
+                Coord {
+                    x: 5,
+                    y: 2,
+                },
+                Coord {
+                    x: 5,
+                    y: 5,
+                },
+                Coord {
+                    x: 0,
+                    y: 0,
+                },
+                Coord {
+                    x: 5,
+                    y: 3,
+                },
+                Coord {
+                    x: 2,
+                    y: 0,
+                },
+            },
+        },
+        Tail {
+            pos: Coord {
+                x: 5,
+                y: 5,
+            },
+            prev: {
+                Coord {
+                    x: 2,
+                    y: 0,
+                },
+                Coord {
+                    x: 0,
+                    y: 0,
+                },
+                Coord {
+                    x: 3,
+                    y: 1,
+                },
+                Coord {
+                    x: 1,
+                    y: 0,
+                },
+                Coord {
+                    x: 4,
+                    y: 2,
+                },
+                Coord {
+                    x: 5,
+                    y: 3,
+                },
+                Coord {
+                    x: 5,
+                    y: 4,
+                },
+            },
+        },
+        Tail {
+            pos: Coord {
+                x: 5,
+                y: 4,
+            },
+            prev: {
+                Coord {
+                    x: 4,
+                    y: 3,
+                },
+                Coord {
+                    x: 0,
+                    y: 0,
+                },
+                Coord {
+                    x: 3,
+                    y: 2,
+                },
+                Coord {
+                    x: 1,
+                    y: 0,
+                },
+                Coord {
+                    x: 2,
+                    y: 1,
+                },
+            },
+        },
+        Tail {
+            pos: Coord {
+                x: 4,
+                y: 4,
+            },
+            prev: {
+                Coord {
+                    x: 0,
+                    y: 0,
+                },
+                Coord {
+                    x: 2,
+                    y: 2,
+                },
+                Coord {
+                    x: 1,
+                    y: 1,
+                },
+                Coord {
+                    x: 3,
+                    y: 3,
+                },
+            },
+        },
+        Tail {
+            pos: Coord {
+                x: 3,
+                y: 3,
+            },
+            prev: {
+                Coord {
+                    x: 0,
+                    y: 0,
+                },
+                Coord {
+                    x: 1,
+                    y: 1,
+                },
+                Coord {
+                    x: 2,
+                    y: 2,
+                },
+            },
+        },
+        Tail {
+            pos: Coord {
+                x: 2,
+                y: 2,
+            },
+            prev: {
+                Coord {
+                    x: 0,
+                    y: 0,
+                },
+                Coord {
+                    x: 1,
+                    y: 1,
+                },
+            },
+        },
+        Tail {
+            pos: Coord {
+                x: 1,
+                y: 1,
+            },
+            prev: {
+                Coord {
+                    x: 0,
+                    y: 0,
+                },
+            },
+        },
+        Tail {
+            pos: Coord {
+                x: 0,
+                y: 0,
+            },
+            prev: {},
+        },
+    ],
+}
+[src/main.rs:219] &direction = Left(
+    8,
+)
+[src/main.rs:221] &rope = Rope {
+    head: Head {
+        pos: Coord {
+            x: -3,
+            y: 8,
+        },
+    },
+    tails: [
+        Tail {
+            pos: Coord {
+                x: -2,
+                y: 8,
+            },
+            prev: {
+                Coord {
+                    x: 1,
+                    y: 8,
+                },
+                Coord {
+                    x: 0,
+                    y: 0,
+                },
+                Coord {
+                    x: 3,
+                    y: 8,
+                },
+                Coord {
+                    x: 2,
+                    y: 8,
+                },
+                Coord {
+                    x: 0,
+                    y: 8,
+                },
+                Coord {
+                    x: 4,
+                    y: 0,
+                },
+                Coord {
+                    x: 1,
+                    y: 0,
+                },
+                Coord {
+                    x: 5,
+                    y: 2,
+                },
+                Coord {
+                    x: 2,
+                    y: 0,
+                },
+                Coord {
+                    x: 4,
+                    y: 8,
+                },
+                Coord {
+                    x: 5,
+                    y: 6,
+                },
+                Coord {
+                    x: 5,
+                    y: 3,
+                },
+                Coord {
+                    x: 5,
+                    y: 1,
+                },
+                Coord {
+                    x: 5,
+                    y: 7,
+                },
+                Coord {
+                    x: 3,
+                    y: 0,
+                },
+                Coord {
+                    x: -1,
+                    y: 8,
+                },
+                Coord {
+                    x: 5,
+                    y: 4,
+                },
+                Coord {
+                    x: 5,
+                    y: 5,
+                },
+            },
+        },
+        Tail {
+            pos: Coord {
+                x: -1,
+                y: 8,
+            },
+            prev: {
+                Coord {
+                    x: 1,
+                    y: 0,
+                },
+                Coord {
+                    x: 3,
+                    y: 0,
+                },
+                Coord {
+                    x: 4,
+                    y: 1,
+                },
+                Coord {
+                    x: 5,
+                    y: 4,
+                },
+                Coord {
+                    x: 2,
+                    y: 8,
+                },
+                Coord {
+                    x: 5,
+                    y: 2,
+                },
+                Coord {
+                    x: 5,
+                    y: 5,
+                },
+                Coord {
+                    x: 5,
+                    y: 6,
+                },
+                Coord {
+                    x: 1,
+                    y: 8,
+                },
+                Coord {
+                    x: 3,
+                    y: 8,
+                },
+                Coord {
+                    x: 4,
+                    y: 7,
+                },
+                Coord {
+                    x: 0,
+                    y: 0,
+                },
+                Coord {
+                    x: 5,
+                    y: 3,
+                },
+                Coord {
+                    x: 2,
+                    y: 0,
+                },
+                Coord {
+                    x: 0,
+                    y: 8,
+                },
+            },
+        },
+        Tail {
+            pos: Coord {
+                x: 0,
+                y: 8,
+            },
+            prev: {
+                Coord {
+                    x: 1,
+                    y: 8,
+                },
+                Coord {
+                    x: 2,
+                    y: 0,
+                },
+                Coord {
+                    x: 3,
+                    y: 1,
+                },
+                Coord {
+                    x: 5,
+                    y: 3,
+                },
+                Coord {
+                    x: 1,
+                    y: 0,
+                },
+                Coord {
+                    x: 2,
+                    y: 8,
+                },
+                Coord {
+                    x: 5,
+                    y: 5,
+                },
+                Coord {
+                    x: 4,
+                    y: 2,
+                },
+                Coord {
+                    x: 0,
+                    y: 0,
+                },
+                Coord {
+                    x: 3,
+                    y: 7,
+                },
+                Coord {
+                    x: 5,
+                    y: 4,
+                },
+                Coord {
+                    x: 4,
+                    y: 6,
+                },
+            },
+        },
+        Tail {
+            pos: Coord {
+                x: 1,
+                y: 8,
+            },
+            prev: {
+                Coord {
+                    x: 1,
+                    y: 0,
+                },
+                Coord {
+                    x: 5,
+                    y: 4,
+                },
+                Coord {
+                    x: 3,
+                    y: 6,
+                },
+                Coord {
+                    x: 0,
+                    y: 0,
+                },
+                Coord {
+                    x: 2,
+                    y: 7,
+                },
+                Coord {
+                    x: 2,
+                    y: 1,
+                },
+                Coord {
+                    x: 3,
+                    y: 2,
+                },
+                Coord {
+                    x: 4,
+                    y: 5,
+                },
+                Coord {
+                    x: 4,
+                    y: 3,
+                },
+            },
+        },
+        Tail {
+            pos: Coord {
+                x: 1,
+                y: 7,
+            },
+            prev: {
+                Coord {
+                    x: 0,
+                    y: 0,
+                },
+                Coord {
+                    x: 2,
+                    y: 2,
+                },
+                Coord {
+                    x: 1,
+                    y: 1,
+                },
+                Coord {
+                    x: 4,
+                    y: 4,
+                },
+                Coord {
+                    x: 3,
+                    y: 5,
+                },
+                Coord {
+                    x: 2,
+                    y: 6,
+                },
+                Coord {
+                    x: 3,
+                    y: 3,
+                },
+            },
+        },
+        Tail {
+            pos: Coord {
+                x: 1,
+                y: 6,
+            },
+            prev: {
+                Coord {
+                    x: 0,
+                    y: 0,
+                },
+                Coord {
+                    x: 2,
+                    y: 2,
+                },
+                Coord {
+                    x: 3,
+                    y: 4,
+                },
+                Coord {
+                    x: 1,
+                    y: 1,
+                },
+                Coord {
+                    x: 3,
+                    y: 3,
+                },
+                Coord {
+                    x: 2,
+                    y: 5,
+                },
+            },
+        },
+        Tail {
+            pos: Coord {
+                x: 1,
+                y: 5,
+            },
+            prev: {
+                Coord {
+                    x: 2,
+                    y: 4,
+                },
+                Coord {
+                    x: 0,
+                    y: 0,
+                },
+                Coord {
+                    x: 2,
+                    y: 2,
+                },
+                Coord {
+                    x: 1,
+                    y: 1,
+                },
+                Coord {
+                    x: 3,
+                    y: 3,
+                },
+            },
+        },
+        Tail {
+            pos: Coord {
+                x: 1,
+                y: 4,
+            },
+            prev: {
+                Coord {
+                    x: 2,
+                    y: 2,
+                },
+                Coord {
+                    x: 0,
+                    y: 0,
+                },
+                Coord {
+                    x: 1,
+                    y: 1,
+                },
+                Coord {
+                    x: 2,
+                    y: 3,
+                },
+            },
+        },
+        Tail {
+            pos: Coord {
+                x: 1,
+                y: 3,
+            },
+            prev: {
+                Coord {
+                    x: 1,
+                    y: 1,
+                },
+                Coord {
+                    x: 2,
+                    y: 2,
+                },
+                Coord {
+                    x: 0,
+                    y: 0,
+                },
+            },
+        },
+    ],
+}
+[src/main.rs:219] &direction = Down(
+    3,
+)
+[src/main.rs:221] &rope = Rope {
+    head: Head {
+        pos: Coord {
+            x: -3,
+            y: 5,
+        },
+    },
+    tails: [
+        Tail {
+            pos: Coord {
+                x: -3,
+                y: 6,
+            },
+            prev: {
+                Coord {
+                    x: 1,
+                    y: 8,
+                },
+                Coord {
+                    x: 0,
+                    y: 0,
+                },
+                Coord {
+                    x: 3,
+                    y: 8,
+                },
+                Coord {
+                    x: 2,
+                    y: 8,
+                },
+                Coord {
+                    x: 0,
+                    y: 8,
+                },
+                Coord {
+                    x: 4,
+                    y: 0,
+                },
+                Coord {
+                    x: 1,
+                    y: 0,
+                },
+                Coord {
+                    x: 5,
+                    y: 2,
+                },
+                Coord {
+                    x: 2,
+                    y: 0,
+                },
+                Coord {
+                    x: 4,
+                    y: 8,
+                },
+                Coord {
+                    x: 5,
+                    y: 6,
+                },
+                Coord {
+                    x: 5,
+                    y: 3,
+                },
+                Coord {
+                    x: 5,
+                    y: 1,
+                },
+                Coord {
+                    x: -2,
+                    y: 8,
+                },
+                Coord {
+                    x: 5,
+                    y: 7,
+                },
+                Coord {
+                    x: 3,
+                    y: 0,
+                },
+                Coord {
+                    x: -1,
+                    y: 8,
+                },
+                Coord {
+                    x: 5,
+                    y: 4,
+                },
+                Coord {
+                    x: -3,
+                    y: 7,
+                },
+                Coord {
+                    x: 5,
+                    y: 5,
+                },
+            },
+        },
+        Tail {
+            pos: Coord {
+                x: -2,
+                y: 7,
+            },
+            prev: {
+                Coord {
+                    x: 1,
+                    y: 0,
+                },
+                Coord {
+                    x: 3,
+                    y: 0,
+                },
+                Coord {
+                    x: 4,
+                    y: 1,
+                },
+                Coord {
+                    x: -1,
+                    y: 8,
+                },
+                Coord {
+                    x: 5,
+                    y: 4,
+                },
+                Coord {
+                    x: 2,
+                    y: 8,
+                },
+                Coord {
+                    x: 5,
+                    y: 2,
+                },
+                Coord {
+                    x: 5,
+                    y: 5,
+                },
+                Coord {
+                    x: 5,
+                    y: 6,
+                },
+                Coord {
+                    x: 1,
+                    y: 8,
+                },
+                Coord {
+                    x: 3,
+                    y: 8,
+                },
+                Coord {
+                    x: 4,
+                    y: 7,
+                },
+                Coord {
+                    x: 0,
+                    y: 0,
+                },
+                Coord {
+                    x: 5,
+                    y: 3,
+                },
+                Coord {
+                    x: 2,
+                    y: 0,
+                },
+                Coord {
+                    x: 0,
+                    y: 8,
+                },
+            },
+        },
+        Tail {
+            pos: Coord {
+                x: -1,
+                y: 7,
+            },
+            prev: {
+                Coord {
+                    x: 1,
+                    y: 8,
+                },
+                Coord {
+                    x: 2,
+                    y: 0,
+                },
+                Coord {
+                    x: 3,
+                    y: 1,
+                },
+                Coord {
+                    x: 5,
+                    y: 3,
+                },
+                Coord {
+                    x: 1,
+                    y: 0,
+                },
+                Coord {
+                    x: 2,
+                    y: 8,
+                },
+                Coord {
+                    x: 5,
+                    y: 5,
+                },
+                Coord {
+                    x: 4,
+                    y: 2,
+                },
+                Coord {
+                    x: 0,
+                    y: 0,
+                },
+                Coord {
+                    x: 3,
+                    y: 7,
+                },
+                Coord {
+                    x: 0,
+                    y: 8,
+                },
+                Coord {
+                    x: 5,
+                    y: 4,
+                },
+                Coord {
+                    x: 4,
+                    y: 6,
+                },
+            },
+        },
+        Tail {
+            pos: Coord {
+                x: 0,
+                y: 7,
+            },
+            prev: {
+                Coord {
+                    x: 1,
+                    y: 0,
+                },
+                Coord {
+                    x: 5,
+                    y: 4,
+                },
+                Coord {
+                    x: 3,
+                    y: 6,
+                },
+                Coord {
+                    x: 0,
+                    y: 0,
+                },
+                Coord {
+                    x: 2,
+                    y: 7,
+                },
+                Coord {
+                    x: 1,
+                    y: 8,
+                },
+                Coord {
+                    x: 2,
+                    y: 1,
+                },
+                Coord {
+                    x: 3,
+                    y: 2,
+                },
+                Coord {
+                    x: 4,
+                    y: 5,
+                },
+                Coord {
+                    x: 4,
+                    y: 3,
+                },
+            },
+        },
+        Tail {
+            pos: Coord {
+                x: 1,
+                y: 7,
+            },
+            prev: {
+                Coord {
+                    x: 0,
+                    y: 0,
+                },
+                Coord {
+                    x: 2,
+                    y: 2,
+                },
+                Coord {
+                    x: 1,
+                    y: 1,
+                },
+                Coord {
+                    x: 4,
+                    y: 4,
+                },
+                Coord {
+                    x: 3,
+                    y: 5,
+                },
+                Coord {
+                    x: 2,
+                    y: 6,
+                },
+                Coord {
+                    x: 3,
+                    y: 3,
+                },
+            },
+        },
+        Tail {
+            pos: Coord {
+                x: 1,
+                y: 6,
+            },
+            prev: {
+                Coord {
+                    x: 0,
+                    y: 0,
+                },
+                Coord {
+                    x: 2,
+                    y: 2,
+                },
+                Coord {
+                    x: 3,
+                    y: 4,
+                },
+                Coord {
+                    x: 1,
+                    y: 1,
+                },
+                Coord {
+                    x: 3,
+                    y: 3,
+                },
+                Coord {
+                    x: 2,
+                    y: 5,
+                },
+            },
+        },
+        Tail {
+            pos: Coord {
+                x: 1,
+                y: 5,
+            },
+            prev: {
+                Coord {
+                    x: 2,
+                    y: 4,
+                },
+                Coord {
+                    x: 0,
+                    y: 0,
+                },
+                Coord {
+                    x: 2,
+                    y: 2,
+                },
+                Coord {
+                    x: 1,
+                    y: 1,
+                },
+                Coord {
+                    x: 3,
+                    y: 3,
+                },
+            },
+        },
+        Tail {
+            pos: Coord {
+                x: 1,
+                y: 4,
+            },
+            prev: {
+                Coord {
+                    x: 2,
+                    y: 2,
+                },
+                Coord {
+                    x: 0,
+                    y: 0,
+                },
+                Coord {
+                    x: 1,
+                    y: 1,
+                },
+                Coord {
+                    x: 2,
+                    y: 3,
+                },
+            },
+        },
+        Tail {
+            pos: Coord {
+                x: 1,
+                y: 3,
+            },
+            prev: {
+                Coord {
+                    x: 1,
+                    y: 1,
+                },
+                Coord {
+                    x: 2,
+                    y: 2,
+                },
+                Coord {
+                    x: 0,
+                    y: 0,
+                },
+            },
+        },
+    ],
+}
+[src/main.rs:219] &direction = Right(
+    17,
+)
+[src/main.rs:221] &rope = Rope {
+    head: Head {
+        pos: Coord {
+            x: 14,
+            y: 5,
+        },
+    },
+    tails: [
+        Tail {
+            pos: Coord {
+                x: 13,
+                y: 5,
+            },
+            prev: {
+                Coord {
+                    x: 0,
+                    y: 0,
+                },
+                Coord {
+                    x: 3,
+                    y: 8,
+                },
+                Coord {
+                    x: 12,
+                    y: 5,
+                },
+                Coord {
+                    x: 0,
+                    y: 8,
+                },
+                Coord {
+                    x: 1,
+                    y: 0,
+                },
+                Coord {
+                    x: -2,
+                    y: 5,
+                },
+                Coord {
+                    x: 2,
+                    y: 0,
+                },
+                Coord {
+                    x: 4,
+                    y: 8,
+                },
+                Coord {
+                    x: 0,
+                    y: 5,
+                },
+                Coord {
+                    x: 11,
+                    y: 5,
+                },
+                Coord {
+                    x: 5,
+                    y: 3,
+                },
+                Coord {
+                    x: 5,
+                    y: 1,
+                },
+                Coord {
+                    x: 1,
+                    y: 5,
+                },
+                Coord {
+                    x: 3,
+                    y: 0,
+                },
+                Coord {
+                    x: -3,
+                    y: 7,
+                },
+                Coord {
+                    x: 8,
+                    y: 5,
+                },
+                Coord {
+                    x: 5,
+                    y: 5,
+                },
+                Coord {
+                    x: 1,
+                    y: 8,
+                },
+                Coord {
+                    x: 2,
+                    y: 8,
+                },
+                Coord {
+                    x: 4,
+                    y: 0,
+                },
+                Coord {
+                    x: 5,
+                    y: 2,
+                },
+                Coord {
+                    x: 7,
+                    y: 5,
+                },
+                Coord {
+                    x: 5,
+                    y: 6,
+                },
+                Coord {
+                    x: 9,
+                    y: 5,
+                },
+                Coord {
+                    x: -3,
+                    y: 6,
+                },
+                Coord {
+                    x: -2,
+                    y: 8,
+                },
+                Coord {
+                    x: 2,
+                    y: 5,
+                },
+                Coord {
+                    x: 3,
+                    y: 5,
+                },
+                Coord {
+                    x: 5,
+                    y: 7,
+                },
+                Coord {
+                    x: -1,
+                    y: 5,
+                },
+                Coord {
+                    x: 4,
+                    y: 5,
+                },
+                Coord {
+                    x: -1,
+                    y: 8,
+                },
+                Coord {
+                    x: 5,
+                    y: 4,
+                },
+                Coord {
+                    x: 6,
+                    y: 5,
+                },
+                Coord {
+                    x: 10,
+                    y: 5,
+                },
+            },
+        },
+        Tail {
+            pos: Coord {
+                x: 12,
+                y: 5,
+            },
+            prev: {
+                Coord {
+                    x: 0,
+                    y: 8,
+                },
+                Coord {
+                    x: 3,
+                    y: 0,
+                },
+                Coord {
+                    x: 4,
+                    y: 1,
+                },
+                Coord {
+                    x: -1,
+                    y: 8,
+                },
+                Coord {
+                    x: 8,
+                    y: 5,
+                },
+                Coord {
+                    x: 5,
+                    y: 2,
+                },
+                Coord {
+                    x: 11,
+                    y: 5,
+                },
+                Coord {
+                    x: 3,
+                    y: 5,
+                },
+                Coord {
+                    x: -1,
+                    y: 5,
+                },
+                Coord {
+                    x: 5,
+                    y: 6,
+                },
+                Coord {
+                    x: 10,
+                    y: 5,
+                },
+                Coord {
+                    x: -2,
+                    y: 7,
+                },
+                Coord {
+                    x: -2,
+                    y: 6,
+                },
+                Coord {
+                    x: 9,
+                    y: 5,
+                },
+                Coord {
+                    x: 0,
+                    y: 0,
+                },
+                Coord {
+                    x: 1,
+                    y: 0,
+                },
+                Coord {
+                    x: 1,
+                    y: 5,
+                },
+                Coord {
+                    x: 2,
+                    y: 5,
+                },
+                Coord {
+                    x: 7,
+                    y: 5,
+                },
+                Coord {
+                    x: 5,
+                    y: 4,
+                },
+                Coord {
+                    x: 2,
+                    y: 8,
+                },
+                Coord {
+                    x: 5,
+                    y: 5,
+                },
+                Coord {
+                    x: 6,
+                    y: 5,
+                },
+                Coord {
+                    x: 1,
+                    y: 8,
+                },
+                Coord {
+                    x: 3,
+                    y: 8,
+                },
+                Coord {
+                    x: 4,
+                    y: 5,
+                },
+                Coord {
+                    x: 4,
+                    y: 7,
+                },
+                Coord {
+                    x: 5,
+                    y: 3,
+                },
+                Coord {
+                    x: 0,
+                    y: 5,
+                },
+                Coord {
+                    x: 2,
+                    y: 0,
+                },
+            },
+        },
+        Tail {
+            pos: Coord {
+                x: 11,
+                y: 5,
+            },
+            prev: {
+                Coord {
+                    x: 2,
+                    y: 0,
+                },
+                Coord {
+                    x: 3,
+                    y: 1,
+                },
+                Coord {
+                    x: 1,
+                    y: 0,
+                },
+                Coord {
+                    x: -1,
+                    y: 6,
+                },
+                Coord {
+                    x: 0,
+                    y: 5,
+                },
+                Coord {
+                    x: 4,
+                    y: 5,
+                },
+                Coord {
+                    x: 0,
+                    y: 0,
+                },
+                Coord {
+                    x: 3,
+                    y: 7,
+                },
+                Coord {
+                    x: 0,
+                    y: 8,
+                },
+                Coord {
+                    x: 5,
+                    y: 4,
+                },
+                Coord {
+                    x: 7,
+                    y: 5,
+                },
+                Coord {
+                    x: 1,
+                    y: 8,
+                },
+                Coord {
+                    x: 4,
+                    y: 6,
+                },
+                Coord {
+                    x: 5,
+                    y: 3,
+                },
+                Coord {
+                    x: 2,
+                    y: 8,
+                },
+                Coord {
+                    x: 10,
+                    y: 5,
+                },
+                Coord {
+                    x: 9,
+                    y: 5,
+                },
+                Coord {
+                    x: 5,
+                    y: 5,
+                },
+                Coord {
+                    x: 6,
+                    y: 5,
+                },
+                Coord {
+                    x: 4,
+                    y: 2,
+                },
+                Coord {
+                    x: 1,
+                    y: 5,
+                },
+                Coord {
+                    x: 2,
+                    y: 5,
+                },
+                Coord {
+                    x: -1,
+                    y: 7,
+                },
+                Coord {
+                    x: 3,
+                    y: 5,
+                },
+                Coord {
+                    x: 8,
+                    y: 5,
+                },
+            },
+        },
+        Tail {
+            pos: Coord {
+                x: 10,
+                y: 5,
+            },
+            prev: {
+                Coord {
+                    x: 5,
+                    y: 5,
+                },
+                Coord {
+                    x: 5,
+                    y: 4,
+                },
+                Coord {
+                    x: 2,
+                    y: 7,
+                },
+                Coord {
+                    x: 0,
+                    y: 0,
+                },
+                Coord {
+                    x: 0,
+                    y: 6,
+                },
+                Coord {
+                    x: 3,
+                    y: 5,
+                },
+                Coord {
+                    x: 2,
+                    y: 5,
+                },
+                Coord {
+                    x: 7,
+                    y: 5,
+                },
+                Coord {
+                    x: 1,
+                    y: 0,
+                },
+                Coord {
+                    x: 4,
+                    y: 5,
+                },
+                Coord {
+                    x: 4,
+                    y: 3,
+                },
+                Coord {
+                    x: 8,
+                    y: 5,
+                },
+                Coord {
+                    x: 9,
+                    y: 5,
+                },
+                Coord {
+                    x: 2,
+                    y: 1,
+                },
+                Coord {
+                    x: 1,
+                    y: 5,
+                },
+                Coord {
+                    x: 6,
+                    y: 5,
+                },
+                Coord {
+                    x: 0,
+                    y: 7,
+                },
+                Coord {
+                    x: 3,
+                    y: 2,
+                },
+                Coord {
+                    x: 3,
+                    y: 6,
+                },
+                Coord {
+                    x: 1,
+                    y: 8,
+                },
+            },
+        },
+        Tail {
+            pos: Coord {
+                x: 9,
+                y: 5,
+            },
+            prev: {
+                Coord {
+                    x: 4,
+                    y: 4,
+                },
+                Coord {
+                    x: 4,
+                    y: 5,
+                },
+                Coord {
+                    x: 6,
+                    y: 5,
+                },
+                Coord {
+                    x: 0,
+                    y: 0,
+                },
+                Coord {
+                    x: 5,
+                    y: 5,
+                },
+                Coord {
+                    x: 7,
+                    y: 5,
+                },
+                Coord {
+                    x: 2,
+                    y: 6,
+                },
+                Coord {
+                    x: 1,
+                    y: 7,
+                },
+                Coord {
+                    x: 8,
+                    y: 5,
+                },
+                Coord {
+                    x: 2,
+                    y: 5,
+                },
+                Coord {
+                    x: 3,
+                    y: 5,
+                },
+                Coord {
+                    x: 3,
+                    y: 3,
+                },
+                Coord {
+                    x: 2,
+                    y: 2,
+                },
+                Coord {
+                    x: 1,
+                    y: 1,
+                },
+                Coord {
+                    x: 1,
+                    y: 6,
+                },
+            },
+        },
+        Tail {
+            pos: Coord {
+                x: 8,
+                y: 5,
+            },
+            prev: {
+                Coord {
+                    x: 0,
+                    y: 0,
+                },
+                Coord {
+                    x: 2,
+                    y: 2,
+                },
+                Coord {
+                    x: 1,
+                    y: 6,
+                },
+                Coord {
+                    x: 3,
+                    y: 5,
+                },
+                Coord {
+                    x: 1,
+                    y: 1,
+                },
+                Coord {
+                    x: 4,
+                    y: 5,
+                },
+                Coord {
+                    x: 6,
+                    y: 5,
+                },
+                Coord {
+                    x: 5,
+                    y: 5,
+                },
+                Coord {
+                    x: 7,
+                    y: 5,
+                },
+                Coord {
+                    x: 3,
+                    y: 4,
+                },
+                Coord {
+                    x: 3,
+                    y: 3,
+                },
+                Coord {
+                    x: 2,
+                    y: 5,
+                },
+            },
+        },
+        Tail {
+            pos: Coord {
+                x: 7,
+                y: 5,
+            },
+            prev: {
+                Coord {
+                    x: 2,
+                    y: 4,
+                },
+                Coord {
+                    x: 5,
+                    y: 5,
+                },
+                Coord {
+                    x: 1,
+                    y: 5,
+                },
+                Coord {
+                    x: 1,
+                    y: 1,
+                },
+                Coord {
+                    x: 3,
+                    y: 3,
+                },
+                Coord {
+                    x: 3,
+                    y: 5,
+                },
+                Coord {
+                    x: 4,
+                    y: 5,
+                },
+                Coord {
+                    x: 0,
+                    y: 0,
+                },
+                Coord {
+                    x: 2,
+                    y: 2,
+                },
+                Coord {
+                    x: 2,
+                    y: 5,
+                },
+                Coord {
+                    x: 6,
+                    y: 5,
+                },
+            },
+        },
+        Tail {
+            pos: Coord {
+                x: 6,
+                y: 5,
+            },
+            prev: {
+                Coord {
+                    x: 0,
+                    y: 0,
+                },
+                Coord {
+                    x: 3,
+                    y: 5,
+                },
+                Coord {
+                    x: 2,
+                    y: 3,
+                },
+                Coord {
+                    x: 2,
+                    y: 5,
+                },
+                Coord {
+                    x: 2,
+                    y: 2,
+                },
+                Coord {
+                    x: 1,
+                    y: 1,
+                },
+                Coord {
+                    x: 1,
+                    y: 4,
+                },
+                Coord {
+                    x: 5,
+                    y: 5,
+                },
+                Coord {
+                    x: 4,
+                    y: 5,
+                },
+            },
+        },
+        Tail {
+            pos: Coord {
+                x: 5,
+                y: 5,
+            },
+            prev: {
+                Coord {
+                    x: 2,
+                    y: 2,
+                },
+                Coord {
+                    x: 2,
+                    y: 4,
+                },
+                Coord {
+                    x: 0,
+                    y: 0,
+                },
+                Coord {
+                    x: 1,
+                    y: 3,
+                },
+                Coord {
+                    x: 3,
+                    y: 5,
+                },
+                Coord {
+                    x: 4,
+                    y: 5,
+                },
+                Coord {
+                    x: 1,
+                    y: 1,
+                },
+            },
+        },
+    ],
+}
+[src/main.rs:219] &direction = Down(
+    10,
+)
+[src/main.rs:221] &rope = Rope {
+    head: Head {
+        pos: Coord {
+            x: 14,
+            y: -5,
+        },
+    },
+    tails: [
+        Tail {
+            pos: Coord {
+                x: 14,
+                y: -4,
+            },
+            prev: {
+                Coord {
+                    x: 14,
+                    y: 1,
+                },
+                Coord {
+                    x: 0,
+                    y: 0,
+                },
+                Coord {
+                    x: 3,
+                    y: 8,
+                },
+                Coord {
+                    x: 12,
+                    y: 5,
+                },
+                Coord {
+                    x: 0,
+                    y: 8,
+                },
+                Coord {
+                    x: 14,
+                    y: 4,
+                },
+                Coord {
+                    x: 1,
+                    y: 0,
+                },
+                Coord {
+                    x: -2,
+                    y: 5,
+                },
+                Coord {
+                    x: 2,
+                    y: 0,
+                },
+                Coord {
+                    x: 4,
+                    y: 8,
+                },
+                Coord {
+                    x: 0,
+                    y: 5,
+                },
+                Coord {
+                    x: 11,
+                    y: 5,
+                },
+                Coord {
+                    x: 5,
+                    y: 3,
+                },
+                Coord {
+                    x: 5,
+                    y: 1,
+                },
+                Coord {
+                    x: 1,
+                    y: 5,
+                },
+                Coord {
+                    x: 3,
+                    y: 0,
+                },
+                Coord {
+                    x: -3,
+                    y: 7,
+                },
+                Coord {
+                    x: 8,
+                    y: 5,
+                },
+                Coord {
+                    x: 5,
+                    y: 5,
+                },
+                Coord {
+                    x: 13,
+                    y: 5,
+                },
+                Coord {
+                    x: 1,
+                    y: 8,
+                },
+                Coord {
+                    x: 2,
+                    y: 8,
+                },
+                Coord {
+                    x: 14,
+                    y: -1,
+                },
+                Coord {
+                    x: 14,
+                    y: -2,
+                },
+                Coord {
+                    x: 4,
+                    y: 0,
+                },
+                Coord {
+                    x: 5,
+                    y: 2,
+                },
+                Coord {
+                    x: 7,
+                    y: 5,
+                },
+                Coord {
+                    x: 14,
+                    y: 0,
+                },
+                Coord {
+                    x: 14,
+                    y: 2,
+                },
+                Coord {
+                    x: 5,
+                    y: 6,
+                },
+                Coord {
+                    x: 9,
+                    y: 5,
+                },
+                Coord {
+                    x: -3,
+                    y: 6,
+                },
+                Coord {
+                    x: -2,
+                    y: 8,
+                },
+                Coord {
+                    x: 14,
+                    y: 3,
+                },
+                Coord {
+                    x: 14,
+                    y: -3,
+                },
+                Coord {
+                    x: 2,
+                    y: 5,
+                },
+                Coord {
+                    x: 3,
+                    y: 5,
+                },
+                Coord {
+                    x: 5,
+                    y: 7,
+                },
+                Coord {
+                    x: -1,
+                    y: 5,
+                },
+                Coord {
+                    x: 4,
+                    y: 5,
+                },
+                Coord {
+                    x: -1,
+                    y: 8,
+                },
+                Coord {
+                    x: 5,
+                    y: 4,
+                },
+                Coord {
+                    x: 6,
+                    y: 5,
+                },
+                Coord {
+                    x: 10,
+                    y: 5,
+                },
+            },
+        },
+        Tail {
+            pos: Coord {
+                x: 14,
+                y: -3,
+            },
+            prev: {
+                Coord {
+                    x: 0,
+                    y: 8,
+                },
+                Coord {
+                    x: 3,
+                    y: 0,
+                },
+                Coord {
+                    x: 4,
+                    y: 1,
+                },
+                Coord {
+                    x: -1,
+                    y: 8,
+                },
+                Coord {
+                    x: 8,
+                    y: 5,
+                },
+                Coord {
+                    x: 14,
+                    y: 1,
+                },
+                Coord {
+                    x: 14,
+                    y: 0,
+                },
+                Coord {
+                    x: 5,
+                    y: 2,
+                },
+                Coord {
+                    x: 11,
+                    y: 5,
+                },
+                Coord {
+                    x: 13,
+                    y: 4,
+                },
+                Coord {
+                    x: 3,
+                    y: 5,
+                },
+                Coord {
+                    x: -1,
+                    y: 5,
+                },
+                Coord {
+                    x: 5,
+                    y: 6,
+                },
+                Coord {
+                    x: 10,
+                    y: 5,
+                },
+                Coord {
+                    x: -2,
+                    y: 7,
+                },
+                Coord {
+                    x: 14,
+                    y: 3,
+                },
+                Coord {
+                    x: -2,
+                    y: 6,
+                },
+                Coord {
+                    x: 9,
+                    y: 5,
+                },
+                Coord {
+                    x: 0,
+                    y: 0,
+                },
+                Coord {
+                    x: 14,
+                    y: -1,
+                },
+                Coord {
+                    x: 1,
+                    y: 0,
+                },
+                Coord {
+                    x: 1,
+                    y: 5,
+                },
+                Coord {
+                    x: 2,
+                    y: 5,
+                },
+                Coord {
+                    x: 12,
+                    y: 5,
+                },
+                Coord {
+                    x: 7,
+                    y: 5,
+                },
+                Coord {
+                    x: 5,
+                    y: 4,
+                },
+                Coord {
+                    x: 2,
+                    y: 8,
+                },
+                Coord {
+                    x: 5,
+                    y: 5,
+                },
+                Coord {
+                    x: 6,
+                    y: 5,
+                },
+                Coord {
+                    x: 14,
+                    y: -2,
+                },
+                Coord {
+                    x: 1,
+                    y: 8,
+                },
+                Coord {
+                    x: 3,
+                    y: 8,
+                },
+                Coord {
+                    x: 4,
+                    y: 5,
+                },
+                Coord {
+                    x: 4,
+                    y: 7,
+                },
+                Coord {
+                    x: 5,
+                    y: 3,
+                },
+                Coord {
+                    x: 14,
+                    y: 2,
+                },
+                Coord {
+                    x: 0,
+                    y: 5,
+                },
+                Coord {
+                    x: 2,
+                    y: 0,
+                },
+            },
+        },
+        Tail {
+            pos: Coord {
+                x: 14,
+                y: -2,
+            },
+            prev: {
+                Coord {
+                    x: 14,
+                    y: 1,
+                },
+                Coord {
+                    x: 2,
+                    y: 0,
+                },
+                Coord {
+                    x: 1,
+                    y: 0,
+                },
+                Coord {
+                    x: -1,
+                    y: 6,
+                },
+                Coord {
+                    x: 4,
+                    y: 5,
+                },
+                Coord {
+                    x: 0,
+                    y: 0,
+                },
+                Coord {
+                    x: 0,
+                    y: 8,
+                },
+                Coord {
+                    x: 12,
+                    y: 4,
+                },
+                Coord {
+                    x: 5,
+                    y: 4,
+                },
+                Coord {
+                    x: 11,
+                    y: 5,
+                },
+                Coord {
+                    x: 1,
+                    y: 8,
+                },
+                Coord {
+                    x: 4,
+                    y: 6,
+                },
+                Coord {
+                    x: 5,
+                    y: 3,
+                },
+                Coord {
+                    x: 2,
+                    y: 8,
+                },
+                Coord {
+                    x: 13,
+                    y: 3,
+                },
+                Coord {
+                    x: 14,
+                    y: 0,
+                },
+                Coord {
+                    x: 14,
+                    y: -1,
+                },
+                Coord {
+                    x: 5,
+                    y: 5,
+                },
+                Coord {
+                    x: 4,
+                    y: 2,
+                },
+                Coord {
+                    x: 8,
+                    y: 5,
+                },
+                Coord {
+                    x: 3,
+                    y: 5,
+                },
+                Coord {
+                    x: 3,
+                    y: 1,
+                },
+                Coord {
+                    x: 0,
+                    y: 5,
+                },
+                Coord {
+                    x: 14,
+                    y: 2,
+                },
+                Coord {
+                    x: 3,
+                    y: 7,
+                },
+                Coord {
+                    x: 7,
+                    y: 5,
+                },
+                Coord {
+                    x: 10,
+                    y: 5,
+                },
+                Coord {
+                    x: 9,
+                    y: 5,
+                },
+                Coord {
+                    x: 6,
+                    y: 5,
+                },
+                Coord {
+                    x: 1,
+                    y: 5,
+                },
+                Coord {
+                    x: 2,
+                    y: 5,
+                },
+                Coord {
+                    x: -1,
+                    y: 7,
+                },
+            },
+        },
+        Tail {
+            pos: Coord {
+                x: 14,
+                y: -1,
+            },
+            prev: {
+                Coord {
+                    x: 5,
+                    y: 5,
+                },
+                Coord {
+                    x: 5,
+                    y: 4,
+                },
+                Coord {
+                    x: 2,
+                    y: 7,
+                },
+                Coord {
+                    x: 0,
+                    y: 0,
+                },
+                Coord {
+                    x: 11,
+                    y: 4,
+                },
+                Coord {
+                    x: 13,
+                    y: 2,
+                },
+                Coord {
+                    x: 14,
+                    y: 0,
+                },
+                Coord {
+                    x: 0,
+                    y: 6,
+                },
+                Coord {
+                    x: 3,
+                    y: 5,
+                },
+                Coord {
+                    x: 2,
+                    y: 5,
+                },
+                Coord {
+                    x: 7,
+                    y: 5,
+                },
+                Coord {
+                    x: 1,
+                    y: 0,
+                },
+                Coord {
+                    x: 4,
+                    y: 5,
+                },
+                Coord {
+                    x: 4,
+                    y: 3,
+                },
+                Coord {
+                    x: 8,
+                    y: 5,
+                },
+                Coord {
+                    x: 12,
+                    y: 3,
+                },
+                Coord {
+                    x: 14,
+                    y: 1,
+                },
+                Coord {
+                    x: 9,
+                    y: 5,
+                },
+                Coord {
+                    x: 2,
+                    y: 1,
+                },
+                Coord {
+                    x: 10,
+                    y: 5,
+                },
+                Coord {
+                    x: 1,
+                    y: 5,
+                },
+                Coord {
+                    x: 6,
+                    y: 5,
+                },
+                Coord {
+                    x: 0,
+                    y: 7,
+                },
+                Coord {
+                    x: 3,
+                    y: 2,
+                },
+                Coord {
+                    x: 3,
+                    y: 6,
+                },
+                Coord {
+                    x: 1,
+                    y: 8,
+                },
+            },
+        },
+        Tail {
+            pos: Coord {
+                x: 14,
+                y: 0,
+            },
+            prev: {
+                Coord {
+                    x: 4,
+                    y: 4,
+                },
+                Coord {
+                    x: 4,
+                    y: 5,
+                },
+                Coord {
+                    x: 6,
+                    y: 5,
+                },
+                Coord {
+                    x: 0,
+                    y: 0,
+                },
+                Coord {
+                    x: 5,
+                    y: 5,
+                },
+                Coord {
+                    x: 9,
+                    y: 5,
+                },
+                Coord {
+                    x: 7,
+                    y: 5,
+                },
+                Coord {
+                    x: 2,
+                    y: 6,
+                },
+                Coord {
+                    x: 1,
+                    y: 7,
+                },
+                Coord {
+                    x: 8,
+                    y: 5,
+                },
+                Coord {
+                    x: 2,
+                    y: 5,
+                },
+                Coord {
+                    x: 11,
+                    y: 3,
+                },
+                Coord {
+                    x: 13,
+                    y: 1,
+                },
+                Coord {
+                    x: 3,
+                    y: 5,
+                },
+                Coord {
+                    x: 10,
+                    y: 4,
+                },
+                Coord {
+                    x: 3,
+                    y: 3,
+                },
+                Coord {
+                    x: 12,
+                    y: 2,
+                },
+                Coord {
+                    x: 2,
+                    y: 2,
+                },
+                Coord {
+                    x: 1,
+                    y: 1,
+                },
+                Coord {
+                    x: 1,
+                    y: 6,
+                },
+            },
+        },
+        Tail {
+            pos: Coord {
+                x: 13,
+                y: 0,
+            },
+            prev: {
+                Coord {
+                    x: 0,
+                    y: 0,
+                },
+                Coord {
+                    x: 2,
+                    y: 5,
+                },
+                Coord {
+                    x: 1,
+                    y: 6,
+                },
+                Coord {
+                    x: 9,
+                    y: 4,
+                },
+                Coord {
+                    x: 12,
+                    y: 1,
+                },
+                Coord {
+                    x: 11,
+                    y: 2,
+                },
+                Coord {
+                    x: 3,
+                    y: 4,
+                },
+                Coord {
+                    x: 8,
+                    y: 5,
+                },
+                Coord {
+                    x: 3,
+                    y: 3,
+                },
+                Coord {
+                    x: 2,
+                    y: 2,
+                },
+                Coord {
+                    x: 4,
+                    y: 5,
+                },
+                Coord {
+                    x: 6,
+                    y: 5,
+                },
+                Coord {
+                    x: 1,
+                    y: 1,
+                },
+                Coord {
+                    x: 7,
+                    y: 5,
+                },
+                Coord {
+                    x: 5,
+                    y: 5,
+                },
+                Coord {
+                    x: 10,
+                    y: 3,
+                },
+                Coord {
+                    x: 3,
+                    y: 5,
+                },
+            },
+        },
+        Tail {
+            pos: Coord {
+                x: 12,
+                y: 0,
+            },
+            prev: {
+                Coord {
+                    x: 2,
+                    y: 4,
+                },
+                Coord {
+                    x: 11,
+                    y: 1,
+                },
+                Coord {
+                    x: 3,
+                    y: 3,
+                },
+                Coord {
+                    x: 5,
+                    y: 5,
+                },
+                Coord {
+                    x: 1,
+                    y: 5,
+                },
+                Coord {
+                    x: 1,
+                    y: 1,
+                },
+                Coord {
+                    x: 3,
+                    y: 5,
+                },
+                Coord {
+                    x: 4,
+                    y: 5,
+                },
+                Coord {
+                    x: 10,
+                    y: 2,
+                },
+                Coord {
+                    x: 7,
+                    y: 5,
+                },
+                Coord {
+                    x: 0,
+                    y: 0,
+                },
+                Coord {
+                    x: 2,
+                    y: 2,
+                },
+                Coord {
+                    x: 8,
+                    y: 4,
+                },
+                Coord {
+                    x: 2,
+                    y: 5,
+                },
+                Coord {
+                    x: 6,
+                    y: 5,
+                },
+                Coord {
+                    x: 9,
+                    y: 3,
+                },
+            },
+        },
+        Tail {
+            pos: Coord {
+                x: 11,
+                y: 0,
+            },
+            prev: {
+                Coord {
+                    x: 0,
+                    y: 0,
+                },
+                Coord {
+                    x: 3,
+                    y: 5,
+                },
+                Coord {
+                    x: 2,
+                    y: 3,
+                },
+                Coord {
+                    x: 6,
+                    y: 5,
+                },
+                Coord {
+                    x: 9,
+                    y: 2,
+                },
+                Coord {
+                    x: 10,
+                    y: 1,
+                },
+                Coord {
+                    x: 2,
+                    y: 5,
+                },
+                Coord {
+                    x: 2,
+                    y: 2,
+                },
+                Coord {
+                    x: 1,
+                    y: 1,
+                },
+                Coord {
+                    x: 1,
+                    y: 4,
+                },
+                Coord {
+                    x: 5,
+                    y: 5,
+                },
+                Coord {
+                    x: 7,
+                    y: 4,
+                },
+                Coord {
+                    x: 4,
+                    y: 5,
+                },
+                Coord {
+                    x: 8,
+                    y: 3,
+                },
+            },
+        },
+        Tail {
+            pos: Coord {
+                x: 10,
+                y: 0,
+            },
+            prev: {
+                Coord {
+                    x: 2,
+                    y: 2,
+                },
+                Coord {
+                    x: 7,
+                    y: 3,
+                },
+                Coord {
+                    x: 6,
+                    y: 4,
+                },
+                Coord {
+                    x: 0,
+                    y: 0,
+                },
+                Coord {
+                    x: 3,
+                    y: 5,
+                },
+                Coord {
+                    x: 1,
+                    y: 1,
+                },
+                Coord {
+                    x: 8,
+                    y: 2,
+                },
+                Coord {
+                    x: 2,
+                    y: 4,
+                },
+                Coord {
+                    x: 9,
+                    y: 1,
+                },
+                Coord {
+                    x: 1,
+                    y: 3,
+                },
+                Coord {
+                    x: 4,
+                    y: 5,
+                },
+                Coord {
+                    x: 5,
+                    y: 5,
+                },
+            },
+        },
+    ],
+}
+[src/main.rs:219] &direction = Left(
+    25,
+)
+[src/main.rs:221] &rope = Rope {
+    head: Head {
+        pos: Coord {
+            x: -11,
+            y: -5,
+        },
+    },
+    tails: [
+        Tail {
+            pos: Coord {
+                x: -10,
+                y: -5,
+            },
+            prev: {
+                Coord {
+                    x: 10,
+                    y: 5,
+                },
+                Coord {
+                    x: 2,
+                    y: -5,
+                },
+                Coord {
+                    x: -3,
+                    y: -5,
+                },
+                Coord {
+                    x: 0,
+                    y: 0,
+                },
+                Coord {
+                    x: 3,
+                    y: 8,
+                },
+                Coord {
+                    x: 12,
+                    y: 5,
+                },
+                Coord {
+                    x: 14,
+                    y: 4,
+                },
+                Coord {
+                    x: 12,
+                    y: -5,
+                },
+                Coord {
+                    x: 8,
+                    y: -5,
+                },
+                Coord {
+                    x: 1,
+                    y: -5,
+                },
+                Coord {
+                    x: -2,
+                    y: 5,
+                },
+                Coord {
+                    x: 2,
+                    y: 0,
+                },
+                Coord {
+                    x: 0,
+                    y: 5,
+                },
+                Coord {
+                    x: 7,
+                    y: -5,
+                },
+                Coord {
+                    x: 11,
+                    y: 5,
+                },
+                Coord {
+                    x: -5,
+                    y: -5,
+                },
+                Coord {
+                    x: 3,
+                    y: 0,
+                },
+                Coord {
+                    x: -3,
+                    y: 7,
+                },
+                Coord {
+                    x: 8,
+                    y: 5,
+                },
+                Coord {
+                    x: 13,
+                    y: 5,
+                },
+                Coord {
+                    x: 1,
+                    y: 8,
+                },
+                Coord {
+                    x: 13,
+                    y: -5,
+                },
+                Coord {
+                    x: -9,
+                    y: -5,
+                },
+                Coord {
+                    x: 2,
+                    y: 8,
+                },
+                Coord {
+                    x: 14,
+                    y: -1,
+                },
+                Coord {
+                    x: 0,
+                    y: -5,
+                },
+                Coord {
+                    x: 10,
+                    y: -5,
+                },
+                Coord {
+                    x: 6,
+                    y: -5,
+                },
+                Coord {
+                    x: -2,
+                    y: -5,
+                },
+                Coord {
+                    x: 5,
+                    y: 6,
+                },
+                Coord {
+                    x: 9,
+                    y: 5,
+                },
+                Coord {
+                    x: -3,
+                    y: 6,
+                },
+                Coord {
+                    x: -2,
+                    y: 8,
+                },
+                Coord {
+                    x: 14,
+                    y: 3,
+                },
+                Coord {
+                    x: 3,
+                    y: 5,
+                },
+                Coord {
+                    x: -7,
+                    y: -5,
+                },
+                Coord {
+                    x: 14,
+                    y: 1,
+                },
+                Coord {
+                    x: -1,
+                    y: -5,
+                },
+                Coord {
+                    x: 5,
+                    y: -5,
+                },
+                Coord {
+                    x: 0,
+                    y: 8,
+                },
+                Coord {
+                    x: -6,
+                    y: -5,
+                },
+                Coord {
+                    x: 1,
+                    y: 0,
+                },
+                Coord {
+                    x: 4,
+                    y: 8,
+                },
+                Coord {
+                    x: 11,
+                    y: -5,
+                },
+                Coord {
+                    x: 5,
+                    y: 3,
+                },
+                Coord {
+                    x: 5,
+                    y: 1,
+                },
+                Coord {
+                    x: 14,
+                    y: -4,
+                },
+                Coord {
+                    x: 1,
+                    y: 5,
+                },
+                Coord {
+                    x: 5,
+                    y: 5,
+                },
+                Coord {
+                    x: -8,
+                    y: -5,
+                },
+                Coord {
+                    x: 14,
+                    y: -2,
+                },
+                Coord {
+                    x: 4,
+                    y: 0,
+                },
+                Coord {
+                    x: 4,
+                    y: -5,
+                },
+                Coord {
+                    x: 5,
+                    y: 2,
+                },
+                Coord {
+                    x: 7,
+                    y: 5,
+                },
+                Coord {
+                    x: 14,
+                    y: 0,
+                },
+                Coord {
+                    x: 14,
+                    y: 2,
+                },
+                Coord {
+                    x: -4,
+                    y: -5,
+                },
+                Coord {
+                    x: 14,
+                    y: -3,
+                },
+                Coord {
+                    x: 3,
+                    y: -5,
+                },
+                Coord {
+                    x: 9,
+                    y: -5,
+                },
+                Coord {
+                    x: 2,
+                    y: 5,
+                },
+                Coord {
+                    x: 5,
+                    y: 7,
+                },
+                Coord {
+                    x: -1,
+                    y: 5,
+                },
+                Coord {
+                    x: 4,
+                    y: 5,
+                },
+                Coord {
+                    x: -1,
+                    y: 8,
+                },
+                Coord {
+                    x: 5,
+                    y: 4,
+                },
+                Coord {
+                    x: 6,
+                    y: 5,
+                },
+            },
+        },
+        Tail {
+            pos: Coord {
+                x: -9,
+                y: -5,
+            },
+            prev: {
+                Coord {
+                    x: 0,
+                    y: 5,
+                },
+                Coord {
+                    x: 3,
+                    y: 0,
+                },
+                Coord {
+                    x: 2,
+                    y: 0,
+                },
+                Coord {
+                    x: 11,
+                    y: 5,
+                },
+                Coord {
+                    x: 10,
+                    y: -5,
+                },
+                Coord {
+                    x: 1,
+                    y: -5,
+                },
+                Coord {
+                    x: -4,
+                    y: -5,
+                },
+                Coord {
+                    x: 13,
+                    y: -4,
+                },
+                Coord {
+                    x: 3,
+                    y: 5,
+                },
+                Coord {
+                    x: -1,
+                    y: 5,
+                },
+                Coord {
+                    x: 5,
+                    y: 6,
+                },
+                Coord {
+                    x: 10,
+                    y: 5,
+                },
+                Coord {
+                    x: -2,
+                    y: 7,
+                },
+                Coord {
+                    x: 9,
+                    y: 5,
+                },
+                Coord {
+                    x: 0,
+                    y: 0,
+                },
+                Coord {
+                    x: 14,
+                    y: -1,
+                },
+                Coord {
+                    x: 1,
+                    y: 0,
+                },
+                Coord {
+                    x: 1,
+                    y: 5,
+                },
+                Coord {
+                    x: 7,
+                    y: 5,
+                },
+                Coord {
+                    x: 5,
+                    y: 4,
+                },
+                Coord {
+                    x: 9,
+                    y: -5,
+                },
+                Coord {
+                    x: 5,
+                    y: 5,
+                },
+                Coord {
+                    x: -2,
+                    y: -5,
+                },
+                Coord {
+                    x: 1,
+                    y: 8,
+                },
+                Coord {
+                    x: 14,
+                    y: 1,
+                },
+                Coord {
+                    x: 4,
+                    y: -5,
+                },
+                Coord {
+                    x: 3,
+                    y: -5,
+                },
+                Coord {
+                    x: 4,
+                    y: 1,
+                },
+                Coord {
+                    x: -1,
+                    y: 8,
+                },
+                Coord {
+                    x: 8,
+                    y: 5,
+                },
+                Coord {
+                    x: 0,
+                    y: -5,
+                },
+                Coord {
+                    x: -1,
+                    y: -5,
+                },
+                Coord {
+                    x: 14,
+                    y: 0,
+                },
+                Coord {
+                    x: 5,
+                    y: 2,
+                },
+                Coord {
+                    x: 13,
+                    y: 4,
+                },
+                Coord {
+                    x: 11,
+                    y: -5,
+                },
+                Coord {
+                    x: 7,
+                    y: -5,
+                },
+                Coord {
+                    x: 5,
+                    y: -5,
+                },
+                Coord {
+                    x: 14,
+                    y: 3,
+                },
+                Coord {
+                    x: -2,
+                    y: 6,
+                },
+                Coord {
+                    x: 14,
+                    y: -3,
+                },
+                Coord {
+                    x: -7,
+                    y: -5,
+                },
+                Coord {
+                    x: 2,
+                    y: 5,
+                },
+                Coord {
+                    x: -5,
+                    y: -5,
+                },
+                Coord {
+                    x: 12,
+                    y: 5,
+                },
+                Coord {
+                    x: 6,
+                    y: -5,
+                },
+                Coord {
+                    x: 2,
+                    y: 8,
+                },
+                Coord {
+                    x: 12,
+                    y: -5,
+                },
+                Coord {
+                    x: 6,
+                    y: 5,
+                },
+                Coord {
+                    x: 2,
+                    y: -5,
+                },
+                Coord {
+                    x: -8,
+                    y: -5,
+                },
+                Coord {
+                    x: 14,
+                    y: -2,
+                },
+                Coord {
+                    x: -6,
+                    y: -5,
+                },
+                Coord {
+                    x: 8,
+                    y: -5,
+                },
+                Coord {
+                    x: -3,
+                    y: -5,
+                },
+                Coord {
+                    x: 3,
+                    y: 8,
+                },
+                Coord {
+                    x: 4,
+                    y: 5,
+                },
+                Coord {
+                    x: 4,
+                    y: 7,
+                },
+                Coord {
+                    x: 5,
+                    y: 3,
+                },
+                Coord {
+                    x: 0,
+                    y: 8,
+                },
+                Coord {
+                    x: 14,
+                    y: 2,
+                },
+            },
+        },
+        Tail {
+            pos: Coord {
+                x: -8,
+                y: -5,
+            },
+            prev: {
+                Coord {
+                    x: 14,
+                    y: 1,
+                },
+                Coord {
+                    x: 2,
+                    y: 0,
+                },
+                Coord {
+                    x: 0,
+                    y: -5,
+                },
+                Coord {
+                    x: 1,
+                    y: 0,
+                },
+                Coord {
+                    x: -1,
+                    y: 6,
+                },
+                Coord {
+                    x: 1,
+                    y: -5,
+                },
+                Coord {
+                    x: 5,
+                    y: -5,
+                },
+                Coord {
+                    x: -5,
+                    y: -5,
+                },
+                Coord {
+                    x: 4,
+                    y: 5,
+                },
+                Coord {
+                    x: 0,
+                    y: 0,
+                },
+                Coord {
+                    x: 0,
+                    y: 8,
+                },
+                Coord {
+                    x: 12,
+                    y: 4,
+                },
+                Coord {
+                    x: 5,
+                    y: 4,
+                },
+                Coord {
+                    x: 11,
+                    y: 5,
+                },
+                Coord {
+                    x: 1,
+                    y: 8,
+                },
+                Coord {
+                    x: 4,
+                    y: 6,
+                },
+                Coord {
+                    x: 5,
+                    y: 3,
+                },
+                Coord {
+                    x: 2,
+                    y: 8,
+                },
+                Coord {
+                    x: 13,
+                    y: 3,
+                },
+                Coord {
+                    x: 14,
+                    y: 0,
+                },
+                Coord {
+                    x: 14,
+                    y: -1,
+                },
+                Coord {
+                    x: 11,
+                    y: -5,
+                },
+                Coord {
+                    x: 5,
+                    y: 5,
+                },
+                Coord {
+                    x: 3,
+                    y: -5,
+                },
+                Coord {
+                    x: 4,
+                    y: 2,
+                },
+                Coord {
+                    x: -3,
+                    y: -5,
+                },
+                Coord {
+                    x: 8,
+                    y: 5,
+                },
+                Coord {
+                    x: 7,
+                    y: -5,
+                },
+                Coord {
+                    x: 3,
+                    y: 5,
+                },
+                Coord {
+                    x: -6,
+                    y: -5,
+                },
+                Coord {
+                    x: 4,
+                    y: -5,
+                },
+                Coord {
+                    x: 3,
+                    y: 1,
+                },
+                Coord {
+                    x: -7,
+                    y: -5,
+                },
+                Coord {
+                    x: -1,
+                    y: -5,
+                },
+                Coord {
+                    x: 0,
+                    y: 5,
+                },
+                Coord {
+                    x: 14,
+                    y: 2,
+                },
+                Coord {
+                    x: 12,
+                    y: -4,
+                },
+                Coord {
+                    x: 6,
+                    y: -5,
+                },
+                Coord {
+                    x: 3,
+                    y: 7,
+                },
+                Coord {
+                    x: 7,
+                    y: 5,
+                },
+                Coord {
+                    x: 2,
+                    y: -5,
+                },
+                Coord {
+                    x: 13,
+                    y: -3,
+                },
+                Coord {
+                    x: 14,
+                    y: -2,
+                },
+                Coord {
+                    x: 10,
+                    y: -5,
+                },
+                Coord {
+                    x: 10,
+                    y: 5,
+                },
+                Coord {
+                    x: 9,
+                    y: 5,
+                },
+                Coord {
+                    x: 9,
+                    y: -5,
+                },
+                Coord {
+                    x: 6,
+                    y: 5,
+                },
+                Coord {
+                    x: 8,
+                    y: -5,
+                },
+                Coord {
+                    x: -2,
+                    y: -5,
+                },
+                Coord {
+                    x: 1,
+                    y: 5,
+                },
+                Coord {
+                    x: -4,
+                    y: -5,
+                },
+                Coord {
+                    x: 2,
+                    y: 5,
+                },
+                Coord {
+                    x: -1,
+                    y: 7,
+                },
+            },
+        },
+        Tail {
+            pos: Coord {
+                x: -7,
+                y: -5,
+            },
+            prev: {
+                Coord {
+                    x: 7,
+                    y: -5,
+                },
+                Coord {
+                    x: 11,
+                    y: -4,
+                },
+                Coord {
+                    x: -3,
+                    y: -5,
+                },
+                Coord {
+                    x: 3,
+                    y: -5,
+                },
+                Coord {
+                    x: 12,
+                    y: -3,
+                },
+                Coord {
+                    x: 2,
+                    y: 5,
+                },
+                Coord {
+                    x: 6,
+                    y: -5,
+                },
+                Coord {
+                    x: 4,
+                    y: -5,
+                },
+                Coord {
+                    x: 1,
+                    y: 0,
+                },
+                Coord {
+                    x: 12,
+                    y: 3,
+                },
+                Coord {
+                    x: 8,
+                    y: 5,
+                },
+                Coord {
+                    x: 14,
+                    y: 1,
+                },
+                Coord {
+                    x: -1,
+                    y: -5,
+                },
+                Coord {
+                    x: 14,
+                    y: -1,
+                },
+                Coord {
+                    x: 2,
+                    y: 1,
+                },
+                Coord {
+                    x: -6,
+                    y: -5,
+                },
+                Coord {
+                    x: 11,
+                    y: 4,
+                },
+                Coord {
+                    x: 1,
+                    y: 5,
+                },
+                Coord {
+                    x: 0,
+                    y: 7,
+                },
+                Coord {
+                    x: 13,
+                    y: 2,
+                },
+                Coord {
+                    x: 5,
+                    y: 4,
+                },
+                Coord {
+                    x: 2,
+                    y: 7,
+                },
+                Coord {
+                    x: 0,
+                    y: 0,
+                },
+                Coord {
+                    x: 8,
+                    y: -5,
+                },
+                Coord {
+                    x: 14,
+                    y: 0,
+                },
+                Coord {
+                    x: 0,
+                    y: 6,
+                },
+                Coord {
+                    x: 3,
+                    y: 5,
+                },
+                Coord {
+                    x: 7,
+                    y: 5,
+                },
+                Coord {
+                    x: 13,
+                    y: -2,
+                },
+                Coord {
+                    x: 5,
+                    y: -5,
+                },
+                Coord {
+                    x: 9,
+                    y: -5,
+                },
+                Coord {
+                    x: 4,
+                    y: 5,
+                },
+                Coord {
+                    x: 4,
+                    y: 3,
+                },
+                Coord {
+                    x: 2,
+                    y: -5,
+                },
+                Coord {
+                    x: 0,
+                    y: -5,
+                },
+                Coord {
+                    x: -2,
+                    y: -5,
+                },
+                Coord {
+                    x: -4,
+                    y: -5,
+                },
+                Coord {
+                    x: -5,
+                    y: -5,
+                },
+                Coord {
+                    x: 10,
+                    y: -5,
+                },
+                Coord {
+                    x: 9,
+                    y: 5,
+                },
+                Coord {
+                    x: 10,
+                    y: 5,
+                },
+                Coord {
+                    x: 1,
+                    y: -5,
+                },
+                Coord {
+                    x: 6,
+                    y: 5,
+                },
+                Coord {
+                    x: 5,
+                    y: 5,
+                },
+                Coord {
+                    x: 3,
+                    y: 2,
+                },
+                Coord {
+                    x: 3,
+                    y: 6,
+                },
+                Coord {
+                    x: 1,
+                    y: 8,
+                },
+            },
+        },
+        Tail {
+            pos: Coord {
+                x: -6,
+                y: -5,
+            },
+            prev: {
+                Coord {
+                    x: 4,
+                    y: 4,
+                },
+                Coord {
+                    x: 11,
+                    y: 3,
+                },
+                Coord {
+                    x: 6,
+                    y: 5,
+                },
+                Coord {
+                    x: 0,
+                    y: 0,
+                },
+                Coord {
+                    x: 9,
+                    y: 5,
+                },
+                Coord {
+                    x: 13,
+                    y: 1,
+                },
+                Coord {
+                    x: 7,
+                    y: 5,
+                },
+                Coord {
+                    x: 1,
+                    y: 7,
+                },
+                Coord {
+                    x: 13,
+                    y: -1,
+                },
+                Coord {
+                    x: 12,
+                    y: -2,
+                },
+                Coord {
+                    x: 7,
+                    y: -5,
+                },
+                Coord {
+                    x: 11,
+                    y: -3,
+                },
+                Coord {
+                    x: 9,
+                    y: -5,
+                },
+                Coord {
+                    x: 8,
+                    y: -5,
+                },
+                Coord {
+                    x: 10,
+                    y: -4,
+                },
+                Coord {
+                    x: 4,
+                    y: -5,
+                },
+                Coord {
+                    x: 3,
+                    y: -5,
+                },
+                Coord {
+                    x: -1,
+                    y: -5,
+                },
+                Coord {
+                    x: -5,
+                    y: -5,
+                },
+                Coord {
+                    x: -3,
+                    y: -5,
+                },
+                Coord {
+                    x: 14,
+                    y: 0,
+                },
+                Coord {
+                    x: 0,
+                    y: -5,
+                },
+                Coord {
+                    x: 4,
+                    y: 5,
+                },
+                Coord {
+                    x: 5,
+                    y: 5,
+                },
+                Coord {
+                    x: 1,
+                    y: -5,
+                },
+                Coord {
+                    x: -4,
+                    y: -5,
+                },
+                Coord {
+                    x: 8,
+                    y: 5,
+                },
+                Coord {
+                    x: 2,
+                    y: 6,
+                },
+                Coord {
+                    x: 6,
+                    y: -5,
+                },
+                Coord {
+                    x: 2,
+                    y: 5,
+                },
+                Coord {
+                    x: 3,
+                    y: 5,
+                },
+                Coord {
+                    x: -2,
+                    y: -5,
+                },
+                Coord {
+                    x: 10,
+                    y: 4,
+                },
+                Coord {
+                    x: 3,
+                    y: 3,
+                },
+                Coord {
+                    x: 12,
+                    y: 2,
+                },
+                Coord {
+                    x: 2,
+                    y: 2,
+                },
+                Coord {
+                    x: 1,
+                    y: 1,
+                },
+                Coord {
+                    x: 5,
+                    y: -5,
+                },
+                Coord {
+                    x: 1,
+                    y: 6,
+                },
+                Coord {
+                    x: 2,
+                    y: -5,
+                },
+            },
+        },
+        Tail {
+            pos: Coord {
+                x: -5,
+                y: -5,
+            },
+            prev: {
+                Coord {
+                    x: 0,
+                    y: 0,
+                },
+                Coord {
+                    x: 9,
+                    y: -4,
+                },
+                Coord {
+                    x: 1,
+                    y: 6,
+                },
+                Coord {
+                    x: 9,
+                    y: 4,
+                },
+                Coord {
+                    x: 3,
+                    y: 5,
+                },
+                Coord {
+                    x: 13,
+                    y: 0,
+                },
+                Coord {
+                    x: 0,
+                    y: -5,
+                },
+                Coord {
+                    x: 7,
+                    y: -5,
+                },
+                Coord {
+                    x: -4,
+                    y: -5,
+                },
+                Coord {
+                    x: 4,
+                    y: 5,
+                },
+                Coord {
+                    x: 12,
+                    y: -1,
+                },
+                Coord {
+                    x: 5,
+                    y: -5,
+                },
+                Coord {
+                    x: 10,
+                    y: -3,
+                },
+                Coord {
+                    x: 1,
+                    y: -5,
+                },
+                Coord {
+                    x: 8,
+                    y: -5,
+                },
+                Coord {
+                    x: 2,
+                    y: 5,
+                },
+                Coord {
+                    x: 11,
+                    y: 2,
+                },
+                Coord {
+                    x: 11,
+                    y: -2,
+                },
+                Coord {
+                    x: 6,
+                    y: -5,
+                },
+                Coord {
+                    x: 2,
+                    y: -5,
+                },
+                Coord {
+                    x: -3,
+                    y: -5,
+                },
+                Coord {
+                    x: 3,
+                    y: 4,
+                },
+                Coord {
+                    x: 8,
+                    y: 5,
+                },
+                Coord {
+                    x: 3,
+                    y: 3,
+                },
+                Coord {
+                    x: 4,
+                    y: -5,
+                },
+                Coord {
+                    x: 2,
+                    y: 2,
+                },
+                Coord {
+                    x: 6,
+                    y: 5,
+                },
+                Coord {
+                    x: 7,
+                    y: 5,
+                },
+                Coord {
+                    x: 1,
+                    y: 1,
+                },
+                Coord {
+                    x: -1,
+                    y: -5,
+                },
+                Coord {
+                    x: 5,
+                    y: 5,
+                },
+                Coord {
+                    x: 10,
+                    y: 3,
+                },
+                Coord {
+                    x: -2,
+                    y: -5,
+                },
+                Coord {
+                    x: 3,
+                    y: -5,
+                },
+                Coord {
+                    x: 12,
+                    y: 1,
+                },
+            },
+        },
+        Tail {
+            pos: Coord {
+                x: -4,
+                y: -5,
+            },
+            prev: {
+                Coord {
+                    x: 2,
+                    y: 4,
+                },
+                Coord {
+                    x: 11,
+                    y: -1,
+                },
+                Coord {
+                    x: 12,
+                    y: 0,
+                },
+                Coord {
+                    x: 0,
+                    y: -5,
+                },
+                Coord {
+                    x: 3,
+                    y: 3,
+                },
+                Coord {
+                    x: 4,
+                    y: -5,
+                },
+                Coord {
+                    x: 3,
+                    y: 5,
+                },
+                Coord {
+                    x: 1,
+                    y: 1,
+                },
+                Coord {
+                    x: -1,
+                    y: -5,
+                },
+                Coord {
+                    x: 4,
+                    y: 5,
+                },
+                Coord {
+                    x: 10,
+                    y: 2,
+                },
+                Coord {
+                    x: 8,
+                    y: -4,
+                },
+                Coord {
+                    x: 0,
+                    y: 0,
+                },
+                Coord {
+                    x: 9,
+                    y: 3,
+                },
+                Coord {
+                    x: 6,
+                    y: 5,
+                },
+                Coord {
+                    x: 9,
+                    y: -3,
+                },
+                Coord {
+                    x: -2,
+                    y: -5,
+                },
+                Coord {
+                    x: 11,
+                    y: 1,
+                },
+                Coord {
+                    x: 2,
+                    y: -5,
+                },
+                Coord {
+                    x: 5,
+                    y: -5,
+                },
+                Coord {
+                    x: 3,
+                    y: -5,
+                },
+                Coord {
+                    x: 5,
+                    y: 5,
+                },
+                Coord {
+                    x: 6,
+                    y: -5,
+                },
+                Coord {
+                    x: 10,
+                    y: -2,
+                },
+                Coord {
+                    x: 1,
+                    y: 5,
+                },
+                Coord {
+                    x: -3,
+                    y: -5,
+                },
+                Coord {
+                    x: 7,
+                    y: 5,
+                },
+                Coord {
+                    x: 7,
+                    y: -5,
+                },
+                Coord {
+                    x: 2,
+                    y: 2,
+                },
+                Coord {
+                    x: 8,
+                    y: 4,
+                },
+                Coord {
+                    x: 2,
+                    y: 5,
+                },
+                Coord {
+                    x: 1,
+                    y: -5,
+                },
+            },
+        },
+        Tail {
+            pos: Coord {
+                x: -3,
+                y: -5,
+            },
+            prev: {
+                Coord {
+                    x: -2,
+                    y: -5,
+                },
+                Coord {
+                    x: 3,
+                    y: 5,
+                },
+                Coord {
+                    x: 6,
+                    y: 5,
+                },
+                Coord {
+                    x: 2,
+                    y: 3,
+                },
+                Coord {
+                    x: 9,
+                    y: 2,
+                },
+                Coord {
+                    x: 5,
+                    y: -5,
+                },
+                Coord {
+                    x: 3,
+                    y: -5,
+                },
+                Coord {
+                    x: 2,
+                    y: 5,
+                },
+                Coord {
+                    x: 1,
+                    y: 1,
+                },
+                Coord {
+                    x: 7,
+                    y: 4,
+                },
+                Coord {
+                    x: 10,
+                    y: -1,
+                },
+                Coord {
+                    x: 9,
+                    y: -2,
+                },
+                Coord {
+                    x: 4,
+                    y: -5,
+                },
+                Coord {
+                    x: 2,
+                    y: -5,
+                },
+                Coord {
+                    x: 1,
+                    y: -5,
+                },
+                Coord {
+                    x: -1,
+                    y: -5,
+                },
+                Coord {
+                    x: 0,
+                    y: 0,
+                },
+                Coord {
+                    x: 10,
+                    y: 1,
+                },
+                Coord {
+                    x: 11,
+                    y: 0,
+                },
+                Coord {
+                    x: 6,
+                    y: -5,
+                },
+                Coord {
+                    x: 0,
+                    y: -5,
+                },
+                Coord {
+                    x: 2,
+                    y: 2,
+                },
+                Coord {
+                    x: 1,
+                    y: 4,
+                },
+                Coord {
+                    x: 8,
+                    y: 3,
+                },
+                Coord {
+                    x: 5,
+                    y: 5,
+                },
+                Coord {
+                    x: 8,
+                    y: -3,
+                },
+                Coord {
+                    x: 4,
+                    y: 5,
+                },
+                Coord {
+                    x: 7,
+                    y: -4,
+                },
+            },
+        },
+        Tail {
+            pos: Coord {
+                x: -2,
+                y: -5,
+            },
+            prev: {
+                Coord {
+                    x: 2,
+                    y: 2,
+                },
+                Coord {
+                    x: 7,
+                    y: 3,
+                },
+                Coord {
+                    x: 6,
+                    y: -4,
+                },
+                Coord {
+                    x: 7,
+                    y: -3,
+                },
+                Coord {
+                    x: 8,
+                    y: -2,
+                },
+                Coord {
+                    x: 10,
+                    y: 0,
+                },
+                Coord {
+                    x: 8,
+                    y: 2,
+                },
+                Coord {
+                    x: 9,
+                    y: 1,
+                },
+                Coord {
+                    x: 4,
+                    y: -5,
+                },
+                Coord {
+                    x: 1,
+                    y: 3,
+                },
+                Coord {
+                    x: 5,
+                    y: -5,
+                },
+                Coord {
+                    x: 5,
+                    y: 5,
+                },
+                Coord {
+                    x: 2,
+                    y: -5,
+                },
+                Coord {
+                    x: -1,
+                    y: -5,
+                },
+                Coord {
+                    x: 3,
+                    y: -5,
+                },
+                Coord {
+                    x: 6,
+                    y: 4,
+                },
+                Coord {
+                    x: 0,
+                    y: 0,
+                },
+                Coord {
+                    x: 3,
+                    y: 5,
+                },
+                Coord {
+                    x: 9,
+                    y: -1,
+                },
+                Coord {
+                    x: 1,
+                    y: -5,
+                },
+                Coord {
+                    x: 1,
+                    y: 1,
+                },
+                Coord {
+                    x: 2,
+                    y: 4,
+                },
+                Coord {
+                    x: 0,
+                    y: -5,
+                },
+                Coord {
+                    x: 4,
+                    y: 5,
+                },
+            },
+        },
+    ],
+}
+[src/main.rs:219] &direction = Up(
+    20,
+)
+[src/main.rs:221] &rope = Rope {
+    head: Head {
+        pos: Coord {
+            x: -11,
+            y: 15,
+        },
+    },
+    tails: [
+        Tail {
+            pos: Coord {
+                x: -11,
+                y: 14,
+            },
+            prev: {
+                Coord {
+                    x: 10,
+                    y: 5,
+                },
+                Coord {
+                    x: 2,
+                    y: -5,
+                },
+                Coord {
+                    x: -3,
+                    y: -5,
+                },
+                Coord {
+                    x: 0,
+                    y: 0,
+                },
+                Coord {
+                    x: 3,
+                    y: 8,
+                },
+                Coord {
+                    x: 12,
+                    y: 5,
+                },
+                Coord {
+                    x: 14,
+                    y: 4,
+                },
+                Coord {
+                    x: 12,
+                    y: -5,
+                },
+                Coord {
+                    x: 8,
+                    y: -5,
+                },
+                Coord {
+                    x: 1,
+                    y: -5,
+                },
+                Coord {
+                    x: -11,
+                    y: 2,
+                },
+                Coord {
+                    x: -11,
+                    y: 4,
+                },
+                Coord {
+                    x: -11,
+                    y: 11,
+                },
+                Coord {
+                    x: -2,
+                    y: 5,
+                },
+                Coord {
+                    x: 2,
+                    y: 0,
+                },
+                Coord {
+                    x: 0,
+                    y: 5,
+                },
+                Coord {
+                    x: 7,
+                    y: -5,
+                },
+                Coord {
+                    x: 11,
+                    y: 5,
+                },
+                Coord {
+                    x: -5,
+                    y: -5,
+                },
+                Coord {
+                    x: 3,
+                    y: 0,
+                },
+                Coord {
+                    x: -3,
+                    y: 7,
+                },
+                Coord {
+                    x: -11,
+                    y: -3,
+                },
+                Coord {
+                    x: 8,
+                    y: 5,
+                },
+                Coord {
+                    x: 13,
+                    y: 5,
+                },
+                Coord {
+                    x: 1,
+                    y: 8,
+                },
+                Coord {
+                    x: 13,
+                    y: -5,
+                },
+                Coord {
+                    x: -9,
+                    y: -5,
+                },
+                Coord {
+                    x: 2,
+                    y: 8,
+                },
+                Coord {
+                    x: 14,
+                    y: -1,
+                },
+                Coord {
+                    x: 0,
+                    y: -5,
+                },
+                Coord {
+                    x: 10,
+                    y: -5,
+                },
+                Coord {
+                    x: 6,
+                    y: -5,
+                },
+                Coord {
+                    x: -2,
+                    y: -5,
+                },
+                Coord {
+                    x: 5,
+                    y: 6,
+                },
+                Coord {
+                    x: 9,
+                    y: 5,
+                },
+                Coord {
+                    x: -3,
+                    y: 6,
+                },
+                Coord {
+                    x: -2,
+                    y: 8,
+                },
+                Coord {
+                    x: 14,
+                    y: 3,
+                },
+                Coord {
+                    x: -11,
+                    y: -4,
+                },
+                Coord {
+                    x: 3,
+                    y: 5,
+                },
+                Coord {
+                    x: -7,
+                    y: -5,
+                },
+                Coord {
+                    x: -11,
+                    y: 10,
+                },
+                Coord {
+                    x: 14,
+                    y: 1,
+                },
+                Coord {
+                    x: -1,
+                    y: -5,
+                },
+                Coord {
+                    x: -10,
+                    y: -5,
+                },
+                Coord {
+                    x: -11,
+                    y: 8,
+                },
+                Coord {
+                    x: 5,
+                    y: -5,
+                },
+                Coord {
+                    x: -11,
+                    y: 13,
+                },
+                Coord {
+                    x: 0,
+                    y: 8,
+                },
+                Coord {
+                    x: -6,
+                    y: -5,
+                },
+                Coord {
+                    x: 1,
+                    y: 0,
+                },
+                Coord {
+                    x: 4,
+                    y: 8,
+                },
+                Coord {
+                    x: 11,
+                    y: -5,
+                },
+                Coord {
+                    x: 5,
+                    y: 3,
+                },
+                Coord {
+                    x: 5,
+                    y: 1,
+                },
+                Coord {
+                    x: 14,
+                    y: -4,
+                },
+                Coord {
+                    x: 1,
+                    y: 5,
+                },
+                Coord {
+                    x: -11,
+                    y: 0,
+                },
+                Coord {
+                    x: -11,
+                    y: -1,
+                },
+                Coord {
+                    x: -11,
+                    y: 1,
+                },
+                Coord {
+                    x: -11,
+                    y: 3,
+                },
+                Coord {
+                    x: -11,
+                    y: 6,
+                },
+                Coord {
+                    x: 5,
+                    y: 5,
+                },
+                Coord {
+                    x: -8,
+                    y: -5,
+                },
+                Coord {
+                    x: -11,
+                    y: -2,
+                },
+                Coord {
+                    x: 14,
+                    y: -2,
+                },
+                Coord {
+                    x: 4,
+                    y: 0,
+                },
+                Coord {
+                    x: 4,
+                    y: -5,
+                },
+                Coord {
+                    x: 5,
+                    y: 2,
+                },
+                Coord {
+                    x: 7,
+                    y: 5,
+                },
+                Coord {
+                    x: 14,
+                    y: 0,
+                },
+                Coord {
+                    x: -11,
+                    y: 9,
+                },
+                Coord {
+                    x: 14,
+                    y: 2,
+                },
+                Coord {
+                    x: -4,
+                    y: -5,
+                },
+                Coord {
+                    x: 14,
+                    y: -3,
+                },
+                Coord {
+                    x: -11,
+                    y: 12,
+                },
+                Coord {
+                    x: -11,
+                    y: 7,
+                },
+                Coord {
+                    x: -11,
+                    y: 5,
+                },
+                Coord {
+                    x: 3,
+                    y: -5,
+                },
+                Coord {
+                    x: 9,
+                    y: -5,
+                },
+                Coord {
+                    x: 2,
+                    y: 5,
+                },
+                Coord {
+                    x: 5,
+                    y: 7,
+                },
+                Coord {
+                    x: -1,
+                    y: 5,
+                },
+                Coord {
+                    x: 4,
+                    y: 5,
+                },
+                Coord {
+                    x: -1,
+                    y: 8,
+                },
+                Coord {
+                    x: 5,
+                    y: 4,
+                },
+                Coord {
+                    x: 6,
+                    y: 5,
+                },
+            },
+        },
+        Tail {
+            pos: Coord {
+                x: -11,
+                y: 13,
+            },
+            prev: {
+                Coord {
+                    x: 0,
+                    y: 5,
+                },
+                Coord {
+                    x: 3,
+                    y: 0,
+                },
+                Coord {
+                    x: 2,
+                    y: 0,
+                },
+                Coord {
+                    x: -10,
+                    y: -4,
+                },
+                Coord {
+                    x: -11,
+                    y: -2,
+                },
+                Coord {
+                    x: -11,
+                    y: -1,
+                },
+                Coord {
+                    x: -11,
+                    y: 3,
+                },
+                Coord {
+                    x: -11,
+                    y: 7,
+                },
+                Coord {
+                    x: -11,
+                    y: 9,
+                },
+                Coord {
+                    x: 11,
+                    y: 5,
+                },
+                Coord {
+                    x: 10,
+                    y: -5,
+                },
+                Coord {
+                    x: 1,
+                    y: -5,
+                },
+                Coord {
+                    x: -4,
+                    y: -5,
+                },
+                Coord {
+                    x: 13,
+                    y: -4,
+                },
+                Coord {
+                    x: -11,
+                    y: 5,
+                },
+                Coord {
+                    x: 3,
+                    y: 5,
+                },
+                Coord {
+                    x: -11,
+                    y: 8,
+                },
+                Coord {
+                    x: -11,
+                    y: 11,
+                },
+                Coord {
+                    x: -1,
+                    y: 5,
+                },
+                Coord {
+                    x: -11,
+                    y: 10,
+                },
+                Coord {
+                    x: -11,
+                    y: 12,
+                },
+                Coord {
+                    x: 5,
+                    y: 6,
+                },
+                Coord {
+                    x: 10,
+                    y: 5,
+                },
+                Coord {
+                    x: -2,
+                    y: 7,
+                },
+                Coord {
+                    x: -11,
+                    y: 1,
+                },
+                Coord {
+                    x: 9,
+                    y: 5,
+                },
+                Coord {
+                    x: 0,
+                    y: 0,
+                },
+                Coord {
+                    x: 14,
+                    y: -1,
+                },
+                Coord {
+                    x: -11,
+                    y: 4,
+                },
+                Coord {
+                    x: 1,
+                    y: 0,
+                },
+                Coord {
+                    x: 1,
+                    y: 5,
+                },
+                Coord {
+                    x: -9,
+                    y: -5,
+                },
+                Coord {
+                    x: -11,
+                    y: 2,
+                },
+                Coord {
+                    x: -11,
+                    y: 6,
+                },
+                Coord {
+                    x: 7,
+                    y: 5,
+                },
+                Coord {
+                    x: 5,
+                    y: 4,
+                },
+                Coord {
+                    x: 9,
+                    y: -5,
+                },
+                Coord {
+                    x: 5,
+                    y: 5,
+                },
+                Coord {
+                    x: -2,
+                    y: -5,
+                },
+                Coord {
+                    x: 1,
+                    y: 8,
+                },
+                Coord {
+                    x: 14,
+                    y: 1,
+                },
+                Coord {
+                    x: 4,
+                    y: -5,
+                },
+                Coord {
+                    x: -11,
+                    y: 0,
+                },
+                Coord {
+                    x: 3,
+                    y: -5,
+                },
+                Coord {
+                    x: 4,
+                    y: 1,
+                },
+                Coord {
+                    x: -1,
+                    y: 8,
+                },
+                Coord {
+                    x: 8,
+                    y: 5,
+                },
+                Coord {
+                    x: 0,
+                    y: -5,
+                },
+                Coord {
+                    x: -1,
+                    y: -5,
+                },
+                Coord {
+                    x: 14,
+                    y: 0,
+                },
+                Coord {
+                    x: -11,
+                    y: -3,
+                },
+                Coord {
+                    x: 5,
+                    y: 2,
+                },
+                Coord {
+                    x: 13,
+                    y: 4,
+                },
+                Coord {
+                    x: 11,
+                    y: -5,
+                },
+                Coord {
+                    x: 7,
+                    y: -5,
+                },
+                Coord {
+                    x: 5,
+                    y: -5,
+                },
+                Coord {
+                    x: 14,
+                    y: 3,
+                },
+                Coord {
+                    x: -2,
+                    y: 6,
+                },
+                Coord {
+                    x: 14,
+                    y: -3,
+                },
+                Coord {
+                    x: -7,
+                    y: -5,
+                },
+                Coord {
+                    x: 2,
+                    y: 5,
+                },
+                Coord {
+                    x: -5,
+                    y: -5,
+                },
+                Coord {
+                    x: 12,
+                    y: 5,
+                },
+                Coord {
+                    x: 6,
+                    y: -5,
+                },
+                Coord {
+                    x: 2,
+                    y: 8,
+                },
+                Coord {
+                    x: 12,
+                    y: -5,
+                },
+                Coord {
+                    x: 6,
+                    y: 5,
+                },
+                Coord {
+                    x: 2,
+                    y: -5,
+                },
+                Coord {
+                    x: -8,
+                    y: -5,
+                },
+                Coord {
+                    x: 14,
+                    y: -2,
+                },
+                Coord {
+                    x: -6,
+                    y: -5,
+                },
+                Coord {
+                    x: 8,
+                    y: -5,
+                },
+                Coord {
+                    x: -3,
+                    y: -5,
+                },
+                Coord {
+                    x: 3,
+                    y: 8,
+                },
+                Coord {
+                    x: 4,
+                    y: 5,
+                },
+                Coord {
+                    x: 4,
+                    y: 7,
+                },
+                Coord {
+                    x: 5,
+                    y: 3,
+                },
+                Coord {
+                    x: 0,
+                    y: 8,
+                },
+                Coord {
+                    x: 14,
+                    y: 2,
+                },
+            },
+        },
+        Tail {
+            pos: Coord {
+                x: -11,
+                y: 12,
+            },
+            prev: {
+                Coord {
+                    x: 14,
+                    y: 1,
+                },
+                Coord {
+                    x: 2,
+                    y: 0,
+                },
+                Coord {
+                    x: -11,
+                    y: 6,
+                },
+                Coord {
+                    x: 1,
+                    y: 0,
+                },
+                Coord {
+                    x: -1,
+                    y: 6,
+                },
+                Coord {
+                    x: 1,
+                    y: -5,
+                },
+                Coord {
+                    x: -11,
+                    y: 2,
+                },
+                Coord {
+                    x: 4,
+                    y: 5,
+                },
+                Coord {
+                    x: 0,
+                    y: 0,
+                },
+                Coord {
+                    x: -11,
+                    y: 10,
+                },
+                Coord {
+                    x: -11,
+                    y: -2,
+                },
+                Coord {
+                    x: 4,
+                    y: 6,
+                },
+                Coord {
+                    x: 2,
+                    y: 8,
+                },
+                Coord {
+                    x: -11,
+                    y: 9,
+                },
+                Coord {
+                    x: -8,
+                    y: -5,
+                },
+                Coord {
+                    x: -6,
+                    y: -5,
+                },
+                Coord {
+                    x: -7,
+                    y: -5,
+                },
+                Coord {
+                    x: 4,
+                    y: -5,
+                },
+                Coord {
+                    x: 3,
+                    y: 1,
+                },
+                Coord {
+                    x: 0,
+                    y: 5,
+                },
+                Coord {
+                    x: 14,
+                    y: 2,
+                },
+                Coord {
+                    x: -9,
+                    y: -4,
+                },
+                Coord {
+                    x: 3,
+                    y: 7,
+                },
+                Coord {
+                    x: 7,
+                    y: 5,
+                },
+                Coord {
+                    x: 13,
+                    y: -3,
+                },
+                Coord {
+                    x: 14,
+                    y: -2,
+                },
+                Coord {
+                    x: 10,
+                    y: 5,
+                },
+                Coord {
+                    x: -11,
+                    y: 3,
+                },
+                Coord {
+                    x: 9,
+                    y: 5,
+                },
+                Coord {
+                    x: 0,
+                    y: -5,
+                },
+                Coord {
+                    x: -11,
+                    y: 11,
+                },
+                Coord {
+                    x: -5,
+                    y: -5,
+                },
+                Coord {
+                    x: 5,
+                    y: -5,
+                },
+                Coord {
+                    x: -11,
+                    y: 4,
+                },
+                Coord {
+                    x: 0,
+                    y: 8,
+                },
+                Coord {
+                    x: 12,
+                    y: 4,
+                },
+                Coord {
+                    x: 14,
+                    y: 0,
+                },
+                Coord {
+                    x: 5,
+                    y: 4,
+                },
+                Coord {
+                    x: 11,
+                    y: 5,
+                },
+                Coord {
+                    x: 1,
+                    y: 8,
+                },
+                Coord {
+                    x: 14,
+                    y: -1,
+                },
+                Coord {
+                    x: 5,
+                    y: 3,
+                },
+                Coord {
+                    x: 13,
+                    y: 3,
+                },
+                Coord {
+                    x: 11,
+                    y: -5,
+                },
+                Coord {
+                    x: 3,
+                    y: -5,
+                },
+                Coord {
+                    x: -11,
+                    y: 1,
+                },
+                Coord {
+                    x: -10,
+                    y: -3,
+                },
+                Coord {
+                    x: 5,
+                    y: 5,
+                },
+                Coord {
+                    x: -11,
+                    y: 8,
+                },
+                Coord {
+                    x: 4,
+                    y: 2,
+                },
+                Coord {
+                    x: -3,
+                    y: -5,
+                },
+                Coord {
+                    x: 8,
+                    y: 5,
+                },
+                Coord {
+                    x: 7,
+                    y: -5,
+                },
+                Coord {
+                    x: 3,
+                    y: 5,
+                },
+                Coord {
+                    x: -11,
+                    y: 0,
+                },
+                Coord {
+                    x: -1,
+                    y: -5,
+                },
+                Coord {
+                    x: 12,
+                    y: -4,
+                },
+                Coord {
+                    x: 6,
+                    y: -5,
+                },
+                Coord {
+                    x: -11,
+                    y: 5,
+                },
+                Coord {
+                    x: 2,
+                    y: -5,
+                },
+                Coord {
+                    x: 10,
+                    y: -5,
+                },
+                Coord {
+                    x: -11,
+                    y: 7,
+                },
+                Coord {
+                    x: 8,
+                    y: -5,
+                },
+                Coord {
+                    x: 9,
+                    y: -5,
+                },
+                Coord {
+                    x: 6,
+                    y: 5,
+                },
+                Coord {
+                    x: -2,
+                    y: -5,
+                },
+                Coord {
+                    x: 1,
+                    y: 5,
+                },
+                Coord {
+                    x: -4,
+                    y: -5,
+                },
+                Coord {
+                    x: 2,
+                    y: 5,
+                },
+                Coord {
+                    x: -1,
+                    y: 7,
+                },
+                Coord {
+                    x: -11,
+                    y: -1,
+                },
+            },
+        },
+        Tail {
+            pos: Coord {
+                x: -11,
+                y: 11,
+            },
+            prev: {
+                Coord {
+                    x: -11,
+                    y: 3,
+                },
+                Coord {
+                    x: 3,
+                    y: -5,
+                },
+                Coord {
+                    x: 12,
+                    y: -3,
+                },
+                Coord {
+                    x: -11,
+                    y: -1,
+                },
+                Coord {
+                    x: -11,
+                    y: 10,
+                },
+                Coord {
+                    x: 1,
+                    y: 0,
+                },
+                Coord {
+                    x: 8,
+                    y: 5,
+                },
+                Coord {
+                    x: 14,
+                    y: 1,
+                },
+                Coord {
+                    x: -1,
+                    y: -5,
+                },
+                Coord {
+                    x: 2,
+                    y: 1,
+                },
+                Coord {
+                    x: -9,
+                    y: -3,
+                },
+                Coord {
+                    x: 0,
+                    y: 7,
+                },
+                Coord {
+                    x: -11,
+                    y: 1,
+                },
+                Coord {
+                    x: 3,
+                    y: 5,
+                },
+                Coord {
+                    x: 7,
+                    y: 5,
+                },
+                Coord {
+                    x: 9,
+                    y: -5,
+                },
+                Coord {
+                    x: 4,
+                    y: 5,
+                },
+                Coord {
+                    x: -7,
+                    y: -5,
+                },
+                Coord {
+                    x: -11,
+                    y: 6,
+                },
+                Coord {
+                    x: 0,
+                    y: -5,
+                },
+                Coord {
+                    x: 10,
+                    y: -5,
+                },
+                Coord {
+                    x: 10,
+                    y: 5,
+                },
+                Coord {
+                    x: -11,
+                    y: 5,
+                },
+                Coord {
+                    x: -11,
+                    y: 8,
+                },
+                Coord {
+                    x: -10,
+                    y: -2,
+                },
+                Coord {
+                    x: 3,
+                    y: 6,
+                },
+                Coord {
+                    x: 7,
+                    y: -5,
+                },
+                Coord {
+                    x: 11,
+                    y: -4,
+                },
+                Coord {
+                    x: -3,
+                    y: -5,
+                },
+                Coord {
+                    x: -11,
+                    y: 9,
+                },
+                Coord {
+                    x: 2,
+                    y: 5,
+                },
+                Coord {
+                    x: 6,
+                    y: -5,
+                },
+                Coord {
+                    x: 4,
+                    y: -5,
+                },
+                Coord {
+                    x: 12,
+                    y: 3,
+                },
+                Coord {
+                    x: 14,
+                    y: -1,
+                },
+                Coord {
+                    x: -6,
+                    y: -5,
+                },
+                Coord {
+                    x: -11,
+                    y: 2,
+                },
+                Coord {
+                    x: 11,
+                    y: 4,
+                },
+                Coord {
+                    x: 1,
+                    y: 5,
+                },
+                Coord {
+                    x: -11,
+                    y: 4,
+                },
+                Coord {
+                    x: 13,
+                    y: 2,
+                },
+                Coord {
+                    x: 5,
+                    y: 4,
+                },
+                Coord {
+                    x: 2,
+                    y: 7,
+                },
+                Coord {
+                    x: 0,
+                    y: 0,
+                },
+                Coord {
+                    x: 8,
+                    y: -5,
+                },
+                Coord {
+                    x: -11,
+                    y: 0,
+                },
+                Coord {
+                    x: -11,
+                    y: 7,
+                },
+                Coord {
+                    x: 14,
+                    y: 0,
+                },
+                Coord {
+                    x: 0,
+                    y: 6,
+                },
+                Coord {
+                    x: 13,
+                    y: -2,
+                },
+                Coord {
+                    x: 2,
+                    y: -5,
+                },
+                Coord {
+                    x: -2,
+                    y: -5,
+                },
+                Coord {
+                    x: 5,
+                    y: -5,
+                },
+                Coord {
+                    x: -8,
+                    y: -4,
+                },
+                Coord {
+                    x: 4,
+                    y: 3,
+                },
+                Coord {
+                    x: -4,
+                    y: -5,
+                },
+                Coord {
+                    x: -5,
+                    y: -5,
+                },
+                Coord {
+                    x: 9,
+                    y: 5,
+                },
+                Coord {
+                    x: 1,
+                    y: -5,
+                },
+                Coord {
+                    x: 6,
+                    y: 5,
+                },
+                Coord {
+                    x: 5,
+                    y: 5,
+                },
+                Coord {
+                    x: 3,
+                    y: 2,
+                },
+                Coord {
+                    x: 1,
+                    y: 8,
+                },
+            },
+        },
+        Tail {
+            pos: Coord {
+                x: -11,
+                y: 10,
+            },
+            prev: {
+                Coord {
+                    x: -11,
+                    y: 4,
+                },
+                Coord {
+                    x: -11,
+                    y: 0,
+                },
+                Coord {
+                    x: 4,
+                    y: 4,
+                },
+                Coord {
+                    x: -11,
+                    y: 7,
+                },
+                Coord {
+                    x: -11,
+                    y: 9,
+                },
+                Coord {
+                    x: 11,
+                    y: 3,
+                },
+                Coord {
+                    x: 6,
+                    y: 5,
+                },
+                Coord {
+                    x: 0,
+                    y: 0,
+                },
+                Coord {
+                    x: 9,
+                    y: 5,
+                },
+                Coord {
+                    x: 13,
+                    y: 1,
+                },
+                Coord {
+                    x: 7,
+                    y: 5,
+                },
+                Coord {
+                    x: 1,
+                    y: 7,
+                },
+                Coord {
+                    x: 13,
+                    y: -1,
+                },
+                Coord {
+                    x: 12,
+                    y: -2,
+                },
+                Coord {
+                    x: 7,
+                    y: -5,
+                },
+                Coord {
+                    x: 11,
+                    y: -3,
+                },
+                Coord {
+                    x: 9,
+                    y: -5,
+                },
+                Coord {
+                    x: 8,
+                    y: -5,
+                },
+                Coord {
+                    x: 10,
+                    y: -4,
+                },
+                Coord {
+                    x: 4,
+                    y: -5,
+                },
+                Coord {
+                    x: 3,
+                    y: -5,
+                },
+                Coord {
+                    x: -1,
+                    y: -5,
+                },
+                Coord {
+                    x: -5,
+                    y: -5,
+                },
+                Coord {
+                    x: -3,
+                    y: -5,
+                },
+                Coord {
+                    x: -11,
+                    y: 2,
+                },
+                Coord {
+                    x: -10,
+                    y: -1,
+                },
+                Coord {
+                    x: 14,
+                    y: 0,
+                },
+                Coord {
+                    x: -7,
+                    y: -4,
+                },
+                Coord {
+                    x: -9,
+                    y: -2,
+                },
+                Coord {
+                    x: 0,
+                    y: -5,
+                },
+                Coord {
+                    x: -11,
+                    y: 8,
+                },
+                Coord {
+                    x: 4,
+                    y: 5,
+                },
+                Coord {
+                    x: 5,
+                    y: 5,
+                },
+                Coord {
+                    x: 1,
+                    y: -5,
+                },
+                Coord {
+                    x: -4,
+                    y: -5,
+                },
+                Coord {
+                    x: 8,
+                    y: 5,
+                },
+                Coord {
+                    x: 2,
+                    y: 6,
+                },
+                Coord {
+                    x: 6,
+                    y: -5,
+                },
+                Coord {
+                    x: -6,
+                    y: -5,
+                },
+                Coord {
+                    x: 2,
+                    y: 5,
+                },
+                Coord {
+                    x: -8,
+                    y: -3,
+                },
+                Coord {
+                    x: -11,
+                    y: 3,
+                },
+                Coord {
+                    x: -11,
+                    y: 5,
+                },
+                Coord {
+                    x: 3,
+                    y: 5,
+                },
+                Coord {
+                    x: -2,
+                    y: -5,
+                },
+                Coord {
+                    x: 10,
+                    y: 4,
+                },
+                Coord {
+                    x: 3,
+                    y: 3,
+                },
+                Coord {
+                    x: -11,
+                    y: 6,
+                },
+                Coord {
+                    x: 12,
+                    y: 2,
+                },
+                Coord {
+                    x: 2,
+                    y: 2,
+                },
+                Coord {
+                    x: 1,
+                    y: 1,
+                },
+                Coord {
+                    x: 5,
+                    y: -5,
+                },
+                Coord {
+                    x: -11,
+                    y: 1,
+                },
+                Coord {
+                    x: 1,
+                    y: 6,
+                },
+                Coord {
+                    x: 2,
+                    y: -5,
+                },
+            },
+        },
+        Tail {
+            pos: Coord {
+                x: -11,
+                y: 9,
+            },
+            prev: {
+                Coord {
+                    x: 0,
+                    y: 0,
+                },
+                Coord {
+                    x: 9,
+                    y: -4,
+                },
+                Coord {
+                    x: 1,
+                    y: 6,
+                },
+                Coord {
+                    x: 9,
+                    y: 4,
+                },
+                Coord {
+                    x: 3,
+                    y: 5,
+                },
+                Coord {
+                    x: -5,
+                    y: -5,
+                },
+                Coord {
+                    x: -8,
+                    y: -2,
+                },
+                Coord {
+                    x: -11,
+                    y: 1,
+                },
+                Coord {
+                    x: -11,
+                    y: 4,
+                },
+                Coord {
+                    x: 13,
+                    y: 0,
+                },
+                Coord {
+                    x: 0,
+                    y: -5,
+                },
+                Coord {
+                    x: -11,
+                    y: 8,
+                },
+                Coord {
+                    x: 7,
+                    y: -5,
+                },
+                Coord {
+                    x: -4,
+                    y: -5,
+                },
+                Coord {
+                    x: 4,
+                    y: 5,
+                },
+                Coord {
+                    x: 12,
+                    y: -1,
+                },
+                Coord {
+                    x: 5,
+                    y: -5,
+                },
+                Coord {
+                    x: 10,
+                    y: -3,
+                },
+                Coord {
+                    x: 1,
+                    y: -5,
+                },
+                Coord {
+                    x: -11,
+                    y: 7,
+                },
+                Coord {
+                    x: 8,
+                    y: -5,
+                },
+                Coord {
+                    x: -11,
+                    y: 3,
+                },
+                Coord {
+                    x: 2,
+                    y: 5,
+                },
+                Coord {
+                    x: -7,
+                    y: -3,
+                },
+                Coord {
+                    x: 11,
+                    y: 2,
+                },
+                Coord {
+                    x: 11,
+                    y: -2,
+                },
+                Coord {
+                    x: 6,
+                    y: -5,
+                },
+                Coord {
+                    x: 2,
+                    y: -5,
+                },
+                Coord {
+                    x: -3,
+                    y: -5,
+                },
+                Coord {
+                    x: 3,
+                    y: 4,
+                },
+                Coord {
+                    x: 8,
+                    y: 5,
+                },
+                Coord {
+                    x: 3,
+                    y: 3,
+                },
+                Coord {
+                    x: -9,
+                    y: -1,
+                },
+                Coord {
+                    x: -11,
+                    y: 2,
+                },
+                Coord {
+                    x: 4,
+                    y: -5,
+                },
+                Coord {
+                    x: 2,
+                    y: 2,
+                },
+                Coord {
+                    x: 6,
+                    y: 5,
+                },
+                Coord {
+                    x: 7,
+                    y: 5,
+                },
+                Coord {
+                    x: 1,
+                    y: 1,
+                },
+                Coord {
+                    x: -1,
+                    y: -5,
+                },
+                Coord {
+                    x: -10,
+                    y: 0,
+                },
+                Coord {
+                    x: 5,
+                    y: 5,
+                },
+                Coord {
+                    x: 10,
+                    y: 3,
+                },
+                Coord {
+                    x: -6,
+                    y: -4,
+                },
+                Coord {
+                    x: -11,
+                    y: 5,
+                },
+                Coord {
+                    x: -11,
+                    y: 6,
+                },
+                Coord {
+                    x: -2,
+                    y: -5,
+                },
+                Coord {
+                    x: 3,
+                    y: -5,
+                },
+                Coord {
+                    x: 12,
+                    y: 1,
+                },
+            },
+        },
+        Tail {
+            pos: Coord {
+                x: -11,
+                y: 8,
+            },
+            prev: {
+                Coord {
+                    x: 2,
+                    y: 4,
+                },
+                Coord {
+                    x: 11,
+                    y: -1,
+                },
+                Coord {
+                    x: 12,
+                    y: 0,
+                },
+                Coord {
+                    x: 0,
+                    y: -5,
+                },
+                Coord {
+                    x: 3,
+                    y: 3,
+                },
+                Coord {
+                    x: -11,
+                    y: 3,
+                },
+                Coord {
+                    x: -11,
+                    y: 4,
+                },
+                Coord {
+                    x: -11,
+                    y: 6,
+                },
+                Coord {
+                    x: 4,
+                    y: -5,
+                },
+                Coord {
+                    x: -5,
+                    y: -4,
+                },
+                Coord {
+                    x: 3,
+                    y: 5,
+                },
+                Coord {
+                    x: 1,
+                    y: 1,
+                },
+                Coord {
+                    x: -1,
+                    y: -5,
+                },
+                Coord {
+                    x: 4,
+                    y: 5,
+                },
+                Coord {
+                    x: 10,
+                    y: 2,
+                },
+                Coord {
+                    x: -4,
+                    y: -5,
+                },
+                Coord {
+                    x: 8,
+                    y: -4,
+                },
+                Coord {
+                    x: 0,
+                    y: 0,
+                },
+                Coord {
+                    x: -6,
+                    y: -3,
+                },
+                Coord {
+                    x: -8,
+                    y: -1,
+                },
+                Coord {
+                    x: 9,
+                    y: 3,
+                },
+                Coord {
+                    x: 6,
+                    y: 5,
+                },
+                Coord {
+                    x: 9,
+                    y: -3,
+                },
+                Coord {
+                    x: -2,
+                    y: -5,
+                },
+                Coord {
+                    x: 11,
+                    y: 1,
+                },
+                Coord {
+                    x: 2,
+                    y: -5,
+                },
+                Coord {
+                    x: -11,
+                    y: 5,
+                },
+                Coord {
+                    x: -11,
+                    y: 7,
+                },
+                Coord {
+                    x: 5,
+                    y: -5,
+                },
+                Coord {
+                    x: 3,
+                    y: -5,
+                },
+                Coord {
+                    x: -11,
+                    y: 2,
+                },
+                Coord {
+                    x: 5,
+                    y: 5,
+                },
+                Coord {
+                    x: 6,
+                    y: -5,
+                },
+                Coord {
+                    x: 10,
+                    y: -2,
+                },
+                Coord {
+                    x: 1,
+                    y: 5,
+                },
+                Coord {
+                    x: -3,
+                    y: -5,
+                },
+                Coord {
+                    x: -7,
+                    y: -2,
+                },
+                Coord {
+                    x: -9,
+                    y: 0,
+                },
+                Coord {
+                    x: 7,
+                    y: 5,
+                },
+                Coord {
+                    x: 7,
+                    y: -5,
+                },
+                Coord {
+                    x: 2,
+                    y: 2,
+                },
+                Coord {
+                    x: 8,
+                    y: 4,
+                },
+                Coord {
+                    x: 2,
+                    y: 5,
+                },
+                Coord {
+                    x: -10,
+                    y: 1,
+                },
+                Coord {
+                    x: 1,
+                    y: -5,
+                },
+            },
+        },
+        Tail {
+            pos: Coord {
+                x: -11,
+                y: 7,
+            },
+            prev: {
+                Coord {
+                    x: -2,
+                    y: -5,
+                },
+                Coord {
+                    x: 6,
+                    y: 5,
+                },
+                Coord {
+                    x: -3,
+                    y: -5,
+                },
+                Coord {
+                    x: 9,
+                    y: 2,
+                },
+                Coord {
+                    x: 3,
+                    y: -5,
+                },
+                Coord {
+                    x: -7,
+                    y: -1,
+                },
+                Coord {
+                    x: -4,
+                    y: -4,
+                },
+                Coord {
+                    x: 1,
+                    y: 1,
+                },
+                Coord {
+                    x: 9,
+                    y: -2,
+                },
+                Coord {
+                    x: -11,
+                    y: 3,
+                },
+                Coord {
+                    x: 1,
+                    y: -5,
+                },
+                Coord {
+                    x: -1,
+                    y: -5,
+                },
+                Coord {
+                    x: 10,
+                    y: 1,
+                },
+                Coord {
+                    x: 11,
+                    y: 0,
+                },
+                Coord {
+                    x: -9,
+                    y: 1,
+                },
+                Coord {
+                    x: -5,
+                    y: -3,
+                },
+                Coord {
+                    x: 2,
+                    y: 2,
+                },
+                Coord {
+                    x: -11,
+                    y: 5,
+                },
+                Coord {
+                    x: 4,
+                    y: 5,
+                },
+                Coord {
+                    x: 3,
+                    y: 5,
+                },
+                Coord {
+                    x: 5,
+                    y: -5,
+                },
+                Coord {
+                    x: 2,
+                    y: 3,
+                },
+                Coord {
+                    x: -11,
+                    y: 6,
+                },
+                Coord {
+                    x: 2,
+                    y: 5,
+                },
+                Coord {
+                    x: -11,
+                    y: 4,
+                },
+                Coord {
+                    x: 10,
+                    y: -1,
+                },
+                Coord {
+                    x: 7,
+                    y: 4,
+                },
+                Coord {
+                    x: 2,
+                    y: -5,
+                },
+                Coord {
+                    x: 4,
+                    y: -5,
+                },
+                Coord {
+                    x: -6,
+                    y: -2,
+                },
+                Coord {
+                    x: -8,
+                    y: 0,
+                },
+                Coord {
+                    x: -10,
+                    y: 2,
+                },
+                Coord {
+                    x: 0,
+                    y: 0,
+                },
+                Coord {
+                    x: 6,
+                    y: -5,
+                },
+                Coord {
+                    x: 0,
+                    y: -5,
+                },
+                Coord {
+                    x: 8,
+                    y: 3,
+                },
+                Coord {
+                    x: 1,
+                    y: 4,
+                },
+                Coord {
+                    x: 5,
+                    y: 5,
+                },
+                Coord {
+                    x: 8,
+                    y: -3,
+                },
+                Coord {
+                    x: 7,
+                    y: -4,
+                },
+            },
+        },
+        Tail {
+            pos: Coord {
+                x: -11,
+                y: 6,
+            },
+            prev: {
+                Coord {
+                    x: 7,
+                    y: 3,
+                },
+                Coord {
+                    x: 6,
+                    y: -4,
+                },
+                Coord {
+                    x: -7,
+                    y: 0,
+                },
+                Coord {
+                    x: 7,
+                    y: -3,
+                },
+                Coord {
+                    x: -11,
+                    y: 4,
+                },
+                Coord {
+                    x: -10,
+                    y: 3,
+                },
+                Coord {
+                    x: 8,
+                    y: 2,
+                },
+                Coord {
+                    x: 5,
+                    y: -5,
+                },
+                Coord {
+                    x: -1,
+                    y: -5,
+                },
+                Coord {
+                    x: -9,
+                    y: 2,
+                },
+                Coord {
+                    x: 6,
+                    y: 4,
+                },
+                Coord {
+                    x: 3,
+                    y: 5,
+                },
+                Coord {
+                    x: -4,
+                    y: -3,
+                },
+                Coord {
+                    x: 1,
+                    y: 1,
+                },
+                Coord {
+                    x: -6,
+                    y: -1,
+                },
+                Coord {
+                    x: -8,
+                    y: 1,
+                },
+                Coord {
+                    x: -5,
+                    y: -2,
+                },
+                Coord {
+                    x: -3,
+                    y: -4,
+                },
+                Coord {
+                    x: -2,
+                    y: -5,
+                },
+                Coord {
+                    x: 2,
+                    y: 2,
+                },
+                Coord {
+                    x: -11,
+                    y: 5,
+                },
+                Coord {
+                    x: 8,
+                    y: -2,
+                },
+                Coord {
+                    x: 10,
+                    y: 0,
+                },
+                Coord {
+                    x: 9,
+                    y: 1,
+                },
+                Coord {
+                    x: 4,
+                    y: -5,
+                },
+                Coord {
+                    x: 1,
+                    y: 3,
+                },
+                Coord {
+                    x: 2,
+                    y: -5,
+                },
+                Coord {
+                    x: 5,
+                    y: 5,
+                },
+                Coord {
+                    x: 3,
+                    y: -5,
+                },
+                Coord {
+                    x: 0,
+                    y: 0,
+                },
+                Coord {
+                    x: 9,
+                    y: -1,
+                },
+                Coord {
+                    x: 1,
+                    y: -5,
+                },
+                Coord {
+                    x: 2,
+                    y: 4,
+                },
+                Coord {
+                    x: 0,
+                    y: -5,
+                },
+                Coord {
+                    x: 4,
+                    y: 5,
+                },
+            },
+        },
+    ],
+}
+The tail has visited 36 different locations.
