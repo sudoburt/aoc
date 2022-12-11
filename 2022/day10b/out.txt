@@ -1,0 +1,2361 @@
+    Finished dev [unoptimized + debuginfo] target(s) in 0.00s
+     Running `target/debug/day10b`
+###.....................................
+[src/main.rs:28] &line = [
+    "addx",
+    "15",
+]
+[src/main.rs:40] cc = 1
+[src/main.rs:41] ss = 0
+[src/main.rs:42] x = 1
+[src/main.rs:43] buffer = (
+    1,
+    15,
+)
+[src/main.rs:53] cc = 2
+[src/main.rs:54] ss = 0
+[src/main.rs:55] x = 1
+[src/main.rs:56] buffer = (
+    0,
+    15,
+)
+...............###......................
+[src/main.rs:28] &line = [
+    "addx",
+    "-11",
+]
+[src/main.rs:40] cc = 3
+[src/main.rs:41] ss = 0
+[src/main.rs:42] x = 16
+[src/main.rs:43] buffer = (
+    1,
+    -11,
+)
+[src/main.rs:53] cc = 4
+[src/main.rs:54] ss = 0
+[src/main.rs:55] x = 16
+[src/main.rs:56] buffer = (
+    0,
+    -11,
+)
+....###.................................
+[src/main.rs:28] &line = [
+    "addx",
+    "6",
+]
+[src/main.rs:40] cc = 5
+[src/main.rs:41] ss = 0
+[src/main.rs:42] x = 5
+[src/main.rs:43] buffer = (
+    1,
+    6,
+)
+[src/main.rs:53] cc = 6
+[src/main.rs:54] ss = 0
+[src/main.rs:55] x = 5
+[src/main.rs:56] buffer = (
+    0,
+    6,
+)
+..........###...........................
+[src/main.rs:28] &line = [
+    "addx",
+    "-3",
+]
+[src/main.rs:40] cc = 7
+[src/main.rs:41] ss = 0
+[src/main.rs:42] x = 11
+[src/main.rs:43] buffer = (
+    1,
+    -3,
+)
+[src/main.rs:53] cc = 8
+[src/main.rs:54] ss = 0
+[src/main.rs:55] x = 11
+[src/main.rs:56] buffer = (
+    0,
+    -3,
+)
+.......###..............................
+[src/main.rs:28] &line = [
+    "addx",
+    "5",
+]
+[src/main.rs:40] cc = 9
+[src/main.rs:41] ss = 0
+[src/main.rs:42] x = 8
+[src/main.rs:43] buffer = (
+    1,
+    5,
+)
+[src/main.rs:53] cc = 10
+[src/main.rs:54] ss = 0
+[src/main.rs:55] x = 8
+[src/main.rs:56] buffer = (
+    0,
+    5,
+)
+............###.........................
+[src/main.rs:28] &line = [
+    "addx",
+    "-1",
+]
+[src/main.rs:40] cc = 11
+[src/main.rs:41] ss = 0
+[src/main.rs:42] x = 13
+[src/main.rs:43] buffer = (
+    1,
+    -1,
+)
+[src/main.rs:53] cc = 12
+[src/main.rs:54] ss = 0
+[src/main.rs:55] x = 13
+[src/main.rs:56] buffer = (
+    0,
+    -1,
+)
+...........###..........................
+[src/main.rs:28] &line = [
+    "addx",
+    "-8",
+]
+[src/main.rs:40] cc = 13
+[src/main.rs:41] ss = 0
+[src/main.rs:42] x = 12
+[src/main.rs:43] buffer = (
+    1,
+    -8,
+)
+[src/main.rs:53] cc = 14
+[src/main.rs:54] ss = 0
+[src/main.rs:55] x = 12
+[src/main.rs:56] buffer = (
+    0,
+    -8,
+)
+...###..................................
+[src/main.rs:28] &line = [
+    "addx",
+    "13",
+]
+[src/main.rs:40] cc = 15
+[src/main.rs:41] ss = 0
+[src/main.rs:42] x = 4
+[src/main.rs:43] buffer = (
+    1,
+    13,
+)
+[src/main.rs:53] cc = 16
+[src/main.rs:54] ss = 0
+[src/main.rs:55] x = 4
+[src/main.rs:56] buffer = (
+    0,
+    13,
+)
+................###.....................
+[src/main.rs:28] &line = [
+    "addx",
+    "4",
+]
+[src/main.rs:40] cc = 17
+[src/main.rs:41] ss = 0
+[src/main.rs:42] x = 17
+[src/main.rs:43] buffer = (
+    1,
+    4,
+)
+[src/main.rs:53] cc = 18
+[src/main.rs:54] ss = 0
+[src/main.rs:55] x = 17
+[src/main.rs:56] buffer = (
+    0,
+    4,
+)
+....................###.................
+[src/main.rs:28] &line = [
+    "noop",
+]
+[src/main.rs:53] cc = 19
+[src/main.rs:54] ss = 0
+[src/main.rs:55] x = 21
+[src/main.rs:56] buffer = (
+    0,
+    0,
+)
+....................###.................
+[src/main.rs:28] &line = [
+    "addx",
+    "-1",
+]
+[src/main.rs:40] cc = 20
+[src/main.rs:41] ss = 420
+[src/main.rs:42] x = 21
+[src/main.rs:43] buffer = (
+    1,
+    -1,
+)
+[src/main.rs:53] cc = 21
+[src/main.rs:54] ss = 420
+[src/main.rs:55] x = 21
+[src/main.rs:56] buffer = (
+    0,
+    -1,
+)
+...................###..................
+[src/main.rs:28] &line = [
+    "addx",
+    "5",
+]
+[src/main.rs:40] cc = 22
+[src/main.rs:41] ss = 420
+[src/main.rs:42] x = 20
+[src/main.rs:43] buffer = (
+    1,
+    5,
+)
+[src/main.rs:53] cc = 23
+[src/main.rs:54] ss = 420
+[src/main.rs:55] x = 20
+[src/main.rs:56] buffer = (
+    0,
+    5,
+)
+........................###.............
+[src/main.rs:28] &line = [
+    "addx",
+    "-1",
+]
+[src/main.rs:40] cc = 24
+[src/main.rs:41] ss = 420
+[src/main.rs:42] x = 25
+[src/main.rs:43] buffer = (
+    1,
+    -1,
+)
+[src/main.rs:53] cc = 25
+[src/main.rs:54] ss = 420
+[src/main.rs:55] x = 25
+[src/main.rs:56] buffer = (
+    0,
+    -1,
+)
+.......................###..............
+[src/main.rs:28] &line = [
+    "addx",
+    "5",
+]
+[src/main.rs:40] cc = 26
+[src/main.rs:41] ss = 420
+[src/main.rs:42] x = 24
+[src/main.rs:43] buffer = (
+    1,
+    5,
+)
+[src/main.rs:53] cc = 27
+[src/main.rs:54] ss = 420
+[src/main.rs:55] x = 24
+[src/main.rs:56] buffer = (
+    0,
+    5,
+)
+............................###.........
+[src/main.rs:28] &line = [
+    "addx",
+    "-1",
+]
+[src/main.rs:40] cc = 28
+[src/main.rs:41] ss = 420
+[src/main.rs:42] x = 29
+[src/main.rs:43] buffer = (
+    1,
+    -1,
+)
+[src/main.rs:53] cc = 29
+[src/main.rs:54] ss = 420
+[src/main.rs:55] x = 29
+[src/main.rs:56] buffer = (
+    0,
+    -1,
+)
+...........................###..........
+[src/main.rs:28] &line = [
+    "addx",
+    "5",
+]
+[src/main.rs:40] cc = 30
+[src/main.rs:41] ss = 420
+[src/main.rs:42] x = 28
+[src/main.rs:43] buffer = (
+    1,
+    5,
+)
+[src/main.rs:53] cc = 31
+[src/main.rs:54] ss = 420
+[src/main.rs:55] x = 28
+[src/main.rs:56] buffer = (
+    0,
+    5,
+)
+................................###.....
+[src/main.rs:28] &line = [
+    "addx",
+    "-1",
+]
+[src/main.rs:40] cc = 32
+[src/main.rs:41] ss = 420
+[src/main.rs:42] x = 33
+[src/main.rs:43] buffer = (
+    1,
+    -1,
+)
+[src/main.rs:53] cc = 33
+[src/main.rs:54] ss = 420
+[src/main.rs:55] x = 33
+[src/main.rs:56] buffer = (
+    0,
+    -1,
+)
+...............................###......
+[src/main.rs:28] &line = [
+    "addx",
+    "5",
+]
+[src/main.rs:40] cc = 34
+[src/main.rs:41] ss = 420
+[src/main.rs:42] x = 32
+[src/main.rs:43] buffer = (
+    1,
+    5,
+)
+[src/main.rs:53] cc = 35
+[src/main.rs:54] ss = 420
+[src/main.rs:55] x = 32
+[src/main.rs:56] buffer = (
+    0,
+    5,
+)
+....................................###.
+[src/main.rs:28] &line = [
+    "addx",
+    "-1",
+]
+[src/main.rs:40] cc = 36
+[src/main.rs:41] ss = 420
+[src/main.rs:42] x = 37
+[src/main.rs:43] buffer = (
+    1,
+    -1,
+)
+[src/main.rs:53] cc = 37
+[src/main.rs:54] ss = 420
+[src/main.rs:55] x = 37
+[src/main.rs:56] buffer = (
+    0,
+    -1,
+)
+...................................###..
+[src/main.rs:28] &line = [
+    "addx",
+    "-35",
+]
+[src/main.rs:40] cc = 38
+[src/main.rs:41] ss = 420
+[src/main.rs:42] x = 36
+[src/main.rs:43] buffer = (
+    1,
+    -35,
+)
+[src/main.rs:53] cc = 39
+[src/main.rs:54] ss = 420
+[src/main.rs:55] x = 36
+[src/main.rs:56] buffer = (
+    0,
+    -35,
+)
+###.....................................
+[src/main.rs:28] &line = [
+    "addx",
+    "1",
+]
+[src/main.rs:40] cc = 40
+[src/main.rs:41] ss = 420
+[src/main.rs:42] x = 1
+[src/main.rs:43] buffer = (
+    1,
+    1,
+)
+[src/main.rs:53] cc = 41
+[src/main.rs:54] ss = 420
+[src/main.rs:55] x = 1
+[src/main.rs:56] buffer = (
+    0,
+    1,
+)
+.###....................................
+[src/main.rs:28] &line = [
+    "addx",
+    "24",
+]
+[src/main.rs:40] cc = 42
+[src/main.rs:41] ss = 420
+[src/main.rs:42] x = 2
+[src/main.rs:43] buffer = (
+    1,
+    24,
+)
+[src/main.rs:53] cc = 43
+[src/main.rs:54] ss = 420
+[src/main.rs:55] x = 2
+[src/main.rs:56] buffer = (
+    0,
+    24,
+)
+.........................###............
+[src/main.rs:28] &line = [
+    "addx",
+    "-19",
+]
+[src/main.rs:40] cc = 44
+[src/main.rs:41] ss = 420
+[src/main.rs:42] x = 26
+[src/main.rs:43] buffer = (
+    1,
+    -19,
+)
+[src/main.rs:53] cc = 45
+[src/main.rs:54] ss = 420
+[src/main.rs:55] x = 26
+[src/main.rs:56] buffer = (
+    0,
+    -19,
+)
+......###...............................
+[src/main.rs:28] &line = [
+    "addx",
+    "1",
+]
+[src/main.rs:40] cc = 46
+[src/main.rs:41] ss = 420
+[src/main.rs:42] x = 7
+[src/main.rs:43] buffer = (
+    1,
+    1,
+)
+[src/main.rs:53] cc = 47
+[src/main.rs:54] ss = 420
+[src/main.rs:55] x = 7
+[src/main.rs:56] buffer = (
+    0,
+    1,
+)
+.......###..............................
+[src/main.rs:28] &line = [
+    "addx",
+    "16",
+]
+[src/main.rs:40] cc = 48
+[src/main.rs:41] ss = 420
+[src/main.rs:42] x = 8
+[src/main.rs:43] buffer = (
+    1,
+    16,
+)
+[src/main.rs:53] cc = 49
+[src/main.rs:54] ss = 420
+[src/main.rs:55] x = 8
+[src/main.rs:56] buffer = (
+    0,
+    16,
+)
+.......................###..............
+[src/main.rs:28] &line = [
+    "addx",
+    "-11",
+]
+[src/main.rs:40] cc = 50
+[src/main.rs:41] ss = 420
+[src/main.rs:42] x = 24
+[src/main.rs:43] buffer = (
+    1,
+    -11,
+)
+[src/main.rs:53] cc = 51
+[src/main.rs:54] ss = 420
+[src/main.rs:55] x = 24
+[src/main.rs:56] buffer = (
+    0,
+    -11,
+)
+............###.........................
+[src/main.rs:28] &line = [
+    "noop",
+]
+[src/main.rs:53] cc = 52
+[src/main.rs:54] ss = 420
+[src/main.rs:55] x = 13
+[src/main.rs:56] buffer = (
+    0,
+    0,
+)
+............###.........................
+[src/main.rs:28] &line = [
+    "noop",
+]
+[src/main.rs:53] cc = 53
+[src/main.rs:54] ss = 420
+[src/main.rs:55] x = 13
+[src/main.rs:56] buffer = (
+    0,
+    0,
+)
+............###.........................
+[src/main.rs:28] &line = [
+    "addx",
+    "21",
+]
+[src/main.rs:40] cc = 54
+[src/main.rs:41] ss = 420
+[src/main.rs:42] x = 13
+[src/main.rs:43] buffer = (
+    1,
+    21,
+)
+[src/main.rs:53] cc = 55
+[src/main.rs:54] ss = 420
+[src/main.rs:55] x = 13
+[src/main.rs:56] buffer = (
+    0,
+    21,
+)
+.................................###....
+[src/main.rs:28] &line = [
+    "addx",
+    "-15",
+]
+[src/main.rs:40] cc = 56
+[src/main.rs:41] ss = 420
+[src/main.rs:42] x = 34
+[src/main.rs:43] buffer = (
+    1,
+    -15,
+)
+[src/main.rs:53] cc = 57
+[src/main.rs:54] ss = 420
+[src/main.rs:55] x = 34
+[src/main.rs:56] buffer = (
+    0,
+    -15,
+)
+..................###...................
+[src/main.rs:28] &line = [
+    "noop",
+]
+[src/main.rs:53] cc = 58
+[src/main.rs:54] ss = 420
+[src/main.rs:55] x = 19
+[src/main.rs:56] buffer = (
+    0,
+    0,
+)
+..................###...................
+[src/main.rs:28] &line = [
+    "noop",
+]
+[src/main.rs:53] cc = 59
+[src/main.rs:54] ss = 420
+[src/main.rs:55] x = 19
+[src/main.rs:56] buffer = (
+    0,
+    0,
+)
+..................###...................
+[src/main.rs:28] &line = [
+    "addx",
+    "-3",
+]
+[src/main.rs:40] cc = 60
+[src/main.rs:41] ss = 1560
+[src/main.rs:42] x = 19
+[src/main.rs:43] buffer = (
+    1,
+    -3,
+)
+[src/main.rs:53] cc = 61
+[src/main.rs:54] ss = 1560
+[src/main.rs:55] x = 19
+[src/main.rs:56] buffer = (
+    0,
+    -3,
+)
+...............###......................
+[src/main.rs:28] &line = [
+    "addx",
+    "9",
+]
+[src/main.rs:40] cc = 62
+[src/main.rs:41] ss = 1560
+[src/main.rs:42] x = 16
+[src/main.rs:43] buffer = (
+    1,
+    9,
+)
+[src/main.rs:53] cc = 63
+[src/main.rs:54] ss = 1560
+[src/main.rs:55] x = 16
+[src/main.rs:56] buffer = (
+    0,
+    9,
+)
+........................###.............
+[src/main.rs:28] &line = [
+    "addx",
+    "1",
+]
+[src/main.rs:40] cc = 64
+[src/main.rs:41] ss = 1560
+[src/main.rs:42] x = 25
+[src/main.rs:43] buffer = (
+    1,
+    1,
+)
+[src/main.rs:53] cc = 65
+[src/main.rs:54] ss = 1560
+[src/main.rs:55] x = 25
+[src/main.rs:56] buffer = (
+    0,
+    1,
+)
+.........................###............
+[src/main.rs:28] &line = [
+    "addx",
+    "-3",
+]
+[src/main.rs:40] cc = 66
+[src/main.rs:41] ss = 1560
+[src/main.rs:42] x = 26
+[src/main.rs:43] buffer = (
+    1,
+    -3,
+)
+[src/main.rs:53] cc = 67
+[src/main.rs:54] ss = 1560
+[src/main.rs:55] x = 26
+[src/main.rs:56] buffer = (
+    0,
+    -3,
+)
+......................###...............
+[src/main.rs:28] &line = [
+    "addx",
+    "8",
+]
+[src/main.rs:40] cc = 68
+[src/main.rs:41] ss = 1560
+[src/main.rs:42] x = 23
+[src/main.rs:43] buffer = (
+    1,
+    8,
+)
+[src/main.rs:53] cc = 69
+[src/main.rs:54] ss = 1560
+[src/main.rs:55] x = 23
+[src/main.rs:56] buffer = (
+    0,
+    8,
+)
+..............................###.......
+[src/main.rs:28] &line = [
+    "addx",
+    "1",
+]
+[src/main.rs:40] cc = 70
+[src/main.rs:41] ss = 1560
+[src/main.rs:42] x = 31
+[src/main.rs:43] buffer = (
+    1,
+    1,
+)
+[src/main.rs:53] cc = 71
+[src/main.rs:54] ss = 1560
+[src/main.rs:55] x = 31
+[src/main.rs:56] buffer = (
+    0,
+    1,
+)
+...............................###......
+[src/main.rs:28] &line = [
+    "addx",
+    "5",
+]
+[src/main.rs:40] cc = 72
+[src/main.rs:41] ss = 1560
+[src/main.rs:42] x = 32
+[src/main.rs:43] buffer = (
+    1,
+    5,
+)
+[src/main.rs:53] cc = 73
+[src/main.rs:54] ss = 1560
+[src/main.rs:55] x = 32
+[src/main.rs:56] buffer = (
+    0,
+    5,
+)
+....................................###.
+[src/main.rs:28] &line = [
+    "noop",
+]
+[src/main.rs:53] cc = 74
+[src/main.rs:54] ss = 1560
+[src/main.rs:55] x = 37
+[src/main.rs:56] buffer = (
+    0,
+    0,
+)
+....................................###.
+[src/main.rs:28] &line = [
+    "noop",
+]
+[src/main.rs:53] cc = 75
+[src/main.rs:54] ss = 1560
+[src/main.rs:55] x = 37
+[src/main.rs:56] buffer = (
+    0,
+    0,
+)
+....................................###.
+[src/main.rs:28] &line = [
+    "noop",
+]
+[src/main.rs:53] cc = 76
+[src/main.rs:54] ss = 1560
+[src/main.rs:55] x = 37
+[src/main.rs:56] buffer = (
+    0,
+    0,
+)
+....................................###.
+[src/main.rs:28] &line = [
+    "noop",
+]
+[src/main.rs:53] cc = 77
+[src/main.rs:54] ss = 1560
+[src/main.rs:55] x = 37
+[src/main.rs:56] buffer = (
+    0,
+    0,
+)
+....................................###.
+[src/main.rs:28] &line = [
+    "noop",
+]
+[src/main.rs:53] cc = 78
+[src/main.rs:54] ss = 1560
+[src/main.rs:55] x = 37
+[src/main.rs:56] buffer = (
+    0,
+    0,
+)
+....................................###.
+[src/main.rs:28] &line = [
+    "addx",
+    "-36",
+]
+[src/main.rs:40] cc = 79
+[src/main.rs:41] ss = 1560
+[src/main.rs:42] x = 37
+[src/main.rs:43] buffer = (
+    1,
+    -36,
+)
+[src/main.rs:53] cc = 80
+[src/main.rs:54] ss = 1560
+[src/main.rs:55] x = 37
+[src/main.rs:56] buffer = (
+    0,
+    -36,
+)
+###.....................................
+[src/main.rs:28] &line = [
+    "noop",
+]
+[src/main.rs:53] cc = 81
+[src/main.rs:54] ss = 1560
+[src/main.rs:55] x = 1
+[src/main.rs:56] buffer = (
+    0,
+    0,
+)
+###.....................................
+[src/main.rs:28] &line = [
+    "addx",
+    "1",
+]
+[src/main.rs:40] cc = 82
+[src/main.rs:41] ss = 1560
+[src/main.rs:42] x = 1
+[src/main.rs:43] buffer = (
+    1,
+    1,
+)
+[src/main.rs:53] cc = 83
+[src/main.rs:54] ss = 1560
+[src/main.rs:55] x = 1
+[src/main.rs:56] buffer = (
+    0,
+    1,
+)
+.###....................................
+[src/main.rs:28] &line = [
+    "addx",
+    "7",
+]
+[src/main.rs:40] cc = 84
+[src/main.rs:41] ss = 1560
+[src/main.rs:42] x = 2
+[src/main.rs:43] buffer = (
+    1,
+    7,
+)
+[src/main.rs:53] cc = 85
+[src/main.rs:54] ss = 1560
+[src/main.rs:55] x = 2
+[src/main.rs:56] buffer = (
+    0,
+    7,
+)
+........###.............................
+[src/main.rs:28] &line = [
+    "noop",
+]
+[src/main.rs:53] cc = 86
+[src/main.rs:54] ss = 1560
+[src/main.rs:55] x = 9
+[src/main.rs:56] buffer = (
+    0,
+    0,
+)
+........###.............................
+[src/main.rs:28] &line = [
+    "noop",
+]
+[src/main.rs:53] cc = 87
+[src/main.rs:54] ss = 1560
+[src/main.rs:55] x = 9
+[src/main.rs:56] buffer = (
+    0,
+    0,
+)
+........###.............................
+[src/main.rs:28] &line = [
+    "noop",
+]
+[src/main.rs:53] cc = 88
+[src/main.rs:54] ss = 1560
+[src/main.rs:55] x = 9
+[src/main.rs:56] buffer = (
+    0,
+    0,
+)
+........###.............................
+[src/main.rs:28] &line = [
+    "addx",
+    "2",
+]
+[src/main.rs:40] cc = 89
+[src/main.rs:41] ss = 1560
+[src/main.rs:42] x = 9
+[src/main.rs:43] buffer = (
+    1,
+    2,
+)
+[src/main.rs:53] cc = 90
+[src/main.rs:54] ss = 1560
+[src/main.rs:55] x = 9
+[src/main.rs:56] buffer = (
+    0,
+    2,
+)
+..........###...........................
+[src/main.rs:28] &line = [
+    "addx",
+    "6",
+]
+[src/main.rs:40] cc = 91
+[src/main.rs:41] ss = 1560
+[src/main.rs:42] x = 11
+[src/main.rs:43] buffer = (
+    1,
+    6,
+)
+[src/main.rs:53] cc = 92
+[src/main.rs:54] ss = 1560
+[src/main.rs:55] x = 11
+[src/main.rs:56] buffer = (
+    0,
+    6,
+)
+................###.....................
+[src/main.rs:28] &line = [
+    "noop",
+]
+[src/main.rs:53] cc = 93
+[src/main.rs:54] ss = 1560
+[src/main.rs:55] x = 17
+[src/main.rs:56] buffer = (
+    0,
+    0,
+)
+................###.....................
+[src/main.rs:28] &line = [
+    "noop",
+]
+[src/main.rs:53] cc = 94
+[src/main.rs:54] ss = 1560
+[src/main.rs:55] x = 17
+[src/main.rs:56] buffer = (
+    0,
+    0,
+)
+................###.....................
+[src/main.rs:28] &line = [
+    "noop",
+]
+[src/main.rs:53] cc = 95
+[src/main.rs:54] ss = 1560
+[src/main.rs:55] x = 17
+[src/main.rs:56] buffer = (
+    0,
+    0,
+)
+................###.....................
+[src/main.rs:28] &line = [
+    "noop",
+]
+[src/main.rs:53] cc = 96
+[src/main.rs:54] ss = 1560
+[src/main.rs:55] x = 17
+[src/main.rs:56] buffer = (
+    0,
+    0,
+)
+................###.....................
+[src/main.rs:28] &line = [
+    "noop",
+]
+[src/main.rs:53] cc = 97
+[src/main.rs:54] ss = 1560
+[src/main.rs:55] x = 17
+[src/main.rs:56] buffer = (
+    0,
+    0,
+)
+................###.....................
+[src/main.rs:28] &line = [
+    "addx",
+    "1",
+]
+[src/main.rs:40] cc = 98
+[src/main.rs:41] ss = 1560
+[src/main.rs:42] x = 17
+[src/main.rs:43] buffer = (
+    1,
+    1,
+)
+[src/main.rs:53] cc = 99
+[src/main.rs:54] ss = 1560
+[src/main.rs:55] x = 17
+[src/main.rs:56] buffer = (
+    0,
+    1,
+)
+.................###....................
+[src/main.rs:28] &line = [
+    "noop",
+]
+[src/main.rs:53] cc = 100
+[src/main.rs:54] ss = 3360
+[src/main.rs:55] x = 18
+[src/main.rs:56] buffer = (
+    0,
+    0,
+)
+.................###....................
+[src/main.rs:28] &line = [
+    "noop",
+]
+[src/main.rs:53] cc = 101
+[src/main.rs:54] ss = 3360
+[src/main.rs:55] x = 18
+[src/main.rs:56] buffer = (
+    0,
+    0,
+)
+.................###....................
+[src/main.rs:28] &line = [
+    "addx",
+    "7",
+]
+[src/main.rs:40] cc = 102
+[src/main.rs:41] ss = 3360
+[src/main.rs:42] x = 18
+[src/main.rs:43] buffer = (
+    1,
+    7,
+)
+[src/main.rs:53] cc = 103
+[src/main.rs:54] ss = 3360
+[src/main.rs:55] x = 18
+[src/main.rs:56] buffer = (
+    0,
+    7,
+)
+........................###.............
+[src/main.rs:28] &line = [
+    "addx",
+    "1",
+]
+[src/main.rs:40] cc = 104
+[src/main.rs:41] ss = 3360
+[src/main.rs:42] x = 25
+[src/main.rs:43] buffer = (
+    1,
+    1,
+)
+[src/main.rs:53] cc = 105
+[src/main.rs:54] ss = 3360
+[src/main.rs:55] x = 25
+[src/main.rs:56] buffer = (
+    0,
+    1,
+)
+.........................###............
+[src/main.rs:28] &line = [
+    "noop",
+]
+[src/main.rs:53] cc = 106
+[src/main.rs:54] ss = 3360
+[src/main.rs:55] x = 26
+[src/main.rs:56] buffer = (
+    0,
+    0,
+)
+.........................###............
+[src/main.rs:28] &line = [
+    "addx",
+    "-13",
+]
+[src/main.rs:40] cc = 107
+[src/main.rs:41] ss = 3360
+[src/main.rs:42] x = 26
+[src/main.rs:43] buffer = (
+    1,
+    -13,
+)
+[src/main.rs:53] cc = 108
+[src/main.rs:54] ss = 3360
+[src/main.rs:55] x = 26
+[src/main.rs:56] buffer = (
+    0,
+    -13,
+)
+............###.........................
+[src/main.rs:28] &line = [
+    "addx",
+    "13",
+]
+[src/main.rs:40] cc = 109
+[src/main.rs:41] ss = 3360
+[src/main.rs:42] x = 13
+[src/main.rs:43] buffer = (
+    1,
+    13,
+)
+[src/main.rs:53] cc = 110
+[src/main.rs:54] ss = 3360
+[src/main.rs:55] x = 13
+[src/main.rs:56] buffer = (
+    0,
+    13,
+)
+.........................###............
+[src/main.rs:28] &line = [
+    "addx",
+    "7",
+]
+[src/main.rs:40] cc = 111
+[src/main.rs:41] ss = 3360
+[src/main.rs:42] x = 26
+[src/main.rs:43] buffer = (
+    1,
+    7,
+)
+[src/main.rs:53] cc = 112
+[src/main.rs:54] ss = 3360
+[src/main.rs:55] x = 26
+[src/main.rs:56] buffer = (
+    0,
+    7,
+)
+................................###.....
+[src/main.rs:28] &line = [
+    "noop",
+]
+[src/main.rs:53] cc = 113
+[src/main.rs:54] ss = 3360
+[src/main.rs:55] x = 33
+[src/main.rs:56] buffer = (
+    0,
+    0,
+)
+................................###.....
+[src/main.rs:28] &line = [
+    "addx",
+    "1",
+]
+[src/main.rs:40] cc = 114
+[src/main.rs:41] ss = 3360
+[src/main.rs:42] x = 33
+[src/main.rs:43] buffer = (
+    1,
+    1,
+)
+[src/main.rs:53] cc = 115
+[src/main.rs:54] ss = 3360
+[src/main.rs:55] x = 33
+[src/main.rs:56] buffer = (
+    0,
+    1,
+)
+.................................###....
+[src/main.rs:28] &line = [
+    "addx",
+    "-33",
+]
+[src/main.rs:40] cc = 116
+[src/main.rs:41] ss = 3360
+[src/main.rs:42] x = 34
+[src/main.rs:43] buffer = (
+    1,
+    -33,
+)
+[src/main.rs:53] cc = 117
+[src/main.rs:54] ss = 3360
+[src/main.rs:55] x = 34
+[src/main.rs:56] buffer = (
+    0,
+    -33,
+)
+###.....................................
+[src/main.rs:28] &line = [
+    "noop",
+]
+[src/main.rs:53] cc = 118
+[src/main.rs:54] ss = 3360
+[src/main.rs:55] x = 1
+[src/main.rs:56] buffer = (
+    0,
+    0,
+)
+###.....................................
+[src/main.rs:28] &line = [
+    "noop",
+]
+[src/main.rs:53] cc = 119
+[src/main.rs:54] ss = 3360
+[src/main.rs:55] x = 1
+[src/main.rs:56] buffer = (
+    0,
+    0,
+)
+###.....................................
+[src/main.rs:28] &line = [
+    "noop",
+]
+[src/main.rs:53] cc = 120
+[src/main.rs:54] ss = 3360
+[src/main.rs:55] x = 1
+[src/main.rs:56] buffer = (
+    0,
+    0,
+)
+###.....................................
+[src/main.rs:28] &line = [
+    "addx",
+    "2",
+]
+[src/main.rs:40] cc = 121
+[src/main.rs:41] ss = 3360
+[src/main.rs:42] x = 1
+[src/main.rs:43] buffer = (
+    1,
+    2,
+)
+[src/main.rs:53] cc = 122
+[src/main.rs:54] ss = 3360
+[src/main.rs:55] x = 1
+[src/main.rs:56] buffer = (
+    0,
+    2,
+)
+..###...................................
+[src/main.rs:28] &line = [
+    "noop",
+]
+[src/main.rs:53] cc = 123
+[src/main.rs:54] ss = 3360
+[src/main.rs:55] x = 3
+[src/main.rs:56] buffer = (
+    0,
+    0,
+)
+..###...................................
+[src/main.rs:28] &line = [
+    "noop",
+]
+[src/main.rs:53] cc = 124
+[src/main.rs:54] ss = 3360
+[src/main.rs:55] x = 3
+[src/main.rs:56] buffer = (
+    0,
+    0,
+)
+..###...................................
+[src/main.rs:28] &line = [
+    "noop",
+]
+[src/main.rs:53] cc = 125
+[src/main.rs:54] ss = 3360
+[src/main.rs:55] x = 3
+[src/main.rs:56] buffer = (
+    0,
+    0,
+)
+..###...................................
+[src/main.rs:28] &line = [
+    "addx",
+    "8",
+]
+[src/main.rs:40] cc = 126
+[src/main.rs:41] ss = 3360
+[src/main.rs:42] x = 3
+[src/main.rs:43] buffer = (
+    1,
+    8,
+)
+[src/main.rs:53] cc = 127
+[src/main.rs:54] ss = 3360
+[src/main.rs:55] x = 3
+[src/main.rs:56] buffer = (
+    0,
+    8,
+)
+..........###...........................
+[src/main.rs:28] &line = [
+    "noop",
+]
+[src/main.rs:53] cc = 128
+[src/main.rs:54] ss = 3360
+[src/main.rs:55] x = 11
+[src/main.rs:56] buffer = (
+    0,
+    0,
+)
+..........###...........................
+[src/main.rs:28] &line = [
+    "addx",
+    "-1",
+]
+[src/main.rs:40] cc = 129
+[src/main.rs:41] ss = 3360
+[src/main.rs:42] x = 11
+[src/main.rs:43] buffer = (
+    1,
+    -1,
+)
+[src/main.rs:53] cc = 130
+[src/main.rs:54] ss = 3360
+[src/main.rs:55] x = 11
+[src/main.rs:56] buffer = (
+    0,
+    -1,
+)
+.........###............................
+[src/main.rs:28] &line = [
+    "addx",
+    "2",
+]
+[src/main.rs:40] cc = 131
+[src/main.rs:41] ss = 3360
+[src/main.rs:42] x = 10
+[src/main.rs:43] buffer = (
+    1,
+    2,
+)
+[src/main.rs:53] cc = 132
+[src/main.rs:54] ss = 3360
+[src/main.rs:55] x = 10
+[src/main.rs:56] buffer = (
+    0,
+    2,
+)
+...........###..........................
+[src/main.rs:28] &line = [
+    "addx",
+    "1",
+]
+[src/main.rs:40] cc = 133
+[src/main.rs:41] ss = 3360
+[src/main.rs:42] x = 12
+[src/main.rs:43] buffer = (
+    1,
+    1,
+)
+[src/main.rs:53] cc = 134
+[src/main.rs:54] ss = 3360
+[src/main.rs:55] x = 12
+[src/main.rs:56] buffer = (
+    0,
+    1,
+)
+............###.........................
+[src/main.rs:28] &line = [
+    "noop",
+]
+[src/main.rs:53] cc = 135
+[src/main.rs:54] ss = 3360
+[src/main.rs:55] x = 13
+[src/main.rs:56] buffer = (
+    0,
+    0,
+)
+............###.........................
+[src/main.rs:28] &line = [
+    "addx",
+    "17",
+]
+[src/main.rs:40] cc = 136
+[src/main.rs:41] ss = 3360
+[src/main.rs:42] x = 13
+[src/main.rs:43] buffer = (
+    1,
+    17,
+)
+[src/main.rs:53] cc = 137
+[src/main.rs:54] ss = 3360
+[src/main.rs:55] x = 13
+[src/main.rs:56] buffer = (
+    0,
+    17,
+)
+.............................###........
+[src/main.rs:28] &line = [
+    "addx",
+    "-9",
+]
+[src/main.rs:40] cc = 138
+[src/main.rs:41] ss = 3360
+[src/main.rs:42] x = 30
+[src/main.rs:43] buffer = (
+    1,
+    -9,
+)
+[src/main.rs:53] cc = 139
+[src/main.rs:54] ss = 3360
+[src/main.rs:55] x = 30
+[src/main.rs:56] buffer = (
+    0,
+    -9,
+)
+....................###.................
+[src/main.rs:28] &line = [
+    "addx",
+    "1",
+]
+[src/main.rs:40] cc = 140
+[src/main.rs:41] ss = 6300
+[src/main.rs:42] x = 21
+[src/main.rs:43] buffer = (
+    1,
+    1,
+)
+[src/main.rs:53] cc = 141
+[src/main.rs:54] ss = 6300
+[src/main.rs:55] x = 21
+[src/main.rs:56] buffer = (
+    0,
+    1,
+)
+.....................###................
+[src/main.rs:28] &line = [
+    "addx",
+    "1",
+]
+[src/main.rs:40] cc = 142
+[src/main.rs:41] ss = 6300
+[src/main.rs:42] x = 22
+[src/main.rs:43] buffer = (
+    1,
+    1,
+)
+[src/main.rs:53] cc = 143
+[src/main.rs:54] ss = 6300
+[src/main.rs:55] x = 22
+[src/main.rs:56] buffer = (
+    0,
+    1,
+)
+......................###...............
+[src/main.rs:28] &line = [
+    "addx",
+    "-3",
+]
+[src/main.rs:40] cc = 144
+[src/main.rs:41] ss = 6300
+[src/main.rs:42] x = 23
+[src/main.rs:43] buffer = (
+    1,
+    -3,
+)
+[src/main.rs:53] cc = 145
+[src/main.rs:54] ss = 6300
+[src/main.rs:55] x = 23
+[src/main.rs:56] buffer = (
+    0,
+    -3,
+)
+...................###..................
+[src/main.rs:28] &line = [
+    "addx",
+    "11",
+]
+[src/main.rs:40] cc = 146
+[src/main.rs:41] ss = 6300
+[src/main.rs:42] x = 20
+[src/main.rs:43] buffer = (
+    1,
+    11,
+)
+[src/main.rs:53] cc = 147
+[src/main.rs:54] ss = 6300
+[src/main.rs:55] x = 20
+[src/main.rs:56] buffer = (
+    0,
+    11,
+)
+..............................###.......
+[src/main.rs:28] &line = [
+    "noop",
+]
+[src/main.rs:53] cc = 148
+[src/main.rs:54] ss = 6300
+[src/main.rs:55] x = 31
+[src/main.rs:56] buffer = (
+    0,
+    0,
+)
+..............................###.......
+[src/main.rs:28] &line = [
+    "noop",
+]
+[src/main.rs:53] cc = 149
+[src/main.rs:54] ss = 6300
+[src/main.rs:55] x = 31
+[src/main.rs:56] buffer = (
+    0,
+    0,
+)
+..............................###.......
+[src/main.rs:28] &line = [
+    "addx",
+    "1",
+]
+[src/main.rs:40] cc = 150
+[src/main.rs:41] ss = 6300
+[src/main.rs:42] x = 31
+[src/main.rs:43] buffer = (
+    1,
+    1,
+)
+[src/main.rs:53] cc = 151
+[src/main.rs:54] ss = 6300
+[src/main.rs:55] x = 31
+[src/main.rs:56] buffer = (
+    0,
+    1,
+)
+...............................###......
+[src/main.rs:28] &line = [
+    "noop",
+]
+[src/main.rs:53] cc = 152
+[src/main.rs:54] ss = 6300
+[src/main.rs:55] x = 32
+[src/main.rs:56] buffer = (
+    0,
+    0,
+)
+...............................###......
+[src/main.rs:28] &line = [
+    "addx",
+    "1",
+]
+[src/main.rs:40] cc = 153
+[src/main.rs:41] ss = 6300
+[src/main.rs:42] x = 32
+[src/main.rs:43] buffer = (
+    1,
+    1,
+)
+[src/main.rs:53] cc = 154
+[src/main.rs:54] ss = 6300
+[src/main.rs:55] x = 32
+[src/main.rs:56] buffer = (
+    0,
+    1,
+)
+................................###.....
+[src/main.rs:28] &line = [
+    "noop",
+]
+[src/main.rs:53] cc = 155
+[src/main.rs:54] ss = 6300
+[src/main.rs:55] x = 33
+[src/main.rs:56] buffer = (
+    0,
+    0,
+)
+................................###.....
+[src/main.rs:28] &line = [
+    "noop",
+]
+[src/main.rs:53] cc = 156
+[src/main.rs:54] ss = 6300
+[src/main.rs:55] x = 33
+[src/main.rs:56] buffer = (
+    0,
+    0,
+)
+................................###.....
+[src/main.rs:28] &line = [
+    "addx",
+    "-13",
+]
+[src/main.rs:40] cc = 157
+[src/main.rs:41] ss = 6300
+[src/main.rs:42] x = 33
+[src/main.rs:43] buffer = (
+    1,
+    -13,
+)
+[src/main.rs:53] cc = 158
+[src/main.rs:54] ss = 6300
+[src/main.rs:55] x = 33
+[src/main.rs:56] buffer = (
+    0,
+    -13,
+)
+...................###..................
+[src/main.rs:28] &line = [
+    "addx",
+    "-19",
+]
+[src/main.rs:40] cc = 159
+[src/main.rs:41] ss = 6300
+[src/main.rs:42] x = 20
+[src/main.rs:43] buffer = (
+    1,
+    -19,
+)
+[src/main.rs:53] cc = 160
+[src/main.rs:54] ss = 6300
+[src/main.rs:55] x = 20
+[src/main.rs:56] buffer = (
+    0,
+    -19,
+)
+###.....................................
+[src/main.rs:28] &line = [
+    "addx",
+    "1",
+]
+[src/main.rs:40] cc = 161
+[src/main.rs:41] ss = 6300
+[src/main.rs:42] x = 1
+[src/main.rs:43] buffer = (
+    1,
+    1,
+)
+[src/main.rs:53] cc = 162
+[src/main.rs:54] ss = 6300
+[src/main.rs:55] x = 1
+[src/main.rs:56] buffer = (
+    0,
+    1,
+)
+.###....................................
+[src/main.rs:28] &line = [
+    "addx",
+    "3",
+]
+[src/main.rs:40] cc = 163
+[src/main.rs:41] ss = 6300
+[src/main.rs:42] x = 2
+[src/main.rs:43] buffer = (
+    1,
+    3,
+)
+[src/main.rs:53] cc = 164
+[src/main.rs:54] ss = 6300
+[src/main.rs:55] x = 2
+[src/main.rs:56] buffer = (
+    0,
+    3,
+)
+....###.................................
+[src/main.rs:28] &line = [
+    "addx",
+    "26",
+]
+[src/main.rs:40] cc = 165
+[src/main.rs:41] ss = 6300
+[src/main.rs:42] x = 5
+[src/main.rs:43] buffer = (
+    1,
+    26,
+)
+[src/main.rs:53] cc = 166
+[src/main.rs:54] ss = 6300
+[src/main.rs:55] x = 5
+[src/main.rs:56] buffer = (
+    0,
+    26,
+)
+..............................###.......
+[src/main.rs:28] &line = [
+    "addx",
+    "-30",
+]
+[src/main.rs:40] cc = 167
+[src/main.rs:41] ss = 6300
+[src/main.rs:42] x = 31
+[src/main.rs:43] buffer = (
+    1,
+    -30,
+)
+[src/main.rs:53] cc = 168
+[src/main.rs:54] ss = 6300
+[src/main.rs:55] x = 31
+[src/main.rs:56] buffer = (
+    0,
+    -30,
+)
+###.....................................
+[src/main.rs:28] &line = [
+    "addx",
+    "12",
+]
+[src/main.rs:40] cc = 169
+[src/main.rs:41] ss = 6300
+[src/main.rs:42] x = 1
+[src/main.rs:43] buffer = (
+    1,
+    12,
+)
+[src/main.rs:53] cc = 170
+[src/main.rs:54] ss = 6300
+[src/main.rs:55] x = 1
+[src/main.rs:56] buffer = (
+    0,
+    12,
+)
+............###.........................
+[src/main.rs:28] &line = [
+    "addx",
+    "-1",
+]
+[src/main.rs:40] cc = 171
+[src/main.rs:41] ss = 6300
+[src/main.rs:42] x = 13
+[src/main.rs:43] buffer = (
+    1,
+    -1,
+)
+[src/main.rs:53] cc = 172
+[src/main.rs:54] ss = 6300
+[src/main.rs:55] x = 13
+[src/main.rs:56] buffer = (
+    0,
+    -1,
+)
+...........###..........................
+[src/main.rs:28] &line = [
+    "addx",
+    "3",
+]
+[src/main.rs:40] cc = 173
+[src/main.rs:41] ss = 6300
+[src/main.rs:42] x = 12
+[src/main.rs:43] buffer = (
+    1,
+    3,
+)
+[src/main.rs:53] cc = 174
+[src/main.rs:54] ss = 6300
+[src/main.rs:55] x = 12
+[src/main.rs:56] buffer = (
+    0,
+    3,
+)
+..............###.......................
+[src/main.rs:28] &line = [
+    "addx",
+    "1",
+]
+[src/main.rs:40] cc = 175
+[src/main.rs:41] ss = 6300
+[src/main.rs:42] x = 15
+[src/main.rs:43] buffer = (
+    1,
+    1,
+)
+[src/main.rs:53] cc = 176
+[src/main.rs:54] ss = 6300
+[src/main.rs:55] x = 15
+[src/main.rs:56] buffer = (
+    0,
+    1,
+)
+...............###......................
+[src/main.rs:28] &line = [
+    "noop",
+]
+[src/main.rs:53] cc = 177
+[src/main.rs:54] ss = 6300
+[src/main.rs:55] x = 16
+[src/main.rs:56] buffer = (
+    0,
+    0,
+)
+...............###......................
+[src/main.rs:28] &line = [
+    "noop",
+]
+[src/main.rs:53] cc = 178
+[src/main.rs:54] ss = 6300
+[src/main.rs:55] x = 16
+[src/main.rs:56] buffer = (
+    0,
+    0,
+)
+...............###......................
+[src/main.rs:28] &line = [
+    "noop",
+]
+[src/main.rs:53] cc = 179
+[src/main.rs:54] ss = 6300
+[src/main.rs:55] x = 16
+[src/main.rs:56] buffer = (
+    0,
+    0,
+)
+...............###......................
+[src/main.rs:28] &line = [
+    "addx",
+    "-9",
+]
+[src/main.rs:40] cc = 180
+[src/main.rs:41] ss = 9180
+[src/main.rs:42] x = 16
+[src/main.rs:43] buffer = (
+    1,
+    -9,
+)
+[src/main.rs:53] cc = 181
+[src/main.rs:54] ss = 9180
+[src/main.rs:55] x = 16
+[src/main.rs:56] buffer = (
+    0,
+    -9,
+)
+......###...............................
+[src/main.rs:28] &line = [
+    "addx",
+    "18",
+]
+[src/main.rs:40] cc = 182
+[src/main.rs:41] ss = 9180
+[src/main.rs:42] x = 7
+[src/main.rs:43] buffer = (
+    1,
+    18,
+)
+[src/main.rs:53] cc = 183
+[src/main.rs:54] ss = 9180
+[src/main.rs:55] x = 7
+[src/main.rs:56] buffer = (
+    0,
+    18,
+)
+........................###.............
+[src/main.rs:28] &line = [
+    "addx",
+    "1",
+]
+[src/main.rs:40] cc = 184
+[src/main.rs:41] ss = 9180
+[src/main.rs:42] x = 25
+[src/main.rs:43] buffer = (
+    1,
+    1,
+)
+[src/main.rs:53] cc = 185
+[src/main.rs:54] ss = 9180
+[src/main.rs:55] x = 25
+[src/main.rs:56] buffer = (
+    0,
+    1,
+)
+.........................###............
+[src/main.rs:28] &line = [
+    "addx",
+    "2",
+]
+[src/main.rs:40] cc = 186
+[src/main.rs:41] ss = 9180
+[src/main.rs:42] x = 26
+[src/main.rs:43] buffer = (
+    1,
+    2,
+)
+[src/main.rs:53] cc = 187
+[src/main.rs:54] ss = 9180
+[src/main.rs:55] x = 26
+[src/main.rs:56] buffer = (
+    0,
+    2,
+)
+...........................###..........
+[src/main.rs:28] &line = [
+    "noop",
+]
+[src/main.rs:53] cc = 188
+[src/main.rs:54] ss = 9180
+[src/main.rs:55] x = 28
+[src/main.rs:56] buffer = (
+    0,
+    0,
+)
+...........................###..........
+[src/main.rs:28] &line = [
+    "noop",
+]
+[src/main.rs:53] cc = 189
+[src/main.rs:54] ss = 9180
+[src/main.rs:55] x = 28
+[src/main.rs:56] buffer = (
+    0,
+    0,
+)
+...........................###..........
+[src/main.rs:28] &line = [
+    "addx",
+    "9",
+]
+[src/main.rs:40] cc = 190
+[src/main.rs:41] ss = 9180
+[src/main.rs:42] x = 28
+[src/main.rs:43] buffer = (
+    1,
+    9,
+)
+[src/main.rs:53] cc = 191
+[src/main.rs:54] ss = 9180
+[src/main.rs:55] x = 28
+[src/main.rs:56] buffer = (
+    0,
+    9,
+)
+....................................###.
+[src/main.rs:28] &line = [
+    "noop",
+]
+[src/main.rs:53] cc = 192
+[src/main.rs:54] ss = 9180
+[src/main.rs:55] x = 37
+[src/main.rs:56] buffer = (
+    0,
+    0,
+)
+....................................###.
+[src/main.rs:28] &line = [
+    "noop",
+]
+[src/main.rs:53] cc = 193
+[src/main.rs:54] ss = 9180
+[src/main.rs:55] x = 37
+[src/main.rs:56] buffer = (
+    0,
+    0,
+)
+....................................###.
+[src/main.rs:28] &line = [
+    "noop",
+]
+[src/main.rs:53] cc = 194
+[src/main.rs:54] ss = 9180
+[src/main.rs:55] x = 37
+[src/main.rs:56] buffer = (
+    0,
+    0,
+)
+....................................###.
+[src/main.rs:28] &line = [
+    "addx",
+    "-1",
+]
+[src/main.rs:40] cc = 195
+[src/main.rs:41] ss = 9180
+[src/main.rs:42] x = 37
+[src/main.rs:43] buffer = (
+    1,
+    -1,
+)
+[src/main.rs:53] cc = 196
+[src/main.rs:54] ss = 9180
+[src/main.rs:55] x = 37
+[src/main.rs:56] buffer = (
+    0,
+    -1,
+)
+...................................###..
+[src/main.rs:28] &line = [
+    "addx",
+    "2",
+]
+[src/main.rs:40] cc = 197
+[src/main.rs:41] ss = 9180
+[src/main.rs:42] x = 36
+[src/main.rs:43] buffer = (
+    1,
+    2,
+)
+[src/main.rs:53] cc = 198
+[src/main.rs:54] ss = 9180
+[src/main.rs:55] x = 36
+[src/main.rs:56] buffer = (
+    0,
+    2,
+)
+.....................................###
+[src/main.rs:28] &line = [
+    "addx",
+    "-37",
+]
+[src/main.rs:40] cc = 199
+[src/main.rs:41] ss = 9180
+[src/main.rs:42] x = 38
+[src/main.rs:43] buffer = (
+    1,
+    -37,
+)
+[src/main.rs:53] cc = 200
+[src/main.rs:54] ss = 9180
+[src/main.rs:55] x = 38
+[src/main.rs:56] buffer = (
+    0,
+    -37,
+)
+###.....................................
+[src/main.rs:28] &line = [
+    "addx",
+    "1",
+]
+[src/main.rs:40] cc = 201
+[src/main.rs:41] ss = 9180
+[src/main.rs:42] x = 1
+[src/main.rs:43] buffer = (
+    1,
+    1,
+)
+[src/main.rs:53] cc = 202
+[src/main.rs:54] ss = 9180
+[src/main.rs:55] x = 1
+[src/main.rs:56] buffer = (
+    0,
+    1,
+)
+.###....................................
+[src/main.rs:28] &line = [
+    "addx",
+    "3",
+]
+[src/main.rs:40] cc = 203
+[src/main.rs:41] ss = 9180
+[src/main.rs:42] x = 2
+[src/main.rs:43] buffer = (
+    1,
+    3,
+)
+[src/main.rs:53] cc = 204
+[src/main.rs:54] ss = 9180
+[src/main.rs:55] x = 2
+[src/main.rs:56] buffer = (
+    0,
+    3,
+)
+....###.................................
+[src/main.rs:28] &line = [
+    "noop",
+]
+[src/main.rs:53] cc = 205
+[src/main.rs:54] ss = 9180
+[src/main.rs:55] x = 5
+[src/main.rs:56] buffer = (
+    0,
+    0,
+)
+....###.................................
+[src/main.rs:28] &line = [
+    "addx",
+    "15",
+]
+[src/main.rs:40] cc = 206
+[src/main.rs:41] ss = 9180
+[src/main.rs:42] x = 5
+[src/main.rs:43] buffer = (
+    1,
+    15,
+)
+[src/main.rs:53] cc = 207
+[src/main.rs:54] ss = 9180
+[src/main.rs:55] x = 5
+[src/main.rs:56] buffer = (
+    0,
+    15,
+)
+...................###..................
+[src/main.rs:28] &line = [
+    "addx",
+    "-21",
+]
+[src/main.rs:40] cc = 208
+[src/main.rs:41] ss = 9180
+[src/main.rs:42] x = 20
+[src/main.rs:43] buffer = (
+    1,
+    -21,
+)
+[src/main.rs:53] cc = 209
+[src/main.rs:54] ss = 9180
+[src/main.rs:55] x = 20
+[src/main.rs:56] buffer = (
+    0,
+    -21,
+)
+#.......................................
+[src/main.rs:28] &line = [
+    "addx",
+    "22",
+]
+[src/main.rs:40] cc = 210
+[src/main.rs:41] ss = 9180
+[src/main.rs:42] x = -1
+[src/main.rs:43] buffer = (
+    1,
+    22,
+)
+[src/main.rs:53] cc = 211
+[src/main.rs:54] ss = 9180
+[src/main.rs:55] x = -1
+[src/main.rs:56] buffer = (
+    0,
+    22,
+)
+....................###.................
+[src/main.rs:28] &line = [
+    "addx",
+    "-6",
+]
+[src/main.rs:40] cc = 212
+[src/main.rs:41] ss = 9180
+[src/main.rs:42] x = 21
+[src/main.rs:43] buffer = (
+    1,
+    -6,
+)
+[src/main.rs:53] cc = 213
+[src/main.rs:54] ss = 9180
+[src/main.rs:55] x = 21
+[src/main.rs:56] buffer = (
+    0,
+    -6,
+)
+..............###.......................
+[src/main.rs:28] &line = [
+    "addx",
+    "1",
+]
+[src/main.rs:40] cc = 214
+[src/main.rs:41] ss = 9180
+[src/main.rs:42] x = 15
+[src/main.rs:43] buffer = (
+    1,
+    1,
+)
+[src/main.rs:53] cc = 215
+[src/main.rs:54] ss = 9180
+[src/main.rs:55] x = 15
+[src/main.rs:56] buffer = (
+    0,
+    1,
+)
+...............###......................
+[src/main.rs:28] &line = [
+    "noop",
+]
+[src/main.rs:53] cc = 216
+[src/main.rs:54] ss = 9180
+[src/main.rs:55] x = 16
+[src/main.rs:56] buffer = (
+    0,
+    0,
+)
+...............###......................
+[src/main.rs:28] &line = [
+    "addx",
+    "2",
+]
+[src/main.rs:40] cc = 217
+[src/main.rs:41] ss = 9180
+[src/main.rs:42] x = 16
+[src/main.rs:43] buffer = (
+    1,
+    2,
+)
+[src/main.rs:53] cc = 218
+[src/main.rs:54] ss = 9180
+[src/main.rs:55] x = 16
+[src/main.rs:56] buffer = (
+    0,
+    2,
+)
+.................###....................
+[src/main.rs:28] &line = [
+    "addx",
+    "1",
+]
+[src/main.rs:40] cc = 219
+[src/main.rs:41] ss = 9180
+[src/main.rs:42] x = 18
+[src/main.rs:43] buffer = (
+    1,
+    1,
+)
+[src/main.rs:53] cc = 220
+[src/main.rs:54] ss = 13140
+[src/main.rs:55] x = 18
+[src/main.rs:56] buffer = (
+    0,
+    1,
+)
+..................###...................
+[src/main.rs:28] &line = [
+    "noop",
+]
+[src/main.rs:53] cc = 221
+[src/main.rs:54] ss = 13140
+[src/main.rs:55] x = 19
+[src/main.rs:56] buffer = (
+    0,
+    0,
+)
+..................###...................
+[src/main.rs:28] &line = [
+    "addx",
+    "-10",
+]
+[src/main.rs:40] cc = 222
+[src/main.rs:41] ss = 13140
+[src/main.rs:42] x = 19
+[src/main.rs:43] buffer = (
+    1,
+    -10,
+)
+[src/main.rs:53] cc = 223
+[src/main.rs:54] ss = 13140
+[src/main.rs:55] x = 19
+[src/main.rs:56] buffer = (
+    0,
+    -10,
+)
+........###.............................
+[src/main.rs:28] &line = [
+    "noop",
+]
+[src/main.rs:53] cc = 224
+[src/main.rs:54] ss = 13140
+[src/main.rs:55] x = 9
+[src/main.rs:56] buffer = (
+    0,
+    0,
+)
+........###.............................
+[src/main.rs:28] &line = [
+    "noop",
+]
+[src/main.rs:53] cc = 225
+[src/main.rs:54] ss = 13140
+[src/main.rs:55] x = 9
+[src/main.rs:56] buffer = (
+    0,
+    0,
+)
+........###.............................
+[src/main.rs:28] &line = [
+    "addx",
+    "20",
+]
+[src/main.rs:40] cc = 226
+[src/main.rs:41] ss = 13140
+[src/main.rs:42] x = 9
+[src/main.rs:43] buffer = (
+    1,
+    20,
+)
+[src/main.rs:53] cc = 227
+[src/main.rs:54] ss = 13140
+[src/main.rs:55] x = 9
+[src/main.rs:56] buffer = (
+    0,
+    20,
+)
+............................###.........
+[src/main.rs:28] &line = [
+    "addx",
+    "1",
+]
+[src/main.rs:40] cc = 228
+[src/main.rs:41] ss = 13140
+[src/main.rs:42] x = 29
+[src/main.rs:43] buffer = (
+    1,
+    1,
+)
+[src/main.rs:53] cc = 229
+[src/main.rs:54] ss = 13140
+[src/main.rs:55] x = 29
+[src/main.rs:56] buffer = (
+    0,
+    1,
+)
+.............................###........
+[src/main.rs:28] &line = [
+    "addx",
+    "2",
+]
+[src/main.rs:40] cc = 230
+[src/main.rs:41] ss = 13140
+[src/main.rs:42] x = 30
+[src/main.rs:43] buffer = (
+    1,
+    2,
+)
+[src/main.rs:53] cc = 231
+[src/main.rs:54] ss = 13140
+[src/main.rs:55] x = 30
+[src/main.rs:56] buffer = (
+    0,
+    2,
+)
+...............................###......
+[src/main.rs:28] &line = [
+    "addx",
+    "2",
+]
+[src/main.rs:40] cc = 232
+[src/main.rs:41] ss = 13140
+[src/main.rs:42] x = 32
+[src/main.rs:43] buffer = (
+    1,
+    2,
+)
+[src/main.rs:53] cc = 233
+[src/main.rs:54] ss = 13140
+[src/main.rs:55] x = 32
+[src/main.rs:56] buffer = (
+    0,
+    2,
+)
+.................................###....
+[src/main.rs:28] &line = [
+    "addx",
+    "-6",
+]
+[src/main.rs:40] cc = 234
+[src/main.rs:41] ss = 13140
+[src/main.rs:42] x = 34
+[src/main.rs:43] buffer = (
+    1,
+    -6,
+)
+[src/main.rs:53] cc = 235
+[src/main.rs:54] ss = 13140
+[src/main.rs:55] x = 34
+[src/main.rs:56] buffer = (
+    0,
+    -6,
+)
+...........................###..........
+[src/main.rs:28] &line = [
+    "addx",
+    "-11",
+]
+[src/main.rs:40] cc = 236
+[src/main.rs:41] ss = 13140
+[src/main.rs:42] x = 28
+[src/main.rs:43] buffer = (
+    1,
+    -11,
+)
+[src/main.rs:53] cc = 237
+[src/main.rs:54] ss = 13140
+[src/main.rs:55] x = 28
+[src/main.rs:56] buffer = (
+    0,
+    -11,
+)
+................###.....................
+[src/main.rs:28] &line = [
+    "noop",
+]
+[src/main.rs:53] cc = 238
+[src/main.rs:54] ss = 13140
+[src/main.rs:55] x = 17
+[src/main.rs:56] buffer = (
+    0,
+    0,
+)
+................###.....................
+[src/main.rs:28] &line = [
+    "noop",
+]
+[src/main.rs:53] cc = 239
+[src/main.rs:54] ss = 13140
+[src/main.rs:55] x = 17
+[src/main.rs:56] buffer = (
+    0,
+    0,
+)
+................###.....................
+[src/main.rs:28] &line = [
+    "noop",
+]
+[src/main.rs:53] cc = 240
+[src/main.rs:54] ss = 13140
+[src/main.rs:55] x = 17
+[src/main.rs:56] buffer = (
+    0,
+    0,
+)
+The total signal strength is 13140
